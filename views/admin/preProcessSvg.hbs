@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/mod/bundle-preprocess.js"></script>
+
+</head>
+
+<body>
+   <div class="map-pane" id="map-pane">
+
+    <div  class="ui-layout-center svgMap" >
+  <h1>Preprocess an SVG File</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+          <div class="col-md-12">
+            <hr class="" draggable="true">
+          </div>
+        </div>
+
+        <form id="preProcessSvgForm" action="#" method="post">
+
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+
+            <div class="form-group ">
+              <label class="control-label " for="jsonPath">
+                                            Enter path and name of the json file which contains the svg file name.
+                                        </label>
+              <input class="form-control" id="jsonPath" name="jsonPath" type="text" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div>
+              <button id="preProcess" class="btn btn-primary " name="submit" type="submit">
+                                pre-process svg
+                            </button>
+            </div>
+          </div>
+        </form>
+        {{!--<div>--}}
+        {{!--  <button  onclick="goBack()" class="btn btn-primary ">--}}
+        {{!--                        Go Back--}}
+        {{!--                    </button>--}}
+        {{!--</div>--}}
+       
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="messageTitle" class="serveMessage">{{status}}</h2>
+    <div class="panel panel-default">
+      <div id="serverMessage" class="panel-body serveMessage">{{msg}}</div>
+    </div>
+  </div>
+  
+  {{!---------------- svg file is inserted in this pane. Not having this pane causes an error -------------}}
+ 
+
+        <!--TODO: Delete class="container" if we don't need that-->
+        <div class="container svgdiv" id="container"  style="width: 100%; height: 100%; border:0px solid black; " >
+        </div>
+       
+    </div>
+</div>
+
+  {{!--------------- End of map pane ----------------------}}
+  
+  <script>
+    /* global $ */
+    // $("#getXlsx").click(function(e) {
+
+    //     e.preventDefault(); //stop the browser from following
+    //     var collection = $("#collectionName")[0].value;
+    //     window.location.href = 'mongoToXlsx/download/'+ collection + '/file.xlsx';
+    //   });
+
+
+    $(function() {
+      $("#preProcessSvgForm").submit(function(event) {
+        event.preventDefault(); //stop the browser from following
+        var jsonPath = $("#jsonPath")[0].value;
+        $.get('preProcessSvg/download' + jsonPath, function(result) {
+        //window.location.href = 'preProcessSvg/download' + jsonPath;
+        idiagramSvg.main(jsonPath);
+        });
+
+
+        //$.get("mongoToXlsx/download/" + collection + "/file.xlsx", {}, function(result) {
+        // if (result.status === "success") {
+        //   alert("Update was successfull. To see the effect of your changes, refresh the screen.");
+        //   console.log("Map db updated: ");
+        // }
+        // else {
+        //   alert("Update was unsuccessfull: " + result.msg);
+        // }
+
+        //});
+
+        // })().catch(function(errs) {
+        //  //handle errors on any events
+        //  console.log("err updating data: " + errs);
+        // });
+
+
+      });
+    }); //end if $(function  ..called after page loads 
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+
+</html>

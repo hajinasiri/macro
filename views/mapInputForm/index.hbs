@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+    {{!--
+    <link rel="stylesheet" href="/assets/css/site.min.css">--}} {{!--
+    <link rel="stylesheet" href="/assets/css/vendor.min.css">--}}
+</head>
+
+<body>
+
+    {{!--
+    <script type="text/javascript" src="/js/inputForm.js"></script>--}}
+    <div data-role="page">
+
+        <infopane-title>{{{label}}}</infopane-title>
+        <div id="build-wrapForMapForm">
+            {{{errorMessage}}}</div>
+
+        <div class="container">
+
+            <h2 id="messageTitle" class="serveMessage">{{messageTitle}}</h2>
+            <div class="panel panel-default">
+                <div id="serverMessage" class="panel-body serveMessage">{{serverMessage}}</div>
+            </div>
+        </div>
+        <div id="closeButton" class="pull-right">
+            <button type="button" class="close" aria-label="Close">
+               <span  aria-hidden="true">&times;</span>
+            </button></div>
+    </div>
+    <style>
+        .field-actions {
+            display: none;
+        }
+
+        /* body {
+            background: lightgrey;
+            font-family: sans-serif;
+        }*/
+
+        #fb-rendered-form {
+
+            display: none;
+
+        }
+
+        #closeButton {
+            position: absolute;
+            top: 7px;
+            right: 7px;
+        }
+
+        .pull-right {
+            float: right !important;
+        }
+    </style>
+    <script>
+        //The form gets generated and inserted into the div containinng the class, "fb-render"
+        //# sourceURL=views.inputForm.index.hbs
+        //if this does not work, try jQuery(function($) { });
+        var formId = "{{{id}}}";
+        var collection = "{{{collection}}}";
+
+        var formData = '{{{data}}}';
+        //if (formData !== null && formData.length) { populateSurveyForm(formData); }
+    </script>
+</body>
+
+</html>

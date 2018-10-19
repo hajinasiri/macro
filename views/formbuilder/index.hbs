@@ -1,0 +1,219 @@
+<!DOCTYPE html> {{!--This allows designer to create a form, i.e., for a survey. Called from formbuilder --}}
+<html>
+
+<head>
+    <title>Idiagram FormBuilder</title>
+</head>
+
+<body>
+
+    {{!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>--}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+    <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/site.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor.min.css">
+
+
+
+    <script>
+        //# sourceURL=formbuilder.hbs.js
+
+        var previousForm = null; //if there is a previous form with this form name and collection, the use it. This will contain the json for it.
+        jQuery(function($) {
+            $('#render-form-button').click(function() {
+                //TODO:  ********* We need to load in any previous form if we have it.  *********************************
+                //First remove any html under form-builder, ifd any, including form-builder
+                $(".form-builder").remove();
+                var data = {};
+                data.id = $("#formId")[0].value; //"unique name of form";
+
+                data.collection = $("#collection")[0].value; //"collection name";
+                $.get("/formApi/simpleGet", data, function(result) {
+                    if (result.status === "success") {
+                        previousForm = result.data;
+
+                    }
+                    //Now create the form for the formBuilder
+                    var $fbEditor = $(document.getElementById('fb-editor'));
+                    //$formContainer = $(document.getElementById('fb-rendered-form')),
+                    // $formCopyHtmlBtn = $(document.getElementById('fb-copy-html-form')),
+                    var dbFieldObject = {
+                                dbField: {
+                                    label: 'dbField',
+                                    maxlength: '60',
+                                    description: 'name of this column in the map database'
+                                } 
+                            };
+                    var fbOptions = {
+                        typeUserAttrs: {
+                            autocomplete: dbFieldObject,
+                            button: dbFieldObject,
+                            "checkbox-group": dbFieldObject,
+                            date: dbFieldObject,
+                            file: dbFieldObject,
+                            hidden: dbFieldObject,
+                            number: dbFieldObject,
+                            "radio-group": dbFieldObject,
+                            select: dbFieldObject,
+                            text: dbFieldObject,
+                            textarea: dbFieldObject
+                        }
+                        // onSave: function() {
+                        //     // $fbEditor.toggle();
+                        //     // $formContainer.toggle();
+                        //     // $formCopyHtmlBtn.toggle();
+                        //     $('form', $formContainer).formRender({
+                        //         formData: formBuilder.formData
+                        //     });
+                        //     //json goes to this element with this class: formData-json
+                        // },
+                        // disabledActionButtons: ['data']
+                    };
+                    if (previousForm) {
+                        fbOptions.formData = previousForm; //use previously saved form
+                    }
+                    var formBuilder = $fbEditor.formBuilder(fbOptions);
+
+
+
+                    var Fb; //some kind of object of the formBuilder api
+
+                    formBuilder.promise.then(function(fb) {
+                        Fb = fb;
+
+
+                        $('.save-template').click(function() {
+                            //var renderedForm = $('.formData-json');
+                            // toast({msg: 'Form HTML successfully copied to clipboard.'});
+                            var j = Fb.formData;
+                            //j = renderedForm[0].innerText;
+
+                            var data = {};
+                            data.id = $("#formId")[0].value; //"unique name of form";
+
+                            data.collection = $("#collection")[0].value; //"collection name";
+                            data.isBlank = true; //means this is being used as a blank template.
+                            data.doc = j; //JSON.stringify(j);
+                            $.post('/formApi/upload', data, function(result) {
+                                if (result.status === "success") {
+                                    // alert("Form insert was successfull. To see the effect of your changes, refresh the screen.");
+                                    console.log("New Form Inserted.");
+                                    $("#serverMessage").text(result.serverMessage);
+                                }
+                                else {
+                                    $("#serverMessage").text(result.serverMessage);
+                                    alert("Update was unsuccessfull: " + result.msg);
+                                }
+                            });
+                        });
+
+
+
+                    });
+                });
+            });
+
+
+
+
+        });
+    </script>
+    <style>
+        body {
+            background: lightgrey;
+            font-family: sans-serif;
+        }
+
+        #fb-rendered-form {
+            clear: both;
+            display: none;
+            button {
+                float: right;
+            }
+        }
+
+
+        /*        .form-wrap.form-builder input,
+        .form-wrap.form-builder optgroup,
+        .form-wrap.form-builder select,
+        .form-wrap.form-builder textarea,*/
+
+        .form-wrap.form-builder button {
+            color: #fff;
+        }
+
+        /*#fb-copy-html-form {*/
+
+        /*    clear: both;*/
+
+        /*    display: none;*/
+
+        /*    button {*/
+
+        /*        float: right;*/
+
+        /*    }*/
+
+        /*}*/
+    </style>
+    <div id="fb-editor">
+        <div class="container">
+            <h2>Form Designer</h2>
+            <p>Enter the unique name of your form here. Also enter the collection name:</p>
+            <form>
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div class="form-group">
+                            <label for="formId">Name:</label>
+                            <input type="text" class="form-control" id="formId">
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div class="form-group">
+                            <label for="collection">Collection:</label>
+                            <input type="text" class="form-control" id="collection">
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div class="btn-group">
+                            <button type="button" id="render-form-button" class="btn btn-primary get-form">Form Generator</button>
+                        </div>
+
+
+                        <div class="panel panel-default">
+                            <div id="serverMessage" class="panel-body serveMessage"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+            <p>Drag the elements on the right to design your form:</p>
+        </div>
+
+        {{!--
+        <div class="btn-group pull-right">--}} {{!-- <button type="button" id="render-form-button" class="btn btn-secondary edit-form">Edit Form</button>--}} {{!-- <button type="button" id="copy-html" class="btn btn-primary copy-html">Copy HTML</button>--}} {{!--
+        </div>--}}
+
+    </div>
+    {{!--
+    <div id="fb-rendered-form">
+
+        <form action="#"></form>
+
+
+    </div>--}} {{!--
+    <div id="fb-copy-html-form">--}} {{!--
+        <form action="#"></form>--}} {{!--
+
+    </div>--}}
+</body>
+
+</html>

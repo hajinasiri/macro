@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/comphound.css">--}}
+  <!--
+    <link rel="stylesheet" href="/css/table.css">
+    <script src="/js/table.js"></script>
+    -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  {{!--
+  <script src="/js/pbtable.min.js"></script>--}}
+  <script src="/js/pbtable.js"></script>
+  <script src="/js/pbtable-en_EN.js"></script>
+  {{!--
+  <script src="/js/admin-helper.js"></script>--}}
+</head>
+
+<body>
+  <h1>Users</h1>
+
+  <table id="t1" class="table table-striped table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Titles</th>
+        <th>Collections</th>
+        <th>Access to Folders</th>
+        <th>Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each instances}}
+      <tr id='{{rowId}}'>
+        <td id='firstName'>{{firstName}}</td>
+        <td id='lastName'>{{lastName}}</td>
+        <td id='email'>{{email}}</td>
+        <td id='permissions'>{{permissions}}</td>
+        <td id='collections'>{{collections}}</td>
+        <td id='folders'>{{folders}}</td>
+        <td><button type="button" class="btn btn-info btn-xs row-update">Update</button></td>
+        <td><button type="button" class="btn btn-info btn-xs row-delete">Delete</button></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+  <div class="container">
+    <h2 id="messageTitle" class="serveMessage">{{messageTitle}}</h2>
+    <div class="panel panel-default">
+      <div id="serverMessage" class="panel-body serveMessage">{{serverMessage}}</div>
+    </div>
+  </div>
+  <script>
+    /* global $, 
+                   jQuery,    Window */
+    var $td, currentCellText, LeftCellText, RightCellText, RowIndex, ColIndex, RowsAbove, ColName;
+
+
+    $('#t1').pbTable({
+      selectable: true,
+      sortable: true,
+      toolbar: {
+        enabled: true,
+        filterBox: true,
+        buttons: []
+      },
+      pagination: {
+        enabled: true,
+        pageSize: 50
+      },
+      onView: function() {
+        alert('View button was pressed');
+      },
+      onEdit: function() {
+        //alert('Edit button was pressed: ' + RowIndex);
+
+        $td.parent().attr("contentEditable", "true"); //make this editable
+
+      },
+      onDelete: function() {
+        alert('Delete button was pressed');
+      },
+      onNew: function() {
+        alert('New button was pressed');
+      }
+    });
+    $("#t1").click(function(e) {
+      $td = $(e.target).closest("td"); //gets the cell that has user focus so we can get the parent (meaning row) that user clicked on
+      currentCellText = $td.text(); //some of these values are not needed, but are here for possible future use
+      LeftCellText = $td.prev().text();
+      RightCellText = $td.next().text();
+      RowIndex = $td.parent().attr("id"); //row user clicked on
+      ColIndex = $td.parent().children().index($td);
+      RowsAbove = RowIndex;
+      ColName = $td.closest("table").find('thead th:eq(' + ColIndex + ')').text();
+      $td.parent().attr("contentEditable", "true"); //make this editable
+      $(".serveMessage").html("");
+    });
+    $(".row-update").click(function(e) {
+      $(".serveMessage").html("");
+      $td = $(e.target).closest("td"); //gets the cell that has user focus so we can get the parent (meaning row) that user clicked on
+      RowIndex = $td.parent().attr("id"); //row user clicked on
+      //$td.attr("contentEditable", "false");
+      $("#t1 tr").attr("contentEditable", "false");
+      var data = {};
+      data.id = $("#" + RowIndex + ">#email").html();
+      //data.collection = "users";
+      var doc = {
+        //rowId: data.id,
+        firstName: $("#" + RowIndex + ">#firstName").html(),
+        lastName: $("#" + RowIndex + ">#lastName").html(),
+        email: data.id,
+        doc: {
+          collections: $("#" + RowIndex + ">#collections").html(),
+          permissions: $("#" + RowIndex + ">#permissions").html(),
+          folders: $("#" + RowIndex + ">#folders").html()
+        }
+      };
+
+
+      data.doc = JSON.stringify(doc);
+      $.post("admin/updateuser", data, function(result) {
+        // $("span").html(result);
+        $("#messageTitle").html(result.messageTitle);
+        $("#serverMessage").html(result.serverMessage);
+        console.log("result of post: " + result);
+      });
+      console.log("updating row in user database" + data);
+    });
+
+    $(".row-delete").click(function(e) {
+      $(".serveMessage").html("");
+      $td = $(e.target).closest("td"); //gets the cell that has user focus so we can get the parent (meaning row) that user clicked on
+      RowIndex = $td.parent().attr("id"); //row user clicked on
+      //$td.attr("contentEditable", "false");
+      $("#t1 tr").attr("contentEditable", "false"); //change rows that are editable to not editable for now
+      // var data = {};
+      // data.id = $("#" + RowIndex + ">#email").html();
+      var id = $("#" + RowIndex + ">#email").html(); //the email is the user's id
+      $.post("admin/delete/" + id, function(result) {
+        // $("span").html(result);
+        $("#messageTitle").html(result.messageTitle);
+        if (result.messageTitle === "Success") {
+          $("#" + RowIndex).remove();
+        }
+        $("#serverMessage").html(result.serverMessage);
+        console.log("result of post: " + result);
+      });
+      console.log("updating row in user database" + id);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.10.3
+3 info using node@v6.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchOtherPackageData xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master
+20 silly cache add args [ 'xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master',
+20 silly cache add   null ]
+21 verbose cache add spec xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master',
+22 silly cache add   scope: null,
+22 silly cache add   escapedName: 'xlsx-to-json',
+22 silly cache add   name: 'xlsx-to-json',
+22 silly cache add   rawSpec: 'https://github.com/qualitycode/node-xlsx-json/tarball/master',
+22 silly cache add   spec: 'https://github.com/qualitycode/node-xlsx-json/tarball/master',
+22 silly cache add   type: 'remote' }
+23 silly mapToRegistry name xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'xlsx-to-json@https://github.com/qualitycode/node-xlsx-json/tarball/master',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'xlsx-to-json',
+26 silly mapToRegistry   name: 'xlsx-to-json',
+26 silly mapToRegistry   rawSpec: 'https://github.com/qualitycode/node-xlsx-json/tarball/master',
+26 silly mapToRegistry   spec: 'https://github.com/qualitycode/node-xlsx-json/tarball/master',
+26 silly mapToRegistry   type: 'remote' }
+27 silly mapToRegistry uri https://github.com/qualitycode/node-xlsx-json/tarball/master
+28 verbose addRemoteTarball https://github.com/qualitycode/node-xlsx-json/tarball/master not in flight; adding
+29 verbose addRemoteTarball [ 'https://github.com/qualitycode/node-xlsx-json/tarball/master',
+29 verbose addRemoteTarball   null ]
+30 info retry fetch attempt 1 at 4:57:38 PM
+31 info attempt registry request try #1 at 4:57:38 PM
+32 http fetch GET https://github.com/qualitycode/node-xlsx-json/tarball/master
+33 verbose request id 1c6fb3002b1dce46
+34 http fetch 200 https://github.com/qualitycode/node-xlsx-json/tarball/master
+35 silly fetchAndShaCheck shasum 89fe291ab240f23fe79b5b33dde72f054d0f6bab
+36 verbose addTmpTarball /tmp/npm-30806-c172f5de/github.com/qualitycode/node-xlsx-json/tarball/master not in flight; adding
+37 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+38 verbose addTmpTarball validating metadata from /tmp/npm-30806-c172f5de/github.com/qualitycode/node-xlsx-json/tarball/master
+39 verbose tar unpack /tmp/npm-30806-c172f5de/github.com/qualitycode/node-xlsx-json/tarball/master
+40 verbose tar unpacking to /tmp/npm-30806-c172f5de/unpack-503fe473
+41 silly gentlyRm /tmp/npm-30806-c172f5de/unpack-503fe473 is being purged
+42 verbose gentlyRm don't care about contents; nuking /tmp/npm-30806-c172f5de/unpack-503fe473
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry
+45 silly gunzTarPerm modified mode [ '', 509, 493 ]
+46 silly gunzTarPerm extractEntry .gitignore
+47 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+54 silly gunzTarPerm extractEntry libs/
+55 silly gunzTarPerm modified mode [ 'libs/', 509, 493 ]
+56 silly gunzTarPerm extractEntry libs/index.js
+57 silly gunzTarPerm modified mode [ 'libs/index.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+60 silly gunzTarPerm extractEntry sample/
+61 silly gunzTarPerm modified mode [ 'sample/', 509, 493 ]
+62 silly gunzTarPerm extractEntry sample/interview.xlsx
+63 silly gunzTarPerm modified mode [ 'sample/interview.xlsx', 436, 420 ]
+64 silly gunzTarPerm extractEntry sample/sample.js
+65 silly gunzTarPerm modified mode [ 'sample/sample.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry sample/tags_test.json
+67 silly gunzTarPerm modified mode [ 'sample/tags_test.json', 436, 420 ]
+68 silly gunzTarPerm extractEntry sample/test.json
+69 silly gunzTarPerm modified mode [ 'sample/test.json', 436, 420 ]
+70 silly gunzTarPerm extractEntry test/
+71 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+72 silly gunzTarPerm extractEntry test/mocha.opts
+73 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 420 ]
+74 silly gunzTarPerm extractEntry test/xlsx-json.test.js
+75 silly gunzTarPerm modified mode [ 'test/xlsx-json.test.js', 436, 420 ]
+76 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+77 silly cache afterAdd xlsx-to-json@0.2.4
+78 verbose afterAdd /root/.npm/xlsx-to-json/0.2.4/package/package.json not in flight; writing
+79 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+80 verbose afterAdd /root/.npm/xlsx-to-json/0.2.4/package/package.json written
+81 silly resolveWithNewModule xlsx-to-json@0.2.4 checking installable status
+82 silly fetchNamedPackageData xlsx
+83 silly mapToRegistry name xlsx
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'xlsx',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   escapedName: 'xlsx',
+86 silly mapToRegistry   name: 'xlsx',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/xlsx
+88 silly fetchNamedPackageData csv
+89 silly mapToRegistry name csv
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: 'csv',
+92 silly mapToRegistry   scope: null,
+92 silly mapToRegistry   escapedName: 'csv',
+92 silly mapToRegistry   name: 'csv',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri https://registry.npmjs.org/csv
+94 verbose request uri https://registry.npmjs.org/xlsx
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 4:57:39 PM
+97 verbose etag W/"b08389c11730c39929c07c5a50a6a0ce"
+98 verbose lastModified Wed, 25 Jul 2018 07:16:42 GMT
+99 http request GET https://registry.npmjs.org/xlsx
+100 verbose request uri https://registry.npmjs.org/csv
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 4:57:39 PM
+103 verbose etag W/"f470e4ed142460e1fe6d9c294102040f"
+104 verbose lastModified Sat, 26 May 2018 21:29:05 GMT
+105 http request GET https://registry.npmjs.org/csv
+106 http 304 https://registry.npmjs.org/csv
+107 verbose headers { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+107 verbose headers   connection: 'keep-alive',
+107 verbose headers   'set-cookie': [ '__cfduid=d1f9a8b5c84a80f54bad0fb7d57eed1581532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+107 verbose headers   'cache-control': 'max-age=300',
+107 verbose headers   'cf-cache-status': 'HIT',
+107 verbose headers   'cf-ray': '442b6cebfc745152-SJC',
+107 verbose headers   etag: '"f470e4ed142460e1fe6d9c294102040f"',
+107 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+107 verbose headers   'last-modified': 'Sat, 26 May 2018 21:29:05 GMT',
+107 verbose headers   vary: 'accept-encoding, accept',
+107 verbose headers   server: 'cloudflare' }
+108 silly get cb [ 304,
+108 silly get   { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+108 silly get     connection: 'keep-alive',
+108 silly get     'set-cookie': [ '__cfduid=d1f9a8b5c84a80f54bad0fb7d57eed1581532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+108 silly get     'cache-control': 'max-age=300',
+108 silly get     'cf-cache-status': 'HIT',
+108 silly get     'cf-ray': '442b6cebfc745152-SJC',
+108 silly get     etag: '"f470e4ed142460e1fe6d9c294102040f"',
+108 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+108 silly get     'last-modified': 'Sat, 26 May 2018 21:29:05 GMT',
+108 silly get     vary: 'accept-encoding, accept',
+108 silly get     server: 'cloudflare' } ]
+109 verbose etag https://registry.npmjs.org/csv from cache
+110 verbose get saving csv to /root/.npm/registry.npmjs.org/csv/.cache.json
+111 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+112 http 304 https://registry.npmjs.org/xlsx
+113 verbose headers { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'set-cookie': [ '__cfduid=db7243e5c0a8b42213e1302f683a635531532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+113 verbose headers   'cache-control': 'max-age=300',
+113 verbose headers   'cf-cache-status': 'HIT',
+113 verbose headers   'cf-ray': '442b6cebeeb392d0-SJC',
+113 verbose headers   etag: '"b08389c11730c39929c07c5a50a6a0ce"',
+113 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+113 verbose headers   'last-modified': 'Wed, 25 Jul 2018 07:16:42 GMT',
+113 verbose headers   vary: 'accept-encoding, accept',
+113 verbose headers   server: 'cloudflare' }
+114 silly get cb [ 304,
+114 silly get   { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+114 silly get     connection: 'keep-alive',
+114 silly get     'set-cookie': [ '__cfduid=db7243e5c0a8b42213e1302f683a635531532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+114 silly get     'cache-control': 'max-age=300',
+114 silly get     'cf-cache-status': 'HIT',
+114 silly get     'cf-ray': '442b6cebeeb392d0-SJC',
+114 silly get     etag: '"b08389c11730c39929c07c5a50a6a0ce"',
+114 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+114 silly get     'last-modified': 'Wed, 25 Jul 2018 07:16:42 GMT',
+114 silly get     vary: 'accept-encoding, accept',
+114 silly get     server: 'cloudflare' } ]
+115 verbose etag https://registry.npmjs.org/xlsx from cache
+116 verbose get saving xlsx to /root/.npm/registry.npmjs.org/xlsx/.cache.json
+117 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+118 silly resolveWithNewModule csv@0.3.7 checking installable status
+119 silly cache add args [ 'csv@~0.3.6', null ]
+120 verbose cache add spec csv@~0.3.6
+121 silly cache add parsed spec Result {
+121 silly cache add   raw: 'csv@~0.3.6',
+121 silly cache add   scope: null,
+121 silly cache add   escapedName: 'csv',
+121 silly cache add   name: 'csv',
+121 silly cache add   rawSpec: '~0.3.6',
+121 silly cache add   spec: '>=0.3.6 <0.4.0',
+121 silly cache add   type: 'range' }
+122 silly addNamed csv@>=0.3.6 <0.4.0
+123 verbose addNamed ">=0.3.6 <0.4.0" is a valid semver range for csv
+124 silly addNameRange { name: 'csv', range: '>=0.3.6 <0.4.0', hasData: false }
+125 silly mapToRegistry name csv
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'csv',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'csv',
+128 silly mapToRegistry   name: 'csv',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/csv
+130 verbose addNameRange registry:https://registry.npmjs.org/csv not in flight; fetching
+131 silly fetchNamedPackageData No valid target from cache, forcing network
+132 verbose request uri https://registry.npmjs.org/xlsx
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 4:57:39 PM
+135 http request GET https://registry.npmjs.org/xlsx
+136 verbose get https://registry.npmjs.org/csv not expired, no request
+137 silly addNameRange number 2 { name: 'csv', range: '>=0.3.6 <0.4.0', hasData: true }
+138 silly addNameRange versions [ 'csv',
+138 silly addNameRange   [ '0.0.1',
+138 silly addNameRange     '0.0.2',
+138 silly addNameRange     '0.0.3',
+138 silly addNameRange     '0.0.5',
+138 silly addNameRange     '0.0.6',
+138 silly addNameRange     '0.0.7',
+138 silly addNameRange     '0.0.9',
+138 silly addNameRange     '0.0.10',
+138 silly addNameRange     '0.0.11',
+138 silly addNameRange     '0.0.12',
+138 silly addNameRange     '0.0.13',
+138 silly addNameRange     '0.0.14',
+138 silly addNameRange     '0.0.15',
+138 silly addNameRange     '0.0.16',
+138 silly addNameRange     '0.0.17',
+138 silly addNameRange     '0.0.18',
+138 silly addNameRange     '0.0.19',
+138 silly addNameRange     '0.2.0',
+138 silly addNameRange     '0.2.1',
+138 silly addNameRange     '0.2.2',
+138 silly addNameRange     '0.2.3',
+138 silly addNameRange     '0.1.0',
+138 silly addNameRange     '0.2.4',
+138 silly addNameRange     '0.2.6',
+138 silly addNameRange     '0.2.7',
+138 silly addNameRange     '0.2.8',
+138 silly addNameRange     '0.2.9',
+138 silly addNameRange     '0.3.0',
+138 silly addNameRange     '0.3.2',
+138 silly addNameRange     '0.3.3',
+138 silly addNameRange     '0.3.4',
+138 silly addNameRange     '0.3.5',
+138 silly addNameRange     '0.3.6',
+138 silly addNameRange     '0.3.7',
+138 silly addNameRange     '0.4.0',
+138 silly addNameRange     '0.4.1',
+138 silly addNameRange     '0.4.2',
+138 silly addNameRange     '0.4.4',
+138 silly addNameRange     '0.4.5',
+138 silly addNameRange     '0.4.6',
+138 silly addNameRange     '1.1.0',
+138 silly addNameRange     '1.1.1',
+138 silly addNameRange     '1.2.0',
+138 silly addNameRange     '1.2.1',
+138 silly addNameRange     '2.0.0',
+138 silly addNameRange     '3.0.0',
+138 silly addNameRange     '3.0.1',
+138 silly addNameRange     '3.0.2',
+138 silly addNameRange     '3.1.0' ] ]
+139 silly addNamed csv@0.3.7
+140 verbose addNamed "0.3.7" is a plain semver version for csv
+141 silly cache afterAdd csv@0.3.7
+142 verbose afterAdd /root/.npm/csv/0.3.7/package/package.json not in flight; writing
+143 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+144 verbose afterAdd /root/.npm/csv/0.3.7/package/package.json written
+145 http 200 https://registry.npmjs.org/xlsx
+146 verbose headers { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+146 verbose headers   'content-type': 'application/json; charset=UTF-8',
+146 verbose headers   'transfer-encoding': 'chunked',
+146 verbose headers   connection: 'keep-alive',
+146 verbose headers   'set-cookie': [ '__cfduid=d1f9a8b5c84a80f54bad0fb7d57eed1581532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+146 verbose headers   'cache-control': 'max-age=300',
+146 verbose headers   'cf-cache-status': 'HIT',
+146 verbose headers   'cf-ray': '442b6cec4c835152-SJC',
+146 verbose headers   etag: 'W/"b08389c11730c39929c07c5a50a6a0ce"',
+146 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+146 verbose headers   'last-modified': 'Wed, 25 Jul 2018 07:16:42 GMT',
+146 verbose headers   vary: 'accept-encoding, accept',
+146 verbose headers   server: 'cloudflare',
+146 verbose headers   'content-encoding': 'gzip' }
+147 silly get cb [ 200,
+147 silly get   { date: 'Mon, 30 Jul 2018 22:57:39 GMT',
+147 silly get     'content-type': 'application/json; charset=UTF-8',
+147 silly get     'transfer-encoding': 'chunked',
+147 silly get     connection: 'keep-alive',
+147 silly get     'set-cookie': [ '__cfduid=d1f9a8b5c84a80f54bad0fb7d57eed1581532991459; expires=Tue, 30-Jul-19 22:57:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+147 silly get     'cache-control': 'max-age=300',
+147 silly get     'cf-cache-status': 'HIT',
+147 silly get     'cf-ray': '442b6cec4c835152-SJC',
+147 silly get     etag: 'W/"b08389c11730c39929c07c5a50a6a0ce"',
+147 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+147 silly get     'last-modified': 'Wed, 25 Jul 2018 07:16:42 GMT',
+147 silly get     vary: 'accept-encoding, accept',
+147 silly get     server: 'cloudflare',
+147 silly get     'content-encoding': 'gzip' } ]
+148 verbose get saving xlsx to /root/.npm/registry.npmjs.org/xlsx/.cache.json
+149 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+150 silly fetchPackageMetaData Error: No compatible version found: xlsx@0.7.6-g
+150 silly fetchPackageMetaData Valid install targets:
+150 silly fetchPackageMetaData 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.12.13, 0.12.12, 0.12.11, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.19, 0.11.18, 0.11.17, 0.11.16, 0.11.15, 0.11.14, 0.11.13, 0.11.12, 0.11.11, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.3, 0.10.1, 0.10.0, 0.9.13, 0.9.12, 0.9.11, 0.9.10, 0.9.9, 0.9.8, 0.9.6, 0.9.4, 0.9.3, 0.9.2, 0.9.0, 0.8.8, 0.8.0, 0.7.12, 0.7.0, 0.6.1, 0.6.0, 0.5.17, 0.5.8, 0.5.7, 0.5.6, 0.5.0, 0.4.3, 0.3.10, 0.3.3
+150 silly fetchPackageMetaData
+150 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+150 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+150 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+150 silly fetchPackageMetaData  error for xlsx@0.7.6-g Error: No compatible version found: xlsx@0.7.6-g
+150 silly fetchPackageMetaData Valid install targets:
+150 silly fetchPackageMetaData 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.12.13, 0.12.12, 0.12.11, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.19, 0.11.18, 0.11.17, 0.11.16, 0.11.15, 0.11.14, 0.11.13, 0.11.12, 0.11.11, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.3, 0.10.1, 0.10.0, 0.9.13, 0.9.12, 0.9.11, 0.9.10, 0.9.9, 0.9.8, 0.9.6, 0.9.4, 0.9.3, 0.9.2, 0.9.0, 0.8.8, 0.8.0, 0.7.12, 0.7.0, 0.6.1, 0.6.0, 0.5.17, 0.5.8, 0.5.7, 0.5.6, 0.5.0, 0.4.3, 0.3.10, 0.3.3
+150 silly fetchPackageMetaData
+150 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+150 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+150 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+150 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+151 silly rollbackFailedOptional Starting
+152 silly rollbackFailedOptional Finishing
+153 silly runTopLevelLifecycles Starting
+154 silly runTopLevelLifecycles Finishing
+155 silly install printInstalled
+156 verbose stack Error: No compatible version found: xlsx@0.7.6-g
+156 verbose stack Valid install targets:
+156 verbose stack 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.12.13, 0.12.12, 0.12.11, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.19, 0.11.18, 0.11.17, 0.11.16, 0.11.15, 0.11.14, 0.11.13, 0.11.12, 0.11.11, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.3, 0.10.1, 0.10.0, 0.9.13, 0.9.12, 0.9.11, 0.9.10, 0.9.9, 0.9.8, 0.9.6, 0.9.4, 0.9.3, 0.9.2, 0.9.0, 0.8.8, 0.8.0, 0.7.12, 0.7.0, 0.6.1, 0.6.0, 0.5.17, 0.5.8, 0.5.7, 0.5.6, 0.5.0, 0.4.3, 0.3.10, 0.3.3
+156 verbose stack
+156 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+156 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+156 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+156 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+156 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+156 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+157 verbose cwd /var/www/macro/routes
+158 error Linux 3.13.0-77-generic
+159 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+160 error node v6.6.0
+161 error npm  v3.10.3
+162 error No compatible version found: xlsx@0.7.6-g
+162 error Valid install targets:
+162 error 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.12.13, 0.12.12, 0.12.11, 0.12.10, 0.12.9, 0.12.8, 0.12.7, 0.12.6, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.19, 0.11.18, 0.11.17, 0.11.16, 0.11.15, 0.11.14, 0.11.13, 0.11.12, 0.11.11, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.10.9, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.3, 0.10.1, 0.10.0, 0.9.13, 0.9.12, 0.9.11, 0.9.10, 0.9.9, 0.9.8, 0.9.6, 0.9.4, 0.9.3, 0.9.2, 0.9.0, 0.8.8, 0.8.0, 0.7.12, 0.7.0, 0.6.1, 0.6.0, 0.5.17, 0.5.8, 0.5.7, 0.5.6, 0.5.0, 0.4.3, 0.3.10, 0.3.3
+163 error If you need help, you may report this error at:
+163 error     <https://github.com/npm/npm/issues>
+164 verbose exit [ 1, true ]

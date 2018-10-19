@@ -1,0 +1,113 @@
+<!--<script src="http://code.jquery.com/jquery-1.11.3.js"></script>-->
+<script src="http://malsup.github.com/jquery.form.js"></script>
+<!--  Bootstrap Stuff -->
+
+<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet">
+
+<link href="stylesheets/style.css" rel="stylesheet">
+  <script> 
+    var svgFile = "./svgs/mysvg.svg";
+    //location of folder for these files
+    var folder = "test";
+    var masterDB = folder + "_master"; 
+    var overrideDB= folder + "_override"; 
+   // var masterAction = "/importSpread/" + masterDB; 
+  </script> 
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lavender;">
+                <div id="myMessage"></div>
+
+                <form id="uploadFile" role="form" action= "/importSpread/" + masterDB method="POST" enctype="multipart/form-data">
+                    <div id="selFile">
+                        Select an xlsx spreadhseet file to upload:
+                    </div>
+                    <div class="file-upload btn btn-primary" id="uploadButton">
+                        <span >Choose xlsx File</span>
+                        <input id="uploadBtn" type="file"  name="image" class="upload" accept=".xlsx"/>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                        Upload xlsx file
+                    </button>
+
+                </form>
+            </div>
+            <!-- 1st column -->
+            <div class="col-sm-4" style="background-color:lavenderblush;">
+                                <div id="mySvgMessage"></div>
+
+                <form id="uploadSVG" role="form" action="/importSVG" method="POST" enctype="multipart/form-data">
+                    <div id="selFile">
+                        Select an SVG file to upload:
+                    </div>
+                    <div class="file-upload btn btn-primary" id="uploadButton">
+                        <span >Choose SVG File</span>
+                        <input id="uploadSVGBtn" type="file"  name="image" class="upload" accept=".svg"/>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                        Upload SVG file
+                    </button>
+
+                </form>
+            </div><!-- 2nd column -->
+            <div class="col-sm-4" style="background-colosr:lavender;">
+                A future version will allow you to trucate the database here.
+            </div><!-- 3rd column -->
+        </div>
+        <!-- row -->
+
+        <div id="resultMessage" class="jumbotron">
+
+        </div>
+    </div>
+</nav>
+<script>
+    // wait for the DOM to be loaded
+    $(document).ready(function() {
+        // bind 'uploadFile' for spreadsheet import and provide a simple callback function
+        $('#uploadFile').ajaxForm(function() {
+            //$("#myMessage").html("<p><b>File successfully imported.</b></p>");
+            // window.location.href = "/importSuccess";
+            $("#resultMessage").html("<h1>Cool.</h1><p>Stuff got imported to the database.</p>");
+        });
+        document.getElementById("uploadBtn").onchange = function() {
+            $("#myMessage").html("<p>You selected the file:</p><p><b>" + this.value + "</b></p><p>Now click the green upload button and we're in business.</p>");
+        };
+        
+         // bind 'uploadSVG' for svg import and provide a simple callback function
+        $('#uploadSVG').ajaxForm(function() {
+            $("#resultMessage").html("<h1>SVG Upload Happened.</h1>");
+        });
+        document.getElementById("uploadSVGBtn").onchange = function() {
+            $("#mySvgMessage").html("<p>You selected the file:</p><p><b>" + this.value + "</b></p><p>Now click the green upload button and we're in business.</p>");
+        };
+    }); 
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+    .file-upload {
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .file-upload input.upload {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    #uploadFile {
+        line-height: 28px;
+    }
+</style>
