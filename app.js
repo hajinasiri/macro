@@ -42,6 +42,7 @@ var passportSocketIo = require('passport.socketio');
 
 //var home = require('./routes/home');
 var importSpread = require('./routes/importSpread');
+var upload = require('./routes/upload');
 var importFile = require('./routes/import');
 
 var importSVG = require('./routes/importSVG');
@@ -132,6 +133,7 @@ app.use('/maps', maps);
 app.use('/home', home);
 app.use('/importSuccess', importSuccess);
 app.use(/.*\/importSpread/, importSpread); //don't let user just send in only importSpread command. Must have a path before importSpread
+app.use(/.*\/upload/,upload);
 //app.use(/\/importSpread\/.+/, importSpread); //don't let user just send in only importSpread command. Must have a path before importSpread
 //app.use('/importSpread', importSpread); //don't let user just send in only importSpread command. Must have a path before importSpread
 
