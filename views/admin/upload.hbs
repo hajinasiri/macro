@@ -42,6 +42,26 @@
                         </div>
                     </div>
                 </form>
+                <div>
+                    <form id="uploadScriv" role="form" action="/upload" method="POST" enctype="multipart/form-data">
+                        <div class="form-row" style="padding-left:15px;">
+                            <div class="col">
+                                <div id="selFile">
+                                    Select a scriv file to upload :
+                                </div>
+                                <div class="file-upload btn btn-primary" id="scrivUploadButton">
+                                    <span>Choose a scriv file</span>
+                                    <input id="uploadscrivBtn"  type="file" name="myFile" class="upload" accept=".scriv" />
+                                </div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="submit" value="Submit" class="btn btn-success">
+                                <!--<button onclick="ulMsg()" type="submit" class="btn btn-success">-->
+                                    <!--Upload scriv file-->
+                                <!--</button>-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
             </div>
 

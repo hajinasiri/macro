@@ -20,37 +20,35 @@ const fs = require('fs');
 var path = require('path');
 
 
+var unauthStatic = express.static(path.join(__dirname, '../public'));
+var authStatic = path.join(__dirname, '../authorized');
+
 
 
 /* GET home page. */
 router.get('/', restrict, function(req, res, next) {
-    /**
-     * Was getting this error when using a folder in the url as a parameter:   "Refused to apply style from" "because its
-     * MIME type ('text/html') is not a supported stylesheet MIME type"
-     * Found someone talking about this on stackoverflow, but it was in Spanish, plus the fix is too complicated
-     * for using a folder as a parameter in the url. So I will have user insert folder in a form field.
-     **/
-    //router.get('/:collection', function(req, res, next) {
-    // var collection = req.params.collection;
-    //  if (!(/master/.test(collection))) {
-    //         let err = "Invalid Collection: "+ collection;
-    //         console.error();
-    //         let vm = {
-    //             messageTitle: 'Error',
-    //             layout: 'simpleLayout',
-    //             serverMessage: err
-    //         };
-    //         console.error("Incorrect collection.");
-    //         res.redirect('/error');
 
-    //     }
-    return res.render('admin/importSpread', {
+    return res.render('admin/upload', {
         title: 'Import Data or SVG',
         layout: 'simpleLayout',
         baseUrl: JSON.stringify(req.baseUrl)
         //,collection:'master_test3'
     });
 });
+
+
+router.post('/', restrict, function(req, res, next) {
+    console.log(req);
+    // return res.redirect('http://google.com')
+    // return res.render('admin/upload', {
+    //     title: 'Import Data or SVG',
+    //     layout: 'simpleLayout',
+    //     baseUrl: JSON.stringify(req.baseUrl)
+    //     //,collection:'master_test3'
+    // });
+});
+
+
 
 
 module.exports = router;

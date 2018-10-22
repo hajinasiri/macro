@@ -178,15 +178,15 @@ app.use('/', function(req, res, next) {
         var permissions = req.user._doc.doc.permissions;
         var authorizedFolders = req.user._doc.doc.hasOwnProperty("folders") ? req.user._doc.doc.folders : "";
         var mainUrlFolder = req.originalUrl;
-        
+
         /**
-         * Note: there are two commands that try to simulate a virtual file in a path. 
+         * Note: there are two commands that try to simulate a virtual file in a path.
          * Those paths are really parameters that proceed the commend.
          * The two commands currently are importSpread and import/ Here is an example:
          * https://get-started-genealogy.c9users.io/macro/alpha/importSpread
          * We need to test that the designer has permission to access these folders.
          *
-         **/ 
+         **/
         if (mainUrlFolder === "/importSpread") {
             var vm = {
                 title: 'Error Message',
@@ -203,7 +203,7 @@ app.use('/', function(req, res, next) {
         }
 
         var firstFolder = mainUrlFolder.split("/").slice(1, 2).toString(); //get first folder (or directory) in the url string
-        
+
         //we need to do more granular checking in the actual route module if there needs to be more restrictive folder permissions, such as the import command
         if ((permissions.split(',').indexOf('admin') > -1) || (permissions.split(',').indexOf('editor') > -1) || (permissions.split(',').indexOf('designer') > -1)) {
             //this is an admin, so don't worry if there are missing folders

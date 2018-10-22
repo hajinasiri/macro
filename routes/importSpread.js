@@ -28,9 +28,9 @@ var authStatic = path.join(__dirname, '../authorized');
 /* GET home page. */
 router.get('/', restrict, function(req, res, next) {
     /**
-     * Was getting this error when using a folder in the url as a parameter:   "Refused to apply style from" "because its 
+     * Was getting this error when using a folder in the url as a parameter:   "Refused to apply style from" "because its
      * MIME type ('text/html') is not a supported stylesheet MIME type"
-     * Found someone talking about this on stackoverflow, but it was in Spanish, plus the fix is too complicated 
+     * Found someone talking about this on stackoverflow, but it was in Spanish, plus the fix is too complicated
      * for using a folder as a parameter in the url. So I will have user insert folder in a form field.
      **/
     //router.get('/:collection', function(req, res, next) {
@@ -133,7 +133,7 @@ function checkFileTypeAndPermissions(req, file, cb) {
     }
     else if (inList(permissions, 'designer')) {
         var authorizedFolders = req.user._doc.doc.hasOwnProperty("folders") ? req.user._doc.doc.folders : "";
-        
+
         if (pathToConfigFile) {
             var mainUrlFolder = req.pathToConfigFile; // req.originalUrl;
             var firstFolder = mainUrlFolder.split("/").slice(0,1).toString(); //get first folder (or directory) in the url string
@@ -149,7 +149,7 @@ function checkFileTypeAndPermissions(req, file, cb) {
 
     }
 
-     return cb(null, true); //the user is either an admin or editor so have permissions in all folders. TODO: editor has all permissions?
+    return cb(null, true); //the user is either an admin or editor so have permissions in all folders. TODO: editor has all permissions?
 }
 
 
