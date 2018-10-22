@@ -38,7 +38,8 @@ router.get('/', restrict, function(req, res, next) {
 
 
 router.post('/', restrict, function(req, res, next) {
-    console.log(req);
+    // console.log(req)
+    return res.send(req.body.scriv);
     // return res.redirect('http://google.com')
     // return res.render('admin/upload', {
     //     title: 'Import Data or SVG',

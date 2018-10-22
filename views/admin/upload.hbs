@@ -43,24 +43,28 @@
                     </div>
                 </form>
                 <div>
-                    <form id="uploadScriv" role="form" action="/upload" method="POST" enctype="multipart/form-data">
-                        <div class="form-row" style="padding-left:15px;">
-                            <div class="col">
-                                <div id="selFile">
-                                    Select a scriv file to upload :
-                                </div>
-                                <div class="file-upload btn btn-primary" id="scrivUploadButton">
-                                    <span>Choose a scriv file</span>
-                                    <input id="uploadscrivBtn"  type="file" name="myFile" class="upload" accept=".scriv" />
-                                </div>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="submit" value="Submit" class="btn btn-success">
-                                <!--<button onclick="ulMsg()" type="submit" class="btn btn-success">-->
-                                    <!--Upload scriv file-->
-                                <!--</button>-->
-                            </div>
-                        </div>
+                    <form action="/upload" method="POST" >
+                        <input type="file" accept = ".scriv" name="scriv">
+                        <input type="submit" value="upload">
                     </form>
+                    <!--<form id="uploadScriv" role="form" action="/upload" method="POST" enctype="multipart/form-data">-->
+                        <!--<div class="form-row" style="padding-left:15px;">-->
+                            <!--<div class="col">-->
+                                <!--<div id="selFile">-->
+                                    <!--Select a scriv file to upload :-->
+                                <!--</div>-->
+                                <!--<div class="file-upload btn btn-primary" id="scrivUploadButton">-->
+                                    <!--<span>Choose a scriv file</span>-->
+                                    <!--<input id="uploadscrivBtn"  type="file" name="scrivFile" class="upload" accept=".scriv" />-->
+                                <!--</div>-->
+                                <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                                <!--<input type="submit" value="Submit" class="btn btn-success">-->
+                                <!--&lt;!&ndash;<button onclick="ulMsg()" type="submit" class="btn btn-success">&ndash;&gt;-->
+                                    <!--&lt;!&ndash;Upload scriv file&ndash;&gt;-->
+                                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</form>-->
                 </div>
 
             </div>
@@ -115,12 +119,12 @@
         //document.getElementById("collection").onchange = function() {};
 
         // bind 'uploadSVG' for svg import and provide a simple callback function
-        $('#uploadSVG').ajaxForm(function() {
-            $("#resultMessage").html("<h1>SVG Upload Happened.</h1>");
-        });
-        document.getElementById("uploadSVGBtn").onchange = function() {
-            $("#mySvgMessage").html("<p>You selected the file:</p><p><b>" + this.value + "</b></p><p>Now click the green upload button and we're in business.</p>");
-        };
+        // $('#uploadSVG').ajaxForm(function() {
+        //     $("#resultMessage").html("<h1>SVG Upload Happened.</h1>");
+        // });
+        // document.getElementById("uploadSVGBtn").onchange = function() {
+        //     $("#mySvgMessage").html("<p>You selected the file:</p><p><b>" + this.value + "</b></p><p>Now click the green upload button and we're in business.</p>");
+        // };
     });
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6998c452-20c7-48a9-82e5-1c7a55c6381f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/importSpread.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/importSpread.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/importSpread.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/importSpread.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/upload.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/upload.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,36 +28,47 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="hbs" value="6" />
-          <entry key="js" value="19" />
+          <entry key="js" value="22" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Handlebars/Mustache" value="6" />
-          <entry key="JavaScript" value="19" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="hbs" value="86" />
-          <entry key="js" value="235" />
+          <entry key="hbs" value="220" />
+          <entry key="js" value="379" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Handlebars/Mustache" value="86" />
-          <entry key="JavaScript" value="235" />
+          <entry key="Handlebars/Mustache" value="220" />
+          <entry key="JavaScript" value="379" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="317">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -68,17 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/upload.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="45" column="70" lean-forward="true" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="e#2588#2594#0#HTML" expanded="true" />
-                <element signature="e#2594#2600#0#HTML" expanded="true" />
-                <element signature="e#2600#2606#0#HTML" expanded="true" />
-                <element signature="e#2606#2612#0#HTML" expanded="true" />
-                <element signature="e#2612#2618#0#HTML" expanded="true" />
-                <element signature="e#2618#2624#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -94,6 +93,11 @@
       <find>importSpread</find>
       <find>importspread</find>
       <find>upload</find>
+      <find>uploadSVGBtn</find>
+      <find>bodyparser</find>
+      <find>parser</find>
+      <find>bodyParser.urlencoded()</find>
+      <find>svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,9 +109,9 @@
         <option value="&lt;71605afb-285d-4763-91b0-7f87e7b3ea2a&gt;/password-enabled/app.js" />
         <option value="$PROJECT_DIR$/routes/importSpread.js" />
         <option value="$PROJECT_DIR$/views/admin/importSpread.hbs" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/admin/upload.hbs" />
         <option value="$PROJECT_DIR$/routes/upload.js" />
+        <option value="$PROJECT_DIR$/views/admin/upload.hbs" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -168,7 +172,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.remoteExternalTools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539971497962</updated>
       <workItem from="1539971501878" duration="34000" />
-      <workItem from="1539971567600" duration="10404000" />
+      <workItem from="1539971567600" duration="17639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10438000" />
+    <option name="totallyTimeSpent" value="17673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,13 +267,6 @@
     <entry file="file://$PROJECT_DIR$/routes/mongoToXlsx.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/importSpread.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5370">
-          <caret line="358" column="24" selection-start-line="358" selection-start-column="24" selection-end-line="358" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/importSpread.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -280,33 +277,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/importSpread.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/upload.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="45" column="70" lean-forward="true" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="e#2588#2594#0#HTML" expanded="true" />
-            <element signature="e#2594#2600#0#HTML" expanded="true" />
-            <element signature="e#2600#2606#0#HTML" expanded="true" />
-            <element signature="e#2606#2612#0#HTML" expanded="true" />
-            <element signature="e#2612#2618#0#HTML" expanded="true" />
-            <element signature="e#2618#2624#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="186" column="54" selection-start-line="186" selection-start-column="54" selection-end-line="186" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="317">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/upload.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
         </state>
       </provider>
     </entry>
