@@ -1,0 +1,250 @@
+{
+
+    "steps": {  "elements": [
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=SystemicProblems&close=Measurement&panx=504&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 01.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Measurement&close=Research&panx=648&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 02.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Research&close=Synthesis&panx=792&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 03.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Synthesis&close=Mapping&panx=936&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 04.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Mapping&close=Collaboration&panx=1080&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 05.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Collaboration&close=Development&panx=1224&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 06.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Development&close=Implementation&panx=1368&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 07.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Implementation&close=ImplementationStrands&panx=1368&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 08.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=ImplementationStrands&close=Amplification&panx=1512&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 09.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=Amplification&close=ContinuousImprovement&panx=1656&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 010.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=ContinuousImprovement&panx=1800&pany=495&zoom=2.2" } , { "type": "audio", "content": "audio/Marker 0.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&on=Map&panx=1075&pany=700&zoom=1.2" } , { "type": "audio", "content": "audio/Marker 0.mp3" } ] }
+] },
+
+    "oldSteps": {
+        "elements": [
+            {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=SystemicProblems&panx=648&pany=520&zoom=2.4",
+                "description": "144 points between panx's"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 01.mp3",
+                "description": "First audio file"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Measurement&panx=792&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 02.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Research&panx=936&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 03.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Synthesis&panx=1080&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 04.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Mapping&panx=1224&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 05.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Collaboration&panx=1368&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 06.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Development&panx=1512&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 07.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Implementation&panx=1656&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 08.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=Amplification&panx=1800&pany=520&zoom=2.4"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 09.mp3"
+            }]
+        }, {
+            "type": "synchronous",
+            "elements": [{
+                "type": "url",
+                "content": "?+++&open=SIPT&open=ContinuousImprovement&gotoz=ContinuousImprovement"
+            }, {
+                "type": "audio",
+                "content": "audio/Marker 10.mp3"
+            }]
+        }, {
+            "type": "url",
+            "postdelay": "3.0",
+            "content": "?+++&open=SIPT&open=GlobalProblems&gotoz=GlobalProblems"
+        },
+
+            {
+                "type": "url",
+                "postdelay": "3.0",
+                "content": "?+++&open=SIPT&open=ImplementationStrands&panx=1800&pany=648&zoom=3.2"
+            },
+
+            {
+                "type": "url",
+                "postdelay": "3.0",
+                "content": "?+++&panx=1224&pany=792&zoom=1.1"
+            }
+        ]
+    },
+
+    "segment_2": {
+        "id": "aloneloop",
+        "type": "asynchronous",
+        "elements": [
+            {
+                "type": "audio",
+                "loop": true,
+                "content": "audio/BeingAlone.mp3"
+            },
+            {
+                "type" : "url",
+                "delay" : "30.0",
+                "content" : "?+++&panx=1224&pany=792&zoom=1.1"
+            }
+        ]
+    },
+
+    "segment_3": {
+        "id": "step1to3",
+        "elements": [
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=SystemicProblems&panx=648&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 01.mp3",
+                "description" : "First audio file"
+            },
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=Measurement&panx=792&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 02.mp3"
+            },
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=Research&panx=936&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 03.mp3"
+            }
+        ]
+    },
+
+    "segment_4": {
+        "id": "step4to6",
+        "elements": [
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=Synthesis&panx=1080&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 04.mp3"
+            },
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=Mapping&panx=1224&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 05.mp3"
+            },
+            {
+                "type" : "url",
+                "content" : "?+++&open=SIPT&open=Collaboration&panx=1368&pany=520&zoom=2.4"
+            },
+            {
+                "type" : "audio",
+                "content" : "audio/Marker 06.mp3"
+            }
+        ]
+    },
+
+    "segment_5": {
+        "id": "step1to6",
+        "elements": [
+            {
+                "type": "segment",
+                "content": "step1to3"
+            },
+            {
+                "type": "segment",
+                "content": "step4to6"
+            }
+        ]
+    },
+
+    "silentSteps": {  "elements": [
+        { "type": "url", "content": "?+++&on=MapSize&gotoz=MapSize&open=SIPT"                                 , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=SystemicProblems&panx=504&pany=495&zoom=2.2"                   , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Measurement&panx=648&pany=495&zoom=2.2"                          , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Research&panx=792&pany=495&zoom=2.2"                          , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Synthesis&panx=936&pany=495&zoom=2.2"                          , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Mapping&panx=1080&pany=495&zoom=2.2"                          , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Collaboration&panx=1224&pany=495&zoom=2.2"                    , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Development&panx=1368&pany=495&zoom=2.2"                      , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Implementation&panx=1512&pany=495&zoom=2.2"                   , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=Amplification&panx=1656&pany=495&zoom=2.2"                    , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&open=ContinuousImprovement&panx=1800&pany=495&zoom=2.2"              , "postdelay": 1.0},
+        { "type": "url", "content": "?+++&on=MapSize&gotoz=MapSize"                                           , "postdelay": 1.0}
+    ] },
+
+
+
+    "segment_7": {
+        "id": "loopingSteps",
+        "elements": [
+            {
+                "type": "segment",
+                "loop":true,
+                "content": "step1to3"
+            }        ]
+    }
+}

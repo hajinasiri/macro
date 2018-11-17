@@ -1,0 +1,31 @@
+{
+
+    "simap": {  "elements": [
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?on=Map&panx=1200&pany=900&zoom=1.2" } , { "type": "audio", "content": "audio/Marker 01.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?on=Map&gotoz=ComplexProblem" } , { "type": "audio", "content": "audio/Marker 02.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&zoom=3.3" } , { "type": "audio", "content": "audio/Marker 03.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=ComplexProblem&gotoz=ComplexProblem" } , { "type": "audio", "content": "audio/Marker 04.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=ComplexProblem&open=SystemicSolution&gotoz=SystemicSolution" } , { "type": "audio", "content": "audio/Marker 05.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=ComplexProblem&open=SystemicSolution&open=SIGap&open=MapZoom1&gotoz=MapZoom1&zoom=3.8" } , { "type": "audio", "content": "audio/Marker 06.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=MapZoom1&gotoz=MapZoom1" } , { "type": "audio", "content": "audio/Marker 07.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=one&gotoz=one" } , { "type": "audio", "content": "audio/Marker 08.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=two&gotoz=two" } , { "type": "audio", "content": "audio/Marker 09.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=three&gotoz=three" } , { "type": "audio", "content": "audio/Marker 10.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=four&gotoz=four" } , { "type": "audio", "content": "audio/Marker 11.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=five&gotoz=five" } , { "type": "audio", "content": "audio/Marker 12.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=six&gotoz=six" } , { "type": "audio", "content": "audio/Marker 13.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=seven&gotoz=seven" } , { "type": "audio", "content": "audio/Marker 14.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=eight&gotoz=eight" } , { "type": "audio", "content": "audio/Marker 15.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=Sectors&gotoz=Sectors" } , { "type": "audio", "content": "audio/Marker 16.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=Sectors2&panx=1860&pany=860&zoom=2.4" } , { "type": "audio", "content": "audio/Marker 17.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=SIWork&open=nine&gotoz=nine" } , { "type": "audio", "content": "audio/Marker 18.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=SIWork&open=Sectors&open=nine&gotoz=nine" } , { "type": "audio", "content": "audio/Marker 19.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=SupplyOfSolutions" } , { "type": "audio", "content": "audio/Marker 20.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=DemandForSolutions" } , { "type": "audio", "content": "audio/Marker 21.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=PlayingFieldForSolutions" } , { "type": "audio", "content": "audio/Marker 22.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=FundingForSolutions" } , { "type": "audio", "content": "audio/Marker 23.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?+++&open=ExpertTeams" } , { "type": "audio", "content": "audio/Marker 24.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type": "url", "content": "?open=SIProcess&open=GlobalProblems&open=ProblemDefinition&open=Research&open=Mapping&open=Collaboration&open=Development&open=Implementation&open=ContinuousImprovement&open=ImplementationStrands&open=MapZoom1&gotoz=MapZoom1" } , { "type": "audio", "content": "audio/Marker 25.mp3" } ] }
+
+]}
+}

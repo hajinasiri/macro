@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alpha Demo Model</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="System Mapping" />
+    <!--Added stylesheet to test styling-->
+    <link rel="stylesheet" href="storyTest.css">
+    <!-- ^^^ -->
+    <script type="text/javascript" src="/js/mod/bundle2.js"></script>
+
+    <link rel="import" href="alphaContentMC.html">
+
+    <!--<script type="text/javascript" src="/js/customstuff.js"></script>-->
+    <script type="text/javascript" src="/js/customstuffBE.js"></script>
+    <script type="text/javascript" src="/js/controlmenu.js" defer></script>
+
+    <style>
+        /* This is styling for the in-map video, dropping it behind the SVG - and hiding it on opening the map */
+        video{
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+            overflow: hidden;
+            pointer-events: auto;
+            max-width: 100%;
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+
+<body>
+<!--importing the whole map-pane -->
+<!--imported elements separate from map pane-->
+<script>
+    // Map Pane
+    let importedMapPane = externalContent.querySelector('.map-pane');
+    document.body.appendChild(importedMapPane.cloneNode(true));
+    // West Pane
+    let importedWestPane = externalContent.querySelector('.narration-pane');
+    document.body.appendChild(importedWestPane.cloneNode(true));
+    //East Pane
+    let importedEastPane = externalContent.querySelector('.information-pane');
+    document.body.appendChild(importedEastPane.cloneNode(true));
+    // Help Modal
+    let importedHelpModal = externalContent.querySelector('#myModal');
+    document.body.appendChild(importedHelpModal.cloneNode(true));
+    // Comment Modal
+    let importedCommentModal = externalContent.querySelector('.comment-modal');
+    document.body.appendChild(importedCommentModal.cloneNode(true));
+
+    // Help Modal
+    let importedHelpModal = externalContent.querySelector('#myModal');
+    document.body.appendChild(importedHelpModal.cloneNode(true));
+    // Comment Modal
+    let importedCommentModal = externalContent.querySelector('.comment-modal');
+    document.body.appendChild(importedCommentModal.cloneNode(true));
+</script>
+
+</body>
+</html>

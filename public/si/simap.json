@@ -1,0 +1,14 @@
+{
+  "svgFile": "siModel1.4.svg",
+  "folder": "si",
+  "storyFile": "siStory.txt",
+  "infoFile": "/docs/help.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "si_master",
+  "overrideDB":  "si_override",
+  "zoomSensitivity": 0.08,
+  "defaultURL": "?on=Map&on=MapSize&gotoz=MapSize&wpane=240&epane=320",
+  "hoverOpenClose": true,
+  "clickAction" : "openClose"
+}

@@ -1,0 +1,19 @@
+{
+  "svgFile": "se1.4.svg",
+  "storyFile": "story.html",
+  "infoFile": "/docs/loading.txt",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "se_master",
+  "formDB": "se_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.3,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 0.8,
+  "traceTime": 0.8,
+  "defaultURL": "stopWebcam=webcam&on=Map&open=Banking&open=Finance&open=SupplyChain&open=Communities&open=Information&open=Media&open=Research&open=NaturalEnvironment&open=InvestmentConsultants&open=ProxyVoting&open=FundManagers&open=Individuals2&panx=2050.0&pany=1200.0&zoom=1.000&epane=280&wpane=200&openall=InstitutionalInvestors&unoInfo=GenderLens",
+  "showDelay":150,
+  "hideDelay":0
+}

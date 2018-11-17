@@ -1,0 +1,30 @@
+{
+
+    "seVideo": {  "elements":  [
+        { "type": "asynchronous", "elements": [
+            { "type":"url", "content":"?+++&wpane=0&epane=0" },
+            { "type":"url", "delay":"1", "content":"?off=Map&playvid=video/introVideo.mp4" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"29", "content":"?+++&on=Map&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"58", "content":"?+++&openall=Risks&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"69", "content":"?+++&closeall=Risks&open=Government&open=StateFinance&open=Pressure&open=Banking&open=Finance&open=SupplyChain&open=Communities&open=Information&open=Media&open=Research&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"92", "content":"?+++&off=Map&openall=ListedCompanies&off=BusinessSectors&panx=2650&pany=1320&zoom=3.8" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"115", "content":"?+++&off=Map&openall=Finance&close=Individuals&panx=2350&pany=1820&zoom=1.3" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"130", "content":"?+++&on=Map&openall=Structure&close=CorporateManagement&open=SurveyLPs&close=SurveyOrgs&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"133", "content":"?+++&open=SurveyOrgs&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"150", "content":"?+++&close=SurveyLPs&close=SurveyOrgs&panx=3400&pany=2200&zoom=0.6" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"165", "content":"?+++&wpane=200&epane=0" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"171", "content":"?+++&off=Map&wpane=200&epane=220" } ] },
+            { "type": "synchronous", "elements": [ { "type":"url", "delay":"178", "content":"?+++&resetvid=video/introVideo.mp4&on=Map&panx=2000&pany=1200&zoom=1.1" }
+        ] }
+    ] },
+
+    "glIntro": {  "elements":  [
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&on=Map&open=Banking&open=Finance&open=SupplyChain&open=Communities&open=Information&open=Media&open=Research&open=NaturalEnvironment&open=InvestmentConsultants&open=ProxyVoting&open=FundManagers&open=Individuals2&epane=280&wpane=200&story=story.html&openall=InstitutionalInvestors&unoInfo=GenderLens&panx=2050.0&pany=1200.0&zoom=1.000" } , { "type":"audio", "content":"audio/Marker 01.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&open=Map&open=GenderLens&open=GL-KeyGenderLenses&unoInfo=GenderLens&panx=2600.0&pany=1200.0&zoom=3.8&epane=0" } , { "type":"audio", "content":"audio/Marker 02.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&open=Map&open=GL-GenderBalancedProductsServices&panx=3350.0&pany=1200.0&zoom=3.8" } , { "type":"audio", "content":"audio/Marker 03.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&open=Map&open=GL-Roles&panx=1455.0&pany=1380.0&zoom=3.4" } , { "type":"audio", "content":"audio/Marker 04.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&open=Map&openall=GL-Roles&unoInfo=GL-IndividualInvestorsQ" } , { "type":"audio", "content":"audio/Marker 05.mp3" } ] },
+        { "type": "synchronous", "elements": [ { "type":"url", "content":"?+++&on=Map&open=Banking&open=Finance&open=SupplyChain&open=Communities&open=Information&open=Media&open=Research&open=NaturalEnvironment&open=InvestmentConsultants&open=ProxyVoting&open=FundManagers&open=Individuals2&epane=280&wpane=200&story=story.html&openall=InstitutionalInvestors&unoInfo=GenderLens&panx=2050.0&pany=1200.0&zoom=1.000" } , { "type":"audio", "content":"audio/Marker 06.mp3" } ] }
+    ] }
+
+}

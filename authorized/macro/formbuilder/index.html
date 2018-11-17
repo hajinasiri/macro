@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example formBuilder</title>
+</head>
+
+<body>
+    <div id="fb-editor"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+    <script src="https://formbuilder.online/assets/js/form-render.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/site.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor.min.css">
+
+    <script>
+        jQuery(function($) {
+            var $fbEditor = $(document.getElementById('fb-editor')),
+                $formContainer = $(document.getElementById('fb-rendered-form')),
+                $formCopyHtmlBtn = $(document.getElementById('fb-copy-html-form')),
+                fbOptions = {
+                    onSave: function() {
+                        $fbEditor.toggle();
+                        $formContainer.toggle();
+                        $formCopyHtmlBtn.toggle();
+                        $('form', $formContainer).formRender({
+                            formData: formBuilder.formData
+                        });
+                    }
+                },
+                formBuilder = $fbEditor.formBuilder(fbOptions);
+
+            $('.edit-form', $formCopyHtmlBtn).click(function() {
+                $fbEditor.toggle();
+                $formContainer.toggle();
+                $formCopyHtmlBtn.toggle();
+            });
+        });
+
+        new Clipboard('#copy-html', {
+            text: (trigger) => {
+                var renderedForm = $(document.getElementById('fb-rendered-form'));
+                // toast({msg: 'Form HTML successfully copied to clipboard.'});
+                return renderedForm[0].outerHTML;
+            }
+        });
+    </script>
+    <style>
+        body {
+            background: lightgrey;
+            font-family: sans-serif;
+        }
+
+        #fb-rendered-form {
+            clear: both;
+            display: none;
+            button {
+                float: right;
+            }
+        }
+         #fb-copy-html-form {
+            clear: both;
+            display: none;
+            button {
+                float: right;
+            }
+        }
+    </style>
+    <div id="fb-editor"></div>
+    <div id="fb-rendered-form">
+        <form action="#"></form>
+       
+      
+    </div>
+     <div id="fb-copy-html-form">
+        <form action="#"></form>
+        <div class="btn-group pull-right">
+            <button type="button" id="render-form-button" class="btn btn-secondary edit-form">Edit Form</button>
+            <button type="button" id="copy-html" class="btn btn-primary copy-html">Copy HTML</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+/* Larry Maddocks' svg styles  */
+
+#container {
+    position: relative;
+}
+
+#svgness {
+    position: absolute;
+}
+svg {
+    overflow: visible;
+}
+
+.svgMap {
+    overflow: hidden !important;
+    /*  Make map text un-selectable */
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+/*svg * {
+    font-family: "Myriad Pro", Helvetica, sans-serif;
+}*/
+
+/*Is this faster than above?*/
+svg text {
+    font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+/* white rectangle is turned off here, so now it does not dimm stuff */
+
+/* Instead of setting a class of off, everything will default as off unless I specifically turn it on. */
+
+/*We are not using whiteLayer right now
+.whiteLayer.tempHide {
+    opacity: 0.0;
+    pointer-events: none;
+}
+*/
+g:empty {
+    display: none !important;
+}
+
+
+/*
+ .vvv {
+ opacity: 0.0;
+ pointer-events: none;
+ }
+ */
+
+/*
+ .vvv.off > *:not([uno-id]) {
+ opacity: 0.0;
+ pointer-events: none;
+ }
+ */
+
+
+
+.ccc.temporary-open {
+    /*  opacity: 1; */
+    pointer-events: none;
+}
+
+/*.vvv.temporary-open > * {
+     opacity: 1;
+}*/
+.vvv.temporary-open > *:not([uno-id]) {
+    pointer-events: none;
+}
+.ooo.temporary-close {
+    /* opacity: 1; */
+    pointer-events: none;
+}
+
+
+.disabled, .disabled g[id], .disabled g[id].ooo.close {
+    pointer-events: none;
+}
+
+.svg-pan-zoom-control, #svg-pan-zoom-controls {
+    pointer-events: auto;
+}
+
+.vvv.close > *:not([uno-id]) {
+    display: none;
+    /*opacity: 0.0;*/
+}
+
+
+g.zero-opacity .vvv.close > *:not([uno-id]) {
+    display:inline ;
+    opacity: 0.0;
+}
+
+.vvv.temporary-close > *:not([uno-id]) {
+      opacity: 0.0;
+}
+
+/*
+ .vvv.open > *,
+ .ccc.open,
+ .ddd.on > *,
+ .ooo.closed,
+ .wrapNotDb.on > *,
+ .wrapInDb.on  > * {
+ opacity: ;
+ }
+ */
+.vvv > *:not([uno-id]), .ddd > *:not([uno-id]) {
+    pointer-events: none;
+}
+
+g[id].off > *:not([uno-id]), g[id].open.off > *:not([uno-id]), g[id].close.off > *:not([uno-id]), g[id].temporary-open.off > *:not([uno-id]), g[id].temporary-close.off > *:not([uno-id]), g[id].parentHide > *:not([uno-id]) {
+/*  Use display: none instead of opacity: 0.0 to make pan/zoom faster */
+    display: none;
+      /*opacity: 0.0;*/
+    pointer-events: none;
+}
+
+/*this is used for rotate command and when we want to tween elements when they are hidden. display:none does not work when trying to tween*/
+g.zero-opacity  g[id].off > *:not([uno-id]), g[id].open.off > *:not([uno-id]), g.zero-opacity  g[id].close.off > *:not([uno-id]), g.zero-opacity  g[id].temporary-open.off > *:not([uno-id]), g.zero-opacity  g[id].temporary-close.off > *:not([uno-id]), g.zero-opacity  g[id].parentHide > *:not([uno-id]) {
+/*  Use display: none instead of opacity: 0.0 to make pan/zoom faster */
+    display:inline ;
+    opacity: 0.0;
+    pointer-events: none;
+}
+
+.vvv > *:not([uno-id]), .ddd > *:not([uno-id]) {
+    pointer-events: none;
+}
+
+.ccc.close, .ccc.temporary-close, .ooo.open,.ooo.temporary-open, .ccc.open.parentHide,.ccc.temporary-open.parentHide, .ccc.off, .ooo.off, .ooo.parentHide {
+    opacity: 0.0;
+    pointer-events: none;
+}
+
+.disabled g[id].enabled, .disabled g[id].enabled.close, .disabled g[id].enabled.open {
+    pointer-events: auto;
+}
+.sss {
+    pointer-events: none;
+}
+
+
+
+/*  if we are using qtip then we don't need .tooltip rules anymore
+
+.tooltip {
+    position: relative;
+    display: block;
+    
+}
+.tooltip.hideTip {
+    opacity: 0.0 !important;
+    
+}
+.tooltip-inner {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+   
+
+    width: 250px;
+   
+
+    padding-left: 20px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    background-color: #fff;
+}
+*/
+/* did not work
+ g.svg-pan-zoom_viewport {
+ -webkit-transition: transform 0.5s ease;
+ -moz-transition: transform 0.5s ease;
+ -o-transition: transform 0.5s ease;
+ transition: transform 1.5s ease;
+
+ }
+
+ */

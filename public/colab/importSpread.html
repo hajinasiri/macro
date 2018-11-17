@@ -1,0 +1,131 @@
+<!--
+
+
+Created by Larry A. Maddocks on 2015-July.
+Larry A. Maddocks.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Import Data From Spreadsheet</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="description" content="arcadis Way" />
+        <script type="text/javascript" src="/js/jquery.js"></script>
+        <script type="text/javascript" src="/js/importSpread.js"></script>
+
+    </head>
+
+    <body>
+    <script src="https://malsup.github.io/jquery.form.js"></script>
+        <!--  Bootstrap Stuff -->
+
+        <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link href="/stylesheets/bootstrap-theme.min.css" rel="stylesheet">
+
+        <link href="/stylesheets/style.css" rel="stylesheet">
+        <script>
+
+            //location of folders for these files
+            var folder = "colab";
+            var masterDB = folder + "_master";
+            var overrideDB = folder + "_override";
+
+        </script>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div id="myMessage"></div>
+
+                        <form id="uploadMasterDb" role="form" action='/importSpread' method="POST" enctype="multipart/form-data">
+                            <div >
+                                Select master xlsx file to upload:
+                            </div>
+                            <div class="file-upload btn btn-primary" id="uploadButton">
+                                <span >Choose master xlsx File</span>
+                                <input id="uploadMastBtn" type="file"  name="image" class="upload" accept=".xlsx"/>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-success">
+                                Upload xlsx file
+                            </button>
+
+                        </form>
+                    </div>
+                    <!-- 1st column -->
+                    <div class="col-sm-4" style="background-color:lavender;">
+                        <div id="myOverMessage"></div>
+
+                        <form id="uploadOverrideDB" role="form" action='/importSpread' method="POST" enctype="multipart/form-data">
+                            <div >
+                                Select override xlsx file to upload:
+                            </div>
+                            <div class="file-upload btn btn-primary" id="uploadButton">
+                                <span >Choose override xlsx File</span>
+                                <input id="uploadOverBtn" type="file"  name="image" class="upload" accept=".xlsx"/>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-success">
+                                Upload xlsx file
+                            </button>
+
+                        </form>
+                    </div>
+                    <!-- 2nd column -->
+                    <!--
+                    <div class="col-sm-4" style="background-color:lavenderblush;">
+                                            <div id="mySvgMessage"></div>
+                    
+                                            <form id="uploadSVG" role="form" action="/importSVG" method="POST" enctype="multipart/form-data">
+                                                <div >
+                                                    Select an SVG file to upload:
+                                                </div>
+                                                <div class="file-upload btn btn-primary" id="uploadButton">
+                                                    <span >Choose SVG File</span>
+                                                    <input id="uploadSVGBtn" type="file"  name="image" class="upload" accept=".svg"/>
+                    
+                                                </div>
+                    
+                                                <button type="submit" class="btn btn-success">
+                                                    Upload SVG file
+                                                </button>
+                    
+                                            </form>
+                                        </div>-->
+                    <!-- 3rd column -->
+
+                </div>
+                <!-- row -->
+
+                <div id="resultMessage" class="jumbotron">
+
+                </div>
+            </div>
+        </nav>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <style>
+            .file-upload {
+                position: relative;
+                overflow: hidden;
+                margin: 10px;
+            }
+            .file-upload input.upload {
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+                cursor: pointer;
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+            #uploadMasterDb, #uploadOverrideDB {
+                line-height: 28px;
+            }
+        </style>
+
+    </body>
+</html>

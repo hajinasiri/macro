@@ -1,0 +1,59 @@
+/*Basic Styles*/
+html {
+	height: 100%;
+}
+a {
+	text-decoration: none;
+}
+:focus, :active {
+	outline: 0;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#accordion {
+	width: auto;
+	height: auto;
+	margin: 10px auto;
+}
+#accordion .ui-accordion-header {
+	background-color: #fa9300;
+	margin: 0px;
+}
+#accordion .ui-accordion-header a {
+	color: #fff;
+	line-height: 20px;
+	display: block;
+	font-size: 12pt;
+	width: 100%;
+	text-indent: 10px;
+}
+#accordion .ui-accordion-content {
+	width: 100%;
+	background-color: #fff;
+}
+#accordion .ui-accordion-content > * {
+	margin: 0;
+	padding: 10px;
+}
+#accordion .ui-accordion-content a {
+	color: #fff;
+}
+#accordion .ui-accordion-header:first-of-type {
+	background: #fa9300;
+}
+#accordion .ui-accordion-header:nth-of-type(2) {
+	background: #389abe;
+}
+#accordion .ui-accordion-header:nth-of-type(3) {
+	background: #f87aa0;
+}
+#accordion .ui-accordion-header:nth-of-type(4) {
+	background: #a8b700;
+}
+#accordion .ui-accordion-header:last-of-type {
+	background: #b3bec4;
+}
+

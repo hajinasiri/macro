@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alpha Demo Model</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="System Mapping" />
+    <!--Added stylesheet to test styling-->
+    <link rel="stylesheet" href="storyTest.css">
+    <!-- ^^^ -->
+    <script type="text/javascript" src="/js/mod/bundle2.js"></script>
+
+    <link rel="import" href="alphaContent.html">
+
+    <!--<script type="text/javascript" src="/js/customstuff.js"></script>-->
+    <script type="text/javascript" src="/js/customstuffBE.js"></script>
+    <script type="text/javascript" src="/js/controlmenu.js" defer></script>
+
+    <style>
+        /* This is styling for the in-map video, dropping it behind the SVG - and hiding it on opening the map */
+        video{
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+            overflow: hidden;
+            pointer-events: auto;
+            max-width: 100%;
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!----------- map-pane div with menus: the 'Control' menu the top of the div and the 'Context' menu the appears on a right-click within the map-pane
+--
+-->
+
+<!-- manually attach allowOverflow method to pane -->
+<!-- Note that the div IDs map-pane, story-pane and info-pane are used the code and thus CANNOT BE CHANGED -->
+
+<div class="map-pane" id="map-pane">
+
+    <div  class="ui-layout-center svgMap" >
+
+        <video id="mapVideo" controls> </video>
+        <video  class="webcamVideo" id="webcam" autoplay> </video>
+
+        <!--TODO: Delete class="container" if we don't need that-->
+        <div class="container svgdiv" id="container"  style="width: 100%; height: 100%; border:0px solid black; " >
+        </div>
+
+        <!--imported elements within map pane-->
+        <script>
+            // Loads external content, references link to alphaContent.html in <head>
+            let externalContent = document.querySelector('link[rel="import"]').import;
+           // control menu
+            let importedControlMenu = externalContent.querySelector('.control-menu');
+            document.body.appendChild(importedControlMenu.cloneNode(true));
+            // context menu
+            let importedContextMenu = externalContent.querySelector('.context-menu');
+            document.body.appendChild(importedContextMenu.cloneNode(true));
+        </script>
+
+    </div>
+</div>
+<!--imported elements separate from map pane-->
+    <script>
+        // West Pane
+        let importedWestPane = externalContent.querySelector('.narration-pane');
+        document.body.appendChild(importedWestPane.cloneNode(true));
+        //East Pane
+        let importedEastPane = externalContent.querySelector('.information-pane');
+        document.body.appendChild(importedEastPane.cloneNode(true));
+        // Help Modal
+        let importedHelpModal = externalContent.querySelector('#myModal');
+        document.body.appendChild(importedHelpModal.cloneNode(true));
+        // Comment Modal
+        let importedCommentModal = externalContent.querySelector('.comment-modal');
+        document.body.appendChild(importedCommentModal.cloneNode(true));
+    </script>
+
+
+</body>
+</html>

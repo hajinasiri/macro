@@ -1,0 +1,14 @@
+{
+  "svgFile": "Radial8x4x3.svg",
+  "storyFile": "RadialStory.md",
+  "infoFile": "info.md",
+  "SegmentsFile": "ThingsAnimate.json",
+  "masterDB": "demo_master",
+  "overrideDB":  "demo_override",
+  "zoomSensitivity": 0.08,
+  "defaultURL": "?on=Map&epane=260&wpane=260&panx=1000&pany=1000&zoom=1.44&story=RadialStory.md",
+  "helpLink": "http://45.55.23.31:3000/docs/help.html",
+  "minZoom":0.5,
+  "maxZoom":10,
+  "tweenDuration":0.4
+}

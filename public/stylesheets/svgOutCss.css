@@ -1,0 +1,74 @@
+svg * {
+    font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+div.info-p-content {
+    display: none;
+}
+
+div.info-p-content.show {
+    display: block;
+}
+
+
+/*Is this faster than above?*/
+
+svg text {
+    font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+/*white rectangle is turned off here, so now it does not dimm stuff */
+
+
+/* Instead of setting a class of off, everything will default as off unless I specifically turn it on. */
+
+
+/*We are not using whiteLayer right now
+.whiteLayer.tempHide {
+    opacity: 0.0;
+    pointer-events: none;
+}
+*/
+
+g:empty {
+    display: none;
+}
+/*
+.svg-pan-zoom-control,
+#svg-pan-zoom-controls {
+    display: none !important;
+}
+*/
+.hide>.sss .lm-art,
+.hide>.lm-art,
+.hide>.lm-art>.lm-art,
+.hide>g:not([id])>.lm-art {
+    display: none;
+    /*opacity: 0.0;*/
+    /*visibility: hidden; */
+}
+
+.ooo.hide {
+    display: none;
+    pointer-events: none;
+}
+
+.ooo.lm-show,
+g[id].lm-show>.ooo {
+    /* visibility: initial; */
+    /*opacity: 0.0;*/
+    display: inline;
+    pointer-events: auto;
+}
+
+g[id].lm-show>.sss .lm-art,
+.xxx.lm-show>.sss .lm-art {
+    /* visibility: initial; */
+    /*opacity: 0.0;*/
+    display: inline;
+}
+
+.sss {
+    pointer-events: none;
+}

@@ -1,0 +1,107 @@
+
+<h2>Settings</h2>
+
+<!--  We don't use audio, so we've commented it out for now
+<div class="select">
+    <label for="audioSource">Audio source: <br></label><select id="audioSource"></select>
+</div>
+-->
+
+<div class="select">
+    <h4>Webcam</h4>
+    <a href=    "#/?+++&startWebcam=webcam&fileInfo=/docs/settings.html"    class="slide">  <span style="color:black; "><i class="icon-videocam"></i><i class="icon-play"></i> Turn on Webcam</span> </a>     <br>
+    <a href=    "#/?+++&stopWebcam=webcam&fileInfo=/docs/settings.html"    class="slide">   <span style="color:black; "><i class="icon-videocam"></i><i class="icon-stop"></i> Turn off Webcam</span> </a>     <br><br>
+    Video source: <br><label for="videoSource"></label><select id="videoSource"></select>
+    <br><br>
+    Width: <input type="text" id="videoWidth"/>%
+    <br><br>
+</div>
+<input type="submit" value="OK" onclick="formdata()"/>
+<br>
+
+    <!--
+         <video muted autoplay></video>
+
+            <p>This demo requires Chrome 30 or later.</p>
+
+            <p>For more information, see <a href="https://www.html5rocks.com/en/tutorials/getusermedia/intro/" title="Media capture article by Eric Bidelman on HTML5 Rocks">Capturing Audio &amp; Video in HTML5</a> on HTML5 Rocks.</p>
+
+            <a href="https://github.com/samdutton/simpl/blob/gh-pages/getusermedia/sources/js/main.js" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+
+            -->
+<script>
+
+    // Form input code
+    function formdata()
+    {
+        var newWidth = document.getElementById("videoWidth").value;
+        document.getElementById("webcam").style.width = newWidth + "%";
+        return;
+    }
+
+    'use strict';
+
+    var videoElement = document.getElementById('webcam');
+//    var audioSelect = document.querySelector('select#audioSource');
+    var videoSelect = document.querySelector('select#videoSource');
+
+    navigator.mediaDevices.enumerateDevices()
+        .then(gotDevices).then(getStream).catch(handleError);
+
+//    audioSelect.onchange = getStream;
+    videoSelect.onchange = getStream;
+
+    function gotDevices(deviceInfos) {
+        for (var i = 0; i !== deviceInfos.length; ++i) {
+            var deviceInfo = deviceInfos[i];
+            var option = document.createElement('option');
+            option.value = deviceInfo.deviceId;
+            /*
+            if (deviceInfo.kind === 'audioinput') {
+                option.text = deviceInfo.label ||
+                    'microphone ' + (audioSelect.length + 1);
+                audioSelect.appendChild(option);
+            }
+            else
+            */
+            if (deviceInfo.kind === 'videoinput') {
+                option.text = deviceInfo.label || 'camera ' +
+                    (videoSelect.length + 1);
+                videoSelect.appendChild(option);
+            } else {
+                console.log('Found one other kind of source/device: ', deviceInfo);
+            }
+        }
+    }
+
+
+    function getStream() {
+
+        if (window.stream) {
+            window.stream.getTracks().forEach(function(track) {
+                track.stop();
+            });
+        }
+
+        var constraints = {
+            /*
+            audio: {
+                deviceId: {exact: audioSelect.value}
+            },
+            */
+            video: {
+                deviceId: {exact: videoSelect.value}
+            }
+        };
+
+        navigator.mediaDevices.getUserMedia(constraints).
+        then(gotStream).catch(handleError);
+    }
+
+    function gotStream(stream) {
+        window.stream = stream; // make stream available to console
+        videoElement.srcObject = stream;
+    }
+
+
+</script>

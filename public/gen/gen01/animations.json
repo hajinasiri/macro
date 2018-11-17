@@ -1,0 +1,23 @@
+{
+  "A": {
+    "elements": [
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B1" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B2" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B3" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B4" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B5" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B6" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B7" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&openall=B8" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B1" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B2" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B3" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B4" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B5" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B6" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B7" }  ] },
+      { "type": "synchronous", "elements": [ { "type": "url", "postdelay": 0.2, "content": "?+++&closeall=B8" }  ] }
+    ]
+  }
+}
+    

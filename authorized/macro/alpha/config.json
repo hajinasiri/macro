@@ -1,0 +1,21 @@
+{
+  "folder": "org",
+  "svgFile": "alpha0.1.svg",
+  "storyFile": "alpha.md",
+  "infoFile": "/docs/loading.txt",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animation.json",
+  "masterDB": "alpha_master",
+  "formDB": "alpha_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 1.4,
+  "traceTime": 0.8,
+  "defaultURL": "wpane=220&epane=0&on=Map&panx=1000.0&pany=1000.0&zoom=1.2",
+  "showDelay":150,
+  "hideDelay":0
+}
+

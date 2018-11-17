@@ -1,0 +1,465 @@
+
+git add -A
+git commit -m "Trying to sync files on cloud ide with gsap files"
+git push
+
+some versions make you set upstream origin for new branches:
+git push --set-upstream origin mc_cccDepreciated_02
+
+https://git-scm.com/docs/git-push
+New branch:  git checkout -b hbsSvg
+to grab the latest on a new server, first do a clone:
+git clone https://slidetrip@bitbucket.org/slidetrip/idiagram.git 
+then:
+git fetch && git checkout cccDepreciated
+then to get the latest push from someone:
+git checkout edc3e6d -f
+
+
+if that doesn't get latest, then
+git checkout  master   //passportLogin
+then
+git checkout <latest commit hash>
+git checkout 56e9a16
+
+when checking in, to refresh staged files:  git update-index --again
+ 
+to remove files like node_modules after you have tracked them, (which gitignore file doesn't remove) do this:
+
+git rm -r --cached node_modules
+
+If you want to see what you haven't git added yet:
+
+git diff -- myfile.txt
+or if you want to see already-added changes
+
+git diff --cached -- myfile.txt
+
+to see what you added and not committed:
+git diff --cached --name-only
+
+to see what you changed (before an add) does not show added files:
+  git status --porcelain  or just  git status 
+
+git diff HEAD file
+
+will show you changes you added to your worktree from the last commit. All the changes (staged or not staged) will be shown.
+--------------------------
+to merge a branch with the master http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master:
+git checkout master
+git pull origin master
+git merge hbsSvg
+git push origin master
+
+or one doc says this https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging:
+git checkout master
+git merge react
+
+-----------------------------------
+
+mongoexport --db sm --collection hlt_masters --out mongoOuthlt_master.json
+mongoimport --db sm --collection  hlt_masters --drop --file mongoOuthlt_master.json
+
+mongoexport --db sm --collection v2_masters --out mongoOutv2_masters.json
+mongoexport --db sm --collection v2_overrides --out mongoOutv2_overrides.json
+wget https://gsap.systemsagency.org/mongoOutAcfMaster.json
+wget https://idiagram.com/assets.zip
+mongoimport --db sm --collection v2_masters --drop --file mongoOutv2_masters.json
+mongoimport --db sm --collection v2_overrides --drop --file mongoOutv2_masters.json
+mongoimport --db idiagram --collection demo_overrides --drop --file mongoOutdemo_overrides.json
+
+For lazy people like me, i used mongodump it's faster:
+
+***** Usually use this to backup all collections of a db ON gsap SERVER:
+cd /var/www/gsap
+rm -r smBackup
+rm ./public/smBackup.zip
+mongodump -d sm -o smBackup  -u "lam" -p "bonbon3" --authenticationDatabase "admin"
+zip -r smBackup.zip smBackup
+mv smBackup.zip ./public
+
+********** Usually use this to restore the above GSAP smBackup ON CLOUD:
+cd /home/ubuntu/workspace/greentiger
+rm -r smBackup
+rm smBackup.zip
+wget https://gsap.systemsagency.org/smBackup.zip
+unzip smBackup.zip
+mongorestore smBackup --drop  -u "lam" -p "bonbon3" --authenticationDatabase "admin"
+rm -r smBackup
+
+
+***** Usually To get copy of latest authorized files. On GSAP SERVER:
+cd /var/www/gsap
+rm -r smBackup
+rm ./public/smBackup.zip
+rm ./public/authorized.zip
+zip -x \*bundle.js -x authorized/demo/video/\* -r authorized.zip authorized
+mv authorized.zip ./public
+
+
+   **Then on cloud to get authorized from gsap ON CLOUD:
+cd /home/ubuntu/workspace/greentiger
+rm -r authorized
+rm authorized.zip
+wget https://gsap.systemsagency.org/authorized.zip
+unzip authorized.zip
+rm authorized.zip
+
+***** Usually To get copy of latest acf files. On GSAP SERVER:
+cd /var/www/gsap/authorized
+rm ../public/acf.zip
+zip -x \*.ai  -r acf.zip acf
+mv acf.zip ../public
+
+
+   **Then on cloud to get acf from gsap ON CLOUD:
+cd /home/ubuntu/workspace/greentiger/authorized
+rm -r acf
+rm acf.zip
+wget https://gsap.systemsagency.org/acf.zip
+unzip acf.zip
+rm acf.zip
+
+
+***** Usually use this to backup all collections of a db ON IDIAGRAM SERVER:
+cd /var/www/idiagram
+rm -r smBackup
+rm ./public/smBackup.zip
+mongodump -d idiagram -o smBackup  -u "lam" -p "bonbon3" --authenticationDatabase "admin"
+zip -r smBackup.zip smBackup
+mv smBackup.zip ./public
+
+********** Usually use this to restore the above IDIAGRAM smBackup ON CLOUD:
+cd /home/ubuntu/workspace/greentiger
+rm -r smBackup
+rm smBackup.zip
+wget https://idiagram.com/smBackup.zip
+unzip smBackup.zip
+mongorestore smBackup --drop  -u "lam" -p "bonbon3" --authenticationDatabase "admin"
+rm -r smBackup
+
+
+
+----------------------------
+And to "restore/import" that, i used (from directory_backup/dump/):
+
+mongorestore <backup directrory i.e., smBackup>
+mongorestore smBackup --drop
+
+db.getCollectionInfos()
+        db.getCollectionNames()
+ 
+----------------
+list of all databases:
+show dbs
+----------------
+db.temporary_users.drop()   
+db.sm.users.drop() (or use sm then 
+db.users.drop() 
+)
+find all users:
+use sm
+db.users.find({})
+db.acf_masters.find({})
+db.testorder_masters.find({})
+db.v2_masters.find({})
+"arcadis_overrides
+db.arcadis_masters.find({})
+db.arcadis_masters.count()
+db.arcadislm_overrides.count()
+db.nac_masters.find({})
+db.demo_masters.findOne({ 'id': 'A' } )
+
+db.radial_masters.findOne({ 'id': 'D3' } )
+
+ db.arcadis_overrides.findOne({ 'id': 'Step2-2' } )
+
+-------
+Step0-4-2
+find -name '*.js' -type f -print0 | xargs -0 grep "moveTest" >> junk.txt
+
+--------------------
+to go back: nvm use v6.2.2
+
+nvm use v4.4.0
+webpack --display-modules --display-chunks    --display-error-details -v  --progress  
+-----------------------
+For CLI usage you probably want to install the tool globally (npm install -g webpack-validator) first. 
+Then just run webpack-validator webpack.config.js
+----------------------------------
+copy updates to idiagram server
+
+wget https://gsap.systemsagency.org/acf.zip ./
+-------------------------------------------
+sudo apt-get install lftp
+dev site:
+lftp sftp://root@45.55.23.31:22 
+
+production site:
+lftp sftp://root@104.236.182.63 
+cd sftp://root@104.236.182.63/var/www/idiagram
+copy over database files so I can import them
+put /home/ubuntu/workspace/greentiger/mongoOutDemoMaster.json
+put /home/ubuntu/workspace/greentiger/mongoOutdemo_overrides.json
+
+cd sftp://root@45.55.23.31:22/var/www/idiagram
+cp /home/ubuntu/workspace/greentiger/public/js/mod/* sftp://root@45.55.23.31:22/var/www/gsap/public/js/mod
+ mirror -R /home/ubuntu/workspace/greentiger/public/js/mod /var/www/gsap/public/js/mod
+ 
+  mirror -R /home/ubuntu/workspace/greentiger/public/acfjunk /var/www/gsap/public/acfjunk
+  mirror -R /home/ubuntu/workspace/greentiger/public/acfjunk /var/www/gsap/public/acfjunk
+
+
+***Usually do these lines GSAP: **********
+lftp sftp://root@104.236.182.63 
+
+cd /var/www/gsap/public/js/mod
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.js
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.min.js
+mirror -R /home/ubuntu/workspace/greentiger/public/js/browserify/js /var/www/gsap/public/js/browserify/js
+
+***Usually do these lines larry: **********
+cd /var/www/larry/public/js/mod
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.js
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.min.js
+mirror -R /home/ubuntu/workspace/greentiger/public/js/browserify/js /var/www/gsap/public/js/browserify/js
+
+
+cd /var/www/gsap/public/stylesheets
+put /home/ubuntu/workspace/greentiger/public/stylesheets/svg-styles2.css
+
+
+** copy over acf2lm files
+cd /var/www/gsap/authorized/acf
+put /home/ubuntu/workspace/greentiger/authorized/acf/acf2lm.json
+put /home/ubuntu/workspace/greentiger/authorized/acf/acf2lm.html
+put /home/ubuntu/workspace/greentiger/authorized/acf/customstuff.lm.js
+
+
+** copy over dashboard changes to gsap
+
+cd /var/www/gsap
+put /home/ubuntu/workspace/greentiger/app.js
+cd /var/www/gsap/models
+put /home/ubuntu/workspace/greentiger/models/user.js
+cd /var/www/gsap/routes
+put /home/ubuntu/workspace/greentiger/routes/admin.js
+put /home/ubuntu/workspace/greentiger/routes/home.js
+cd /var/www/gsap/services
+put /home/ubuntu/workspace/greentiger/services/user-service.js
+cd /var/www/gsap/views/admin
+put /home/ubuntu/workspace/greentiger/views/admin/index.hbs
+cd /var/www/gsap/views/home
+put /home/ubuntu/workspace/greentiger/views/home/index.hbs
+cd /var/www/gsap/public/js
+put /home/ubuntu/workspace/greentiger/public/js/pbtable.js
+cd /var/www/gsap/views
+put /home/ubuntu/workspace/greentiger/views/simpleLayout.hbs
+put /home/ubuntu/workspace/greentiger/views/layout.hbs
+
+** copy over importSpread.js:
+cd /var/www/gsap/public/js
+put /home/ubuntu/workspace/greentiger/public/js/importSpread.js
+
+** copy over dashboard changes to IDIAGRAM
+
+cd /var/www/idiagram
+put /home/ubuntu/workspace/greentiger/app.js
+cd /var/www/idiagram/models
+put /home/ubuntu/workspace/greentiger/models/user.js
+cd /var/www/idiagram/routes
+put /home/ubuntu/workspace/greentiger/routes/admin.js
+cd /var/www/idiagram/services
+put /home/ubuntu/workspace/greentiger/services/user-service.js
+cd /var/www/idiagram/views/admin
+put /home/ubuntu/workspace/greentiger/views/admin/index.hbs
+cd /var/www/idiagram/views
+put /home/ubuntu/workspace/greentiger/views/simpleLayout.hbs
+cd /var/www/idiagram/public/js
+put /home/ubuntu/workspace/greentiger/public/js/pbtable.js
+
+
+
+
+cd /var/www/gsap/authorized/demo/v2
+put /home/ubuntu/workspace/greentiger/public/demo/v2/v2testlm.html
+put /home/ubuntu/workspace/greentiger/public/demo/v2/v2testlm.json
+mirror -R /home/ubuntu/workspace/greentiger/public/js/browserify/js /var/www/gsap/public/js/browserify/js
+
+** do this for idiagram:
+cd /var/www/idiagram/public/js/mod
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.js
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle2.min.js
+mirror -R /home/ubuntu/workspace/greentiger/public/js/browserify/js /var/www/idiagram/public/js/browserify/js
+
+***copy over app.js
+cd /var/www/gsap
+put /home/ubuntu/workspace/greentiger/app.js
+
+***images
+mirror -R /home/ubuntu/workspace/greentiger/public/images /var/www/idiagram/public/images
+
+*** copy some server files:
+ mirror -R /home/ubuntu/workspace/greentiger/services /var/www/gsap/services
+ mirror -R /home/ubuntu/workspace/greentiger/models /var/www/gsap/models
+ mirror -R /home/ubuntu/workspace/greentiger/routes /var/www/gsap/routes
+ mirror -R /home/ubuntu/workspace/greentiger/views /var/www/gsap/views
+ mirror -R /home/ubuntu/workspace/greentiger/auth /var/www/gsap/auth
+
+** to larry:
+
+ mirror -R /home/ubuntu/workspace/greentiger/services /var/www/larry/services
+ mirror -R /home/ubuntu/workspace/greentiger/models /var/www/larry/models
+ mirror -R /home/ubuntu/workspace/greentiger/routes /var/www/larry/routes
+ mirror -R /home/ubuntu/workspace/greentiger/views /var/www/larry/views
+
+
+put /home/ubuntu/workspace/greentiger/public/js/mod/bundle.css.js
+mirror -R /home/ubuntu/workspace/greentiger/public/js  /var/www/gsap/public/js 
+
+mirror -R /home/ubuntu/workspace/greentiger/public/stylesheets /var/www/gsap/public/stylesheets
+
+cd /var/www/gsap/public/docs
+put /home/ubuntu/workspace/greentiger/public/docs/help.txt
+
+--copy over socket-server code
+cd /var/www
+put /home/ubuntu/workspace/socket-server/socket-server.zip
+cd /var/www/gsap/public/stylesheets
+
+*** usually NOT do this:
+ mirror -R /home/ubuntu/workspace/greentiger/public/js/browserify/js /var/www/gsap/public/js/browserify/js
+ 
+ 
+ mirror -R /home/ubuntu/workspace/greentiger/routes /var/www/gsap/routes
+ mirror -R /home/ubuntu/workspace/greentiger/services /var/www/gsap/services
+ mirror -R /home/ubuntu/workspace/greentiger/views /var/www/gsap/views
+ mirror -R /home/ubuntu/workspace/greentiger/models /var/www/gsap/models
+ 
+ cd /var/www/gsap/public/demo
+put /home/ubuntu/workspace/greentiger/public/demo/things-customstuff.js 
+
+cd /var/www/gsap/public/js/mod
+
+ ---------------------------
+ installing yoeman:
+ See this:
+ https://c9.io/blog/how-to-use-yeoman-on-cloud9/
+ http://yeoman.io/
+ https://www.youtube.com/watch?v=CuM4vLkBaik&list=PLwSdIiqnDlf_lb5y1liQK2OW5daXYgKOe&index=2
+ --------------------
+ curl 'http://localhost:8080/messages/' -H 'Content-Type: application/json' --data-binary '{ "text": "Hello Feathers!" }'
+ 
+ ------------------------------
+ https://get-started-genealogy.c9users.io/demo/things2.html#/?run=highlight,X
+ http://45.55.23.31:3000//demo/things2.html#/?run=noHighlight&all=on
++++&rotate=A,5,f,180
+------------------------------
+babel:
+from this instruction https://babeljs.io/blog/2015/10/31/setting-up-babel-6
+I typed:
+npm install --save-dev babel-core
+
+to upgrade:
+make sure you have upgrade by typing:
+npm i -g npm-upgrade
+then:
+npm-upgrade '*babel*'
+
+Pre-6.x, Babel enabled certain transformations by default. However, Babel 6.x does not ship with any transformations enabled. You need to explicitly tell it what transformations to run. The simplest way to do this is by using a preset, such as the ES2015 Preset. You can install it with
+
+npm install babel-preset-es2015 --save-dev
+(In order to emulate a full ES2015+ environment, you will need to use a polyfill (one option is babel-polyfill) for things like Promise, Set, Map, or instance methods like String.repeat or Array.includes since Babel only does syntax transformations.
+-------------------
+*** auto renew cert:
+first stop all servers: forever stopall
+then:  stop nginx
+then renew all certs from any directory:
+/root/certbot/certbot-auto renew >> /var/log/le-renew.log
+after renewing:   go through and restart all those servers from their correct directory
+forever start  --sourceDir=./   --l gsap.log   --watch   --watchDirectory=\"./\"    --watchIgnore=\"public/**/*.*\"   --append  ./bin/www
+forever start  --sourceDir=./   --l idiagram.log   --watch   --watchDirectory=\"./\"    --watchIgnore=\"public/**/*.*\"   --append  ./bin/www
+forever start  --sourceDir=./   --l production.log   --watch   --watchDirectory=\"./\"    --watchIgnore=\"public/**/*.*\"   --append  ./bin/www
+then start nginx
+
+ /root/certbot/certbot-auto renew >> /var/log/le-renew.log 
+ *** To do a first time cert: 
+  ./certbot-auto certonly --standalone -d idiagram.com -d www.idiagram.com  
+ -------------------
+ **add user access to mongo after you connect mongod instance without access control.
+ db.createUser(
+  {
+    user: "mclemens",
+    pwd: "mcmc11!",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+ db.createUser(
+  {
+    user: "lam",
+    pwd: "bonbon3",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin"},
+    { role: "userAdminAnyDatabase", db: "sb" } ,
+    { role: "userAdminAnyDatabase", db: "idiagram" }]
+  }
+)
+
+
+
+** after stopping db, do this to start again:
+
+** do one of these to log in:
+mongo --port 27017 -u "mclemens" -p "mcmc11!" --authenticationDatabase "admin"
+mongo --port 27017 -u "lam" -p "bonbon3" --authenticationDatabase "admin"
+
+use sm
+db.createUser(
+    {
+      user: "noder",
+      pwd: "sportt1",
+      roles: [
+       
+         { role: "readWrite", db: "sm" }
+      ]
+    }
+);
+
+use idiagram
+db.createUser(
+    {
+      user: "noder",
+      pwd: "sportt1",
+      roles: [
+       
+         { role: "readWrite", db: "idiagram" }
+      ]
+    }
+);
+
+** or to authenticate after loggin in:
+db.auth("mclemens", "mcmc11!" )
+db.auth("noder", "sportt1" )
+
+db.grantRolesToUser("lam",["readWrite","root"])
+db.grantRolesToUser("mclemens",["readWrite","root"])
+
+**get list of users:
+db.getUsers()
+        db.getCollectionInfos()
+        use sm
+        db.getCollectionNames()
+        
+        db.testorder_masters.find({})
+ ----------------------
+ https://get-started-genealogy.c9users.io
+ ---------------------------
+ disck space used: 
+ du-c9 | sort -h
+ Process list: https://docs.c9.io/v1.0/docs/process-list  do this:
+ Tools > Process List
+  ps aux
+
+ ----------------------------------
+ https://get-started-genealogy.c9users.io/acf/acflm.html
+https://gsap.systemsagency.org/acf/acf.html
+ --------------------------------------

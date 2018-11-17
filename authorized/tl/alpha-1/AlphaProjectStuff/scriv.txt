@@ -1,0 +1,24 @@
+%	1	On/Off/Open/Close	On / Off / Open / Close																	MacroDemo											
+%	1.1	OpenLevelA	Open Level A																	On/Off/Open/Close		on=Map&panx=1000&pany=1000&zoom=2.0									
+%	1.2	OpenLevelB	Open Level B																	On/Off/Open/Close		---&open=n0&closeall=n1&panx=1000&pany=1000&zoom=2.0									
+%	1.3	OpenLevelC	Open Level C																	On/Off/Open/Close		---&open=n0&closeall=n1&open=n1&panx=1000&pany=630&zoom=2.5									
+%	1.4	OpenLevelD	Open Level D																	On/Off/Open/Close		+++&open=n0&open=n1&open=n1-1&open=n1-2&open=n1-3&open=n1-4&panx=1000&pany=630&zoom=2.5									
+%	1.5	OpenLevelE	Open Level E																	On/Off/Open/Close		+++&open=n0&open=n1&openall=n1-1&openall=n1-2&openall=n1-3&openall=n1-4&panx=1000&pany=630&zoom=2.5									
+%	2	CustomFunctions	Custom Functions																	MacroDemo											
+%	2.1	CustomFunction1	Custom Function 1																	CustomFunctions											
+%	3	Tracing	Tracing																	MacroDemo											
+%	3.1	Tracing1	Tracing 1																	Tracing											
+%	4	Zooming&Highlighting	Zooming & Highlighting																	MacroDemo											
+%	4.1	Zoom1	Zoom 1																	Zooming&Highlighting											
+%	5	ClassSelectors	Class Selectors																	MacroDemo											
+%	5.1	Class1	Class 1																	ClassSelectors											
+%	6	Scaling	Scaling																	MacroDemo											
+%	6.1	Scaling1	Scaling 1																	Scaling											
+%	7	Video	Video																	MacroDemo											
+%	7.1	Video1	Video 1																	Video											
+%	8	Animations	Animations																	MacroDemo											
+%	8.1	Animation1	Animation 1																	Animations											
+%	9	Forms	Forms																	MacroDemo											
+%	9.1	Form1	Form 1																	Forms											
+%	10	SpeechSynthesis	Speech Synthesis																	MacroDemo											
+%	10.1	Speech1	Speech 1																	SpeechSynthesis											

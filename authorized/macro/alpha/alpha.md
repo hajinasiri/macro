@@ -1,0 +1,68 @@
+
+####Hierarchy		
+<a href=	"#/?on=Map&panx=1000&pany=1000&zoom=2.0"		class="slide">  <span style="color:black; font-size:10px">Level A</span> </a>     <br>
+<a href=	"#/?---&open=n0&closeall=n1&panx=1000&pany=1000&zoom=2.0"		class="slide">  <span style="color:black; font-size:10px">Level B</span> </a>     <br>
+<a href=	"#/?---&open=n0&closeall=n1&open=n1&panx=1000&pany=630&zoom=2.5"		class="slide">  <span style="color:black; font-size:10px">Level C</span> </a>     <br>
+<a href=	"#/?+++&open=n0&open=n1&open=n1-1&open=n1-2&open=n1-3&open=n1-4&panx=1000&pany=630&zoom=2.5"		class="slide">  <span style="color:black; font-size:10px">Level D</span> </a>     <br>
+<a href=	"#/?+++&open=n0&open=n1&openall=n1-1&openall=n1-2&openall=n1-3&openall=n1-4&panx=1000&pany=630&zoom=2.5"		class="slide">  <span style="color:black; font-size:10px">Level E</span> </a>     <br>
+<a href=	"#/?on=Map&panx=1000&pany=1000&zoom=2.0"		class="slide">  <span style="color:black; font-size:10px">Level A</span> </a>     <br>
+<!--
+<a href=	"#/?---&on=Map&openall=n0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Open All A</span> </a>     <br>
+<a href=	"#/?---&on=Map&closeall=n0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Close All A</span> </a>     <br>
+-->
+
+####Influences & Flows
+<a href=	"#/?+++&trace=n1,1,7&panx=1000&pany=1000&zoom=2.4"		class="slide">  <span style="color:black; font-size:10px">Chain of B's</span> </a>     <br>
+<a href=	"#/?+++&untrace=n8,0.4,8&panx=1000&pany=1000&zoom=2.4"		class="slide">  <span style="color:black; font-size:10px">Unchain B's</span> </a>     <br>
+
+####Individual Elements		
+<a href=	"#/?---&on=Map&classOn=odd&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Odd On</span> </a>     <br>
+<a href=	"#/?---&on=Map&classOff=odd&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Odd Off</span> </a>     <br>
+<a href=	"#/?---&on=Map&classOn=even&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Even On</span> </a>     <br>
+<a href=	"#/?---&on=Map&classOff=even&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Even Off</span> </a>     <br>
+<a href=	"#/?---&on=Map&openl=n0,2,1.6&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">openl A 3 Levels</span> </a>     <br>
+<a href=	"#/?+++&fade='.connection',1,f,0.0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Connections Off</span> </a>     <br>
+<a href=	"#/?+++&fade='.partof',1,f,0.0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Part-of Off</span> </a>     <br>
+<a href=	"#/?+++&fade='.label',1,f,0.0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Labels Off</span> </a>     <br>
+<a href=	"#/?+++&fade='.label',1,f,1.0&fade='.partof',1,f,1.0&fade='.connection',1,f,1.0&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">All back on</span> </a>     <br>
+
+####Viewing Elements		
+<a href=	"#/?+++&openl=n0,2,1.6&gotoz=n1"		class="slide">  <span style="color:black; font-size:10px">Goto B1</span> </a>     <br>
+<a href=	"#/?+++&gotoz=n3"		class="slide">  <span style="color:black; font-size:10px">Goto B3</span> </a>     <br>
+<a href=	"#/?+++&gotoz=n5"		class="slide">  <span style="color:black; font-size:10px">Goto B5</span> </a>     <br>
+<a href=	"#/?+++&gotoz=n7"		class="slide">  <span style="color:black; font-size:10px">Goto B7</span> </a>     <br>
+<a href=	"#/?+++&gotoz=n0"		class="slide">  <span style="color:black; font-size:10px">Zoom all</span> </a>     <br>
+<a href=	"#/?+++&togglehlt=n1"		class="slide">  <span style="color:black; font-size:10px">Highlight B1</span> </a>     <br>
+<a href=	"#/?+++&togglehlt=n3"		class="slide">  <span style="color:black; font-size:10px">Highlight B3</span> </a>     <br>
+<a href=	"#/?+++&togglehlt=n5"		class="slide">  <span style="color:black; font-size:10px">Highlight B5</span> </a>     <br>
+<a href=	"#/?+++&togglehlt=n7"		class="slide">  <span style="color:black; font-size:10px">Highlight B7</span> </a>     <br>
+<a href=	"#/?+++&unhlt=all"		class="slide">  <span style="color:black; font-size:10px">Unhighlight</span> </a>     <br>
+<a href=	"#/?+++&circle=n1,60"		class="slide">  <span style="color:black; font-size:10px">Circle B1</span> </a>     <br>
+<a href=	"#/?+++&circle=n3,60"		class="slide">  <span style="color:black; font-size:10px">Circle B3</span> </a>     <br>
+<a href=	"#/?+++&circle=n5,60"		class="slide">  <span style="color:black; font-size:10px">Circel B5</span> </a>     <br>
+<a href=	"#/?+++&circle=n7,60"		class="slide">  <span style="color:black; font-size:10px">Crcle B7</span> </a>     <br>
+<a href=	"#/?+++&circle=n2,60&circle=n4,60&circle=n6,60&circle=n8,60"		class="slide">  <span style="color:black; font-size:10px">Circel Even B's</span> </a>     <br>
+	
+####Quantitative		
+<a href=	"#/?on=Map&staggerKind=on,n1,0.05,n2,0.05,n3,0.05,n4,0.05,n5,0.05,n6,0.05,n7,0.05,n8,0.05&panx=1000&pany=1000&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Show B's</span> </a>     <br>
+<a href=	"#/?+++&on=Map&open=BarChart&panx=1000&pany=1265&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Show Bar Chart</span> </a>     <br>
+<a href=	"#/?+++&on=Map&size=n1,2,1.8,1.8&size=n2,2,0.8,0.8&size=n3,2,0.6,0.6&size=n4,2,1.6,1.6&size=n5,2,1.2,1.2&size=n6,2,0.5,0.5&size=n7,2,1.1,1.1&size=n8,2,0.7,0.7&panx=1000&pany=1265&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Size B's</span> </a>     <br>
+<a href=	"#/?+++&on=Map&size=Bar1,2,1,1.8,50,100,50,100&size=Bar2,2,1,0.8,50,100&size=Bar3,2,1,0.6,50,100&size=Bar4,2,1,1.6,50,100&size=Bar5,2,1,1.2,50,100&size=Bar6,2,1,0.5,50,100&size=Bar7,2,1,1.1,50,100&size=Bar8,2,1,0.7,50,100&panx=1000&pany=1265&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Size Bars</span> </a>     <br>
+<a href=	"#/?+++&on=Map&size=n1,2,1.0,1.0&size=n2,2,1.0,1.0&size=n3,2,1.0,1.0&size=n4,2,1.0,1.0&size=n5,2,1.0,1.0&size=n6,2,1.0,1.0&size=n7,2,1.0,1.0&size=n8,2,1.0,1.0&panx=1000&pany=1265&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Unsize B's</span> </a>     <br>
+<a href=	"#/?+++&on=Map&size=Bar1,2,1.0,1.0,50,100&size=Bar2,2,1.0,1.0,50,100&size=Bar3,2,1.0,1.0,50,100&size=Bar4,2,1.0,1.0,50,100&size=Bar5,2,1.0,1.0,50,100&size=Bar6,2,1.0,1.0,50,100&size=Bar7,2,1.0,1.0,50,100&size=Bar8,2,1.0,1.0,50,100&panx=1000&pany=1265&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Unsize Bars</span> </a>     <br>
+<a href=	"#/?+++&on=Map&close=BarChart&panx=1000&pany=1005&zoom=1.2"		class="slide">  <span style="color:black; font-size:10px">Hide Bar Chart</span> </a>     <br>
+	
+####Survey Questions  	
+<a href=	"#/?+++&on=Map&openl=n0,0.8,2&panx=1000&pany=1000&zoom=1.2&open=Questions&epane=400"		class="slide">  <span style="color:black; font-size:10px">Open Survey Questions</span> </a>     <br>
+<a href=	"#/?+++&open=Question1&circle=n1,140""		class="slide">  <span style="color:black; font-size:10px">Question 1</span> </a>     <br>
+<a href=	"#/?+++&open=Question2&circle=n3,140""		class="slide">  <span style="color:black; font-size:10px">Question 2</span> </a>     <br>
+<a href=	"#/?+++&open=Question3&circle=n5,140""		class="slide">  <span style="color:black; font-size:10px">Question 3</span> </a>     <br>
+<a href=	"#/?+++&open=Question4&circle=n7,140""		class="slide">  <span style="color:black; font-size:10px">Question 4</span> </a>     <br>
+<a href=	"#/?+++&closeall=Questions"		class="slide">  <span style="color:black; font-size:10px">Close Questions</span> </a>     <br>
+	
+#### --- Commands		
+<a href=	"#/?on=Map&closeall=n0"		class="slide">  <span style="color:black; font-size:10px">Reset to A only</span> </a>     <br>
+<a href=	"#/?---&on=Map&open=n1"		class="slide">  <span style="color:black; font-size:10px">Open B1</span> </a>     <br>
+<a href=	"#/?---&on=Map&open=n1&openall=n3"		class="slide">  <span style="color:black; font-size:10px">Open B3</span> </a>     <br>
+<a href=	"#/?---&on=Map&open=n1&openall=n3&openall=n5"		class="slide">  <span style="color:black; font-size:10px">Open B5</span> </a>     <br>
+<a href=	"#/?---&on=Map&open=n1&openall=n3&openall=n5&open=n7"		class="slide">  <span style="color:black; font-size:10px">Open B7</span> </a>     <br>

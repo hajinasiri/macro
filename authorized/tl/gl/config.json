@@ -1,0 +1,19 @@
+{
+  "svgFile": "se2.2.svg",
+  "storyFile": "story.html",
+  "infoFile": "/docs/help.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "se_master",
+  "formDB": "se_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.3,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 0.8,
+  "traceTime": 0.8,
+  "defaultURL": "on=Map&open=Structure&wpane=380&epane=440&panx=2050&pany=1200&zoom=1.0",
+  "showDelay":150,
+  "hideDelay":0
+}

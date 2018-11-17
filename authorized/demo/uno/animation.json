@@ -1,0 +1,33 @@
+{
+  "AnimationName": {
+    "elements": [
+      {
+        "type": "synchronous",
+        "elements": [
+          {
+            "type": "url",
+            "content": "?open=Map&close=unoA&wpane=0&epane=0&panx=3000&pany=1900&zoom=1.1"
+          },
+          {
+            "type": "audio",
+            "content": "audio/Marker 01.mp3"
+          }
+        ]
+      },
+      {
+        "type": "synchronous",
+        "elements": [
+          {
+            "type": "url",
+            "content": "?+++&open=unoB&panx=3000&pany=1900&zoom=1.1"
+          },
+          {
+            "type": "audio",
+            "content": "audio/Marker 02.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}
+    

@@ -1,0 +1,123 @@
+
+
+<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Inline CSS based on choices in "Settings" tab -->
+<style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <form method="post">
+                    <div class="form-group ">
+                        <label class="control-label " for="id">
+                            UNO ID
+                        </label>
+                        <input class="form-control" id="id" name="id" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="label">
+                            Label
+                        </label>
+                        <input class="form-control" id="label" name="label" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="shortDescription">
+                            Tootip
+                        </label>
+                        <textarea class="form-control" cols="40" id="shortDescription" name="shortDescription" rows="5"></textarea>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="longDescription">
+                            Info-pane
+                        </label>
+                        <textarea class="form-control" cols="40" id="longDescription" name="longDescription" rows="10"></textarea>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label ">
+                            Check to activate:
+                        </label>
+                        <div class=" ">
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input  id="tooltip" name="tooltip"type="checkbox" value="Tooltip"/>
+                                    Tooltip
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input id="infopane" name="infopane" type="checkbox" value="Info-pane"/>
+                                    Info-pane
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input id="onhover" name="onhover" type="checkbox" value="Hover"/>
+                                    Hover
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox">
+                                    <input id="onclick" name="onclick" type="checkbox" value="Click"/>
+                                    Click
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="ondoubleclick">
+                            Double-click URL
+                        </label>
+                        <input class="form-control" id="ondoubleclick" name="ondoubleclick" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="target">
+                            URL _target
+                        </label>
+                        <input class="form-control" id="target" name="target" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="ttStyle">
+                            Tooltip style
+                        </label>
+                        <input class="form-control" id="ttStyle" name="ttStyle" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="onURL">
+                            On URL command
+                        </label>
+                        <input class="form-control" id="onURL" name="onURL" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="offURL">
+                            Off URL command
+                        </label>
+                        <input class="form-control" id="offURL" name="offURL" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="openURL">
+                            Open URL command
+                        </label>
+                        <input class="form-control" id="openURL" name="openURL" type="text"/>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label " for="closeURL">
+                            Close URL command
+                        </label>
+                        <input class="form-control" id="closeURL" name="closeURL" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button class="btn btn-primary " name="submit" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

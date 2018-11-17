@@ -1,0 +1,63 @@
+<!--
+Created by Marshall Clemens on August 2016.
+JS code by Larry A. Maddocks
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Systems Innovation Map 2</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="description" content="System Mapping Process" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script type="text/javascript" src="/js/mod/bundle2.js"></script>
+        <script type="text/javascript" src="/js/customstuff.js"></script>
+
+        <link rel = "stylesheet" type = "text/css" href = "/stylesheets/jquery.qtip.css" />
+        <link rel = "stylesheet" type = "text/css" href = "/stylesheets/mapWindow.css" />
+        <link rel = "stylesheet" type = "text/css" href = "/stylesheets/svg-styles2.css" />
+        <link rel = "stylesheet" type = "text/css" href = "/stylesheets/bootstrapModalThemeMC.css" >
+
+    </head>
+
+    <body>
+
+    <!-- manually attach allowOverflow method to pane -->
+
+    <div class="map-pane">
+
+        <div  class="ui-layout-center svgMap" >
+
+            <!--TODO: Delete class="container" if we don't need that-->
+            <div class="container svgdiv" id="container"  style="width: 100%; height: 100%; border:0px solid black; " >
+
+            </div>
+
+        </div>
+        <!--
+        <div class="map-controls">
+        <p style="text-align:center" >
+        Additional information and controls can go down here.
+        </p>
+        </div>
+        -->
+    </div>
+
+    <div class="ui-layout-west narration-pane">
+        <p>
+            Loading....
+        </p>
+
+    </div>
+
+    <div class="ui-layout-east information-pane">
+
+        <p>
+            Loading....
+        </p>
+
+    </div>
+    </body>
+</html>

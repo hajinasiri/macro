@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included" IncludeGroupText="Yes" IncludeSelectionDescendants="Yes">
+            <Filter State="Off" Exclude="No" Type="Selection">
+                <CollectionID>ACE667ED-F3EB-4C88-B2BA-0FE519EDF4FD</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <Links>
+                <ConvertDocumentLinksToHTML>Yes</ConvertDocumentLinksToHTML>
+            </Links>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <FootnotesAsScriptNotes>Yes</FootnotesAsScriptNotes>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"></ImageDocument>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC>
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>Org6</ProjectTitle>
+            <ProjectAbbreviatedTitle>Org6</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author FileAs="Clemens, Marshall" Role="aut">Marshall Clemens</Author>
+            </Authors>
+            <Surname>Clemens</Surname>
+            <Forename>Marshall</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+            <MMDMetaData>
+                <Value Key="Author"><![CDATA[Marshall Clemens]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>txt</CurrentFileType>
+    <FormatSettings>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="7E3985A6-F9F3-4DED-A248-89AC9590A390">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="55B5FD99-8945-493D-BA1C-82F311998CCE">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="2085D686-8846-410F-924B-D795E9663871">
+            <SectionLayouts>
+                <Type ID="7E3985A6-F9F3-4DED-A248-89AC9590A390">DE066211-2342-42CD-89F4-13840F9C12CB</Type>
+                <Type ID="E6FABED1-B194-4FC3-AC15-6AA97C33DD7B">AS-IS</Type>
+                <Type ID="55B5FD99-8945-493D-BA1C-82F311998CCE">73659895-36CB-41C3-92F2-7E26836B6618</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>2085D686-8846-410F-924B-D795E9663871</Print>
+        <txt>2085D686-8846-410F-924B-D795E9663871</txt>
+    </LastUsedFormats>
+</CompileSettings>

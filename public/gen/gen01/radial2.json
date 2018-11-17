@@ -1,0 +1,20 @@
+{
+  "folder": "v2",
+  "svgFile": "radial2.svg",
+  "storyFile": "radialViews.md",
+  "infoFile": "/docs/loading.txt",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animations.json",
+  "masterDB": "radial_master",
+  "overrideDB":  "radial_override",
+  "minZoom": 0.5,
+  "maxZoom": 40,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "1.0",
+  "tweenDuration": 0.4,
+  "defaultURL": "?wpane=220&epane=0&on=Map&panx=1000.0&pany=1000.0&zoom=1.4",
+  "hoverAction": "both",
+  "clickAction" : "openClose",
+  "showDelay":0,
+  "hideDelay":0
+}

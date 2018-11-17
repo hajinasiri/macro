@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 1500" style="enable-background:new 0 0 2000 1500;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{opacity:0.1;fill:#FFFFFF;}
+	.st2{fill:#E66A25;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#221F20;}
+	.st5{font-family:'MyriadPro-Semibold';}
+	.st6{font-size:36px;}
+	.st7{letter-spacing:1;}
+	.st8{opacity:0.4;}
+	.st9{fill:#445EA4;}
+	.st10{font-size:56px;}
+	.st11{letter-spacing:2;}
+	.st12{fill:#9FAE26;}
+	.st13{fill:#F8DA40;}
+	.st14{fill:#AC70AF;}
+	.st15{fill:#0DA642;}
+</style>
+<g id="Unused" class="st0">
+</g>
+<g id="MapSize">
+	<rect class="st1" width="2000" height="1500"/>
+</g>
+<g id="Map">
+	<g id="A">
+		<g id="sss_class:background_8_">
+		</g>
+		<g id="vvv_4_">
+			<g id="sss_class:background_9_">
+				<g>
+					<rect x="562.5" y="152.5" class="st2" width="995" height="195"/>
+					<path class="st3" d="M1555,155v190H565V155H1555 M1560,150H560v200h1000V150L1560,150z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 590 273.7831)" class="st4 st5 st6 st7">vvv</text>
+			</g>
+		</g>
+		<g id="xxx_4_">
+			<g>
+				<rect x="512.5" y="152.717" class="st2" width="995" height="45"/>
+				<path class="st3" d="M1505,155.217v40H515v-40H1505 M1510,150.217H510v50h1000V150.217L1510,150.217z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 540 184.7831)" class="st4 st5 st6 st7">xxx</text>
+		</g>
+		<g id="ooo_4_">
+			<g class="st8">
+				<rect x="261.5" y="151.5" class="st9" width="247" height="47"/>
+				<path class="st3" d="M507,153v44H263v-44H507 M510,150H260v50h250V150L510,150z"/>
+			</g>
+		</g>
+		<g id="sss_class:label_4_">
+			<text transform="matrix(1 0 0 1 320 194.9999)" class="st4 st5 st10 st11">A</text>
+			<text transform="matrix(1 0 0 1 379 183.9999)" class="st4 st5 st6 st7">ooo</text>
+		</g>
+	</g>
+	<g id="B">
+		<g id="sss_class:background_6_">
+		</g>
+		<g id="vvv_3_">
+			<g id="sss_class:background_7_">
+				<g>
+					<rect x="562.5" y="352.5" class="st12" width="995" height="195"/>
+					<path class="st3" d="M1555,355v190H565V355H1555 M1560,350H560v200h1000V350L1560,350z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 590 473.7831)" class="st4 st5 st6 st7">vvv</text>
+			</g>
+		</g>
+		<g id="xxx_3_">
+			<g>
+				<rect x="512.5" y="352.5" class="st12" width="995" height="45"/>
+				<path class="st3" d="M1505,355v40H515v-40H1505 M1510,350H510v50h1000V350L1510,350z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 540 384.7831)" class="st4 st5 st6 st7">xxx</text>
+		</g>
+		<g id="ooo_3_">
+			<g class="st8">
+				<rect x="261.5" y="351.5" class="st9" width="247" height="47"/>
+				<path class="st3" d="M507,353v44H263v-44H507 M510,350H260v50h250V350L510,350z"/>
+			</g>
+		</g>
+		<g id="sss_class:label_3_">
+			<text transform="matrix(1 0 0 1 320 394.9999)" class="st4 st5 st10 st11">B</text>
+			<text transform="matrix(1 0 0 1 379 383.9999)" class="st4 st5 st6 st7">ooo</text>
+		</g>
+	</g>
+	<g id="C">
+		<g id="sss_class:background_4_">
+		</g>
+		<g id="vvv_2_">
+			<g id="sss_class:background_5_">
+				<g>
+					<rect x="562.5" y="552.5" class="st13" width="995" height="195"/>
+					<path class="st3" d="M1555,555v190H565V555H1555 M1560,550H560v200h1000V550L1560,550z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 590 673.7831)" class="st4 st5 st6 st7">vvv</text>
+			</g>
+		</g>
+		<g id="xxx_2_">
+			<g>
+				<rect x="512.5" y="552.5" class="st13" width="995" height="45"/>
+				<path class="st3" d="M1505,555v40H515v-40H1505 M1510,550H510v50h1000V550L1510,550z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 540 584.7831)" class="st4 st5 st6 st7">xxx</text>
+		</g>
+		<g id="ooo_2_">
+			<g class="st8">
+				<rect x="261.5" y="551.5" class="st9" width="247" height="47"/>
+				<path class="st3" d="M507,553v44H263v-44H507 M510,550H260v50h250V550L510,550z"/>
+			</g>
+		</g>
+		<g id="sss_class:label_2_">
+			<text transform="matrix(1 0 0 1 320 595)" class="st4 st5 st10 st11">C</text>
+			<text transform="matrix(1 0 0 1 379 584)" class="st4 st5 st6 st7">ooo</text>
+		</g>
+	</g>
+	<g id="D">
+		<g id="sss_class:background_2_">
+		</g>
+		<g id="vvv_1_">
+			<g id="sss_class:background_3_">
+				<g>
+					<rect x="562.5" y="752.5" class="st14" width="995" height="195"/>
+					<path class="st3" d="M1555,755v190H565V755H1555 M1560,750H560v200h1000V750L1560,750z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 590 872.7831)" class="st4 st5 st6 st7">vvv</text>
+			</g>
+		</g>
+		<g id="xxx_1_">
+			<g>
+				<rect x="512.5" y="752.5" class="st14" width="995" height="45"/>
+				<path class="st3" d="M1505,755v40H515v-40H1505 M1510,750H510v50h1000V750L1510,750z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 540 783.7831)" class="st4 st5 st6 st7">xxx</text>
+		</g>
+		<g id="ooo_1_">
+			<g class="st8">
+				<rect x="261.5" y="751.5" class="st9" width="247" height="47"/>
+				<path class="st3" d="M507,753v44H263v-44H507 M510,750H260v50h250V750L510,750z"/>
+			</g>
+		</g>
+		<g id="sss_class:label_1_">
+			<text transform="matrix(1 0 0 1 320 795)" class="st4 st5 st10 st11">D</text>
+			<text transform="matrix(1 0 0 1 379 784)" class="st4 st5 st6 st7">ooo</text>
+		</g>
+	</g>
+	<g id="E">
+		<g id="sss_class:background">
+		</g>
+		<g id="vvv">
+			<g id="sss_class:background_1_">
+				<g>
+					<rect x="562.5" y="952.5" class="st15" width="995" height="195"/>
+					<path class="st3" d="M1555,955v190H565V955H1555 M1560,950H560v200h1000V950L1560,950z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 590 1073.7831)" class="st4 st5 st6 st7">vvv</text>
+			</g>
+		</g>
+		<g id="xxx">
+			<g>
+				<rect x="512.5" y="952.5" class="st15" width="995" height="45"/>
+				<path class="st3" d="M1505,955v40H515v-40H1505 M1510,950H510v50h1000V950L1510,950z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 540 984.7831)" class="st4 st5 st6 st7">xxx</text>
+		</g>
+		<g id="ooo">
+			<g class="st8">
+				<rect x="261.5" y="951.5" class="st9" width="247" height="47"/>
+				<path class="st3" d="M507,953v44H263v-44H507 M510,950H260v50h250V950L510,950z"/>
+			</g>
+		</g>
+		<g id="sss_class:label">
+			<text transform="matrix(1 0 0 1 320 995)" class="st4 st5 st10 st11">E</text>
+			<text transform="matrix(1 0 0 1 379 984)" class="st4 st5 st6 st7">ooo</text>
+		</g>
+	</g>
+</g>
+<g id="Guides">
+</g>
+</svg>

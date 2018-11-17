@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="8C9AF9D5-A46A-49D3-9484-B4BB7956232E" Version="2.0" Creator="SCRMAC-3.0.3-3032" Device="MBP" Author="Marshall Clemens" Modified="2018-07-13 15:46:16 -0400" ModID="48E89A45-67AB-42BC-ABCD-56EDDF9FB6DE">
+    <Binder>
+        <BinderItem UUID="4152ECB9-1B68-4561-BF84-63DC9B29E632" Type="DraftFolder" Created="2018-07-12 11:53:34 -0400" Modified="2018-07-12 11:54:23 -0400">
+            <Title>Macro Demo</Title>
+            <MetaData>
+                <IconFileName>Book (Blue Book).tiff</IconFileName>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                <OutlinerExpandedState>
+                    <ItemID>BA335614-C0B7-4345-9823-8E2CE6A3520C</ItemID>
+                </OutlinerExpandedState>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="EF9B5A9E-419E-4C91-90CD-B1E76566CAEA" Type="Folder" Created="2018-07-13 15:44:03 -0400" Modified="2018-07-13 15:44:14 -0400">
+                    <Title>On / Off / Open / Close</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A0A9F448-0F7F-4DEE-A313-8985451DD80B" Type="Folder" Created="2018-07-13 15:46:00 -0400" Modified="2018-07-13 15:46:14 -0400">
+                    <Title>Custom Functions</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="773E3687-D8D4-4F87-8649-00CD33270529" Type="Folder" Created="2018-07-13 15:44:15 -0400" Modified="2018-07-13 15:44:21 -0400">
+                    <Title>Tracing</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="313CB6D1-4619-400B-968F-BA7CBA6ECEC2" Type="Folder" Created="2018-07-13 15:44:24 -0400" Modified="2018-07-13 15:44:26 -0400">
+                    <Title>Highlighting</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9A05D471-325F-4034-9C4B-0F38B8EC737E" Type="Folder" Created="2018-07-13 15:44:28 -0400" Modified="2018-07-13 15:44:40 -0400">
+                    <Title>Scaling</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="777FD5A8-C253-4F92-868B-286CC5F8FAB5" Type="Folder" Created="2018-07-13 15:44:42 -0400" Modified="2018-07-13 15:44:47 -0400">
+                    <Title>Speech Synthesis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="0FFBEF4B-152C-442C-A45F-4621C4031F70" Type="Folder" Created="2018-07-12 11:54:26 -0400" Modified="2018-07-12 11:54:40 -0400">
+            <Title>Video Functions</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="73EA1F1C-6A12-4622-A943-593112F9A9EF" Type="ResearchFolder" Created="2018-07-12 11:53:34 -0400" Modified="2018-07-12 11:53:34 -0400">
+            <Title>Research</Title>
+        </BinderItem>
+        <BinderItem UUID="F87A7582-77FA-40D8-922E-E9659820041E" Type="TrashFolder" Created="2018-07-12 11:53:34 -0400" Modified="2018-07-12 11:53:34 -0400">
+            <Title>Trash</Title>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="CA494999-6FBA-4705-A866-6A01D2762CBF" Color="0.924849 0.924014 0.949681">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="ACE667ED-F3EB-4C88-B2BA-0FE519EDF4FD" Color="0.922176 0.818589 0.999618">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="Title,Text,Notes,Synopsis,Keywords,Label,Status,SectionType,CustomMetaData" CaseSensitive="No" IgnoreDiacritics="No">3BL</SearchSettings>
+        </Collection>
+        <Collection Type="Arbitrary" ID="49501E5E-21A9-432B-ACC1-1F22A4AB8AF4" Color="0.870039 0.935409 0.840238">
+            <Title>Interim Report</Title>
+        </Collection>
+        <Collection Type="Arbitrary" ID="3E20F5CB-FC5A-4B6E-B3EE-DD37A7400198" Color="0.777127 0.86949 0.916106">
+            <Title>Prospectus</Title>
+            <BinderUUIDs>734AE735-C270-4550-862E-891E8BBF4402,174A90F1-60EF-44D2-8749-774EC83E527E,19F0AF40-299A-4613-A528-4D9D1653BF60</BinderUUIDs>
+        </Collection>
+        <Collection Type="Arbitrary" ID="A207004A-D703-4F0F-80E3-6FD174B3C4A5" Color="0.992004 0.973007 0.768994">
+            <Title>Updated Documents</Title>
+        </Collection>
+    </Collections>
+    <Keywords>
+        <Keyword ID="22">
+            <Title>3BL</Title>
+            <Color>0.292973 0.631968 0.049653</Color>
+        </Keyword>
+        <Keyword ID="13">
+            <Title>actor</Title>
+            <Color>0.707332 0.503258 0.521096</Color>
+        </Keyword>
+        <Keyword ID="23">
+            <Title>Case1</Title>
+            <Color>0.667781 0.990249 0.155917</Color>
+        </Keyword>
+        <Keyword ID="24">
+            <Title>connection</Title>
+            <Color>0.807645 0.0 0.008194</Color>
+        </Keyword>
+        <Keyword ID="14">
+            <Title>partof</Title>
+            <Color>0.422171 0.919753 0.802655</Color>
+        </Keyword>
+        <Keyword ID="16">
+            <Title>Questions</Title>
+            <Color>0.816449 0.830488 0.21854</Color>
+            <Children>
+                <Keyword ID="19">
+                    <Title>3BL</Title>
+                    <Color>0.148882 0.645792 0.242863</Color>
+                </Keyword>
+                <Keyword ID="20">
+                    <Title>Coherence</Title>
+                    <Color>0.857557 0.501076 0.134661</Color>
+                </Keyword>
+                <Keyword ID="17">
+                    <Title>Generic</Title>
+                    <Color>0.746685 0.720027 0.756481</Color>
+                </Keyword>
+                <Keyword ID="21">
+                    <Title>OrgDesign</Title>
+                    <Color>0.386633 0.529137 0.773663</Color>
+                </Keyword>
+            </Children>
+        </Keyword>
+        <Keyword ID="25">
+            <Title>Role</Title>
+            <Color>0.149264 0.217105 0.065232</Color>
+        </Keyword>
+    </Keywords>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="7E3985A6-F9F3-4DED-A248-89AC9590A390">Heading</Type>
+            <Type ID="E6FABED1-B194-4FC3-AC15-6AA97C33DD7B">Sub-Heading</Type>
+            <Type ID="55B5FD99-8945-493D-BA1C-82F311998CCE">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>7E3985A6-F9F3-4DED-A248-89AC9590A390</Type>
+            </Folders>
+            <Containers>
+                <Type>55B5FD99-8945-493D-BA1C-82F311998CCE</Type>
+            </Containers>
+            <Files>
+                <Type>55B5FD99-8945-493D-BA1C-82F311998CCE</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.900008 0.919997 0.949996">Concept</Label>
+            <Label ID="1" Color="0.985 0.874998 0.850004">Chapter</Label>
+            <Label ID="2" Color="0.732204 0.268925 0.879698">Macintosh Only</Label>
+            <Label ID="3" Color="0.268925 0.336461 0.879698">Windows Only</Label>
+            <Label ID="4" Color="0.26157 0.672099 0.986343">Planet</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+            <Status ID="5">NEW</Status>
+            <Status ID="6">Started</Status>
+            <Status ID="7">Revised</Status>
+        </StatusItems>
+    </StatusSettings>
+    <CustomMetaDataSettings>
+        <MetaDataField ID="id" Type="Text" Wraps="No" Align="Left">
+            <Title>id</Title>
+        </MetaDataField>
+        <MetaDataField ID="subtitle" Type="Text" Wraps="No" Align="Left">
+            <Title>subtitle</Title>
+        </MetaDataField>
+        <MetaDataField ID="symbol" Type="Text" Wraps="No" Align="Left">
+            <Title>symbol</Title>
+        </MetaDataField>
+        <MetaDataField ID="unofrom" Type="Text" Wraps="No" Align="Left">
+            <Title>unoFrom</Title>
+        </MetaDataField>
+        <MetaDataField ID="unoto" Type="Text" Wraps="No" Align="Left">
+            <Title>unoTo</Title>
+        </MetaDataField>
+        <MetaDataField ID="url" Type="Text" Wraps="No" Align="Left">
+            <Title>url</Title>
+        </MetaDataField>
+        <MetaDataField ID="urltext" Type="Text" Wraps="No" Align="Left">
+            <Title>urlText</Title>
+        </MetaDataField>
+        <MetaDataField ID="onfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>onFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="offfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>offFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="openfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>openFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="closefunction" Type="Text" Wraps="No" Align="Left">
+            <Title>closeFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="onurl" Type="Text" Wraps="No" Align="Left">
+            <Title>onURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="offurl" Type="Text" Wraps="No" Align="Left">
+            <Title>offURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="openurl" Type="Text" Wraps="No" Align="Left">
+            <Title>openURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="closeurl" Type="Text" Wraps="No" Align="Left">
+            <Title>closeURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="tooltip" Type="Text" Wraps="No" Align="Left">
+            <Title>tooltip</Title>
+        </MetaDataField>
+        <MetaDataField ID="infopane" Type="Text" Wraps="No" Align="Left">
+            <Title>infopane</Title>
+        </MetaDataField>
+        <MetaDataField ID="slideurl" Type="Text" Wraps="No" Align="Left">
+            <Title>slideURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="panzoom" Type="Text" Wraps="No" Align="Left">
+            <Title>panZoom</Title>
+        </MetaDataField>
+    </CustomMetaDataSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-09-17 13:22:06 -0400" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2018-07-13 15:43:40 -0400"></PreviousSession>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2018-07-13 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="611.999977,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

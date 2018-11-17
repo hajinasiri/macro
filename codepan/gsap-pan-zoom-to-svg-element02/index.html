@@ -1,0 +1,523 @@
+
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>GSAP Pan / Zoom to SVG Element 02</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400' rel='stylesheet' type='text/css'>
+<div class="map-pane">
+
+    <div class="ui-layout-center svgMap">
+
+        <!--TODO: Delete class="container" if we don't need that-->
+        <div  id="container" class="container svgdiv" style=" width: 100%; height: 100%; border:0px solid black; ">
+            <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="theSVG"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="402 -91.1 1416.6 975.1" style="enable-background:new 402 -91.1 1416.6 975.1;" xml:space="preserve">
+<style type="text/css">
+    .st0{fill:#010101;}
+    .st1{fill:#FFFFFF;}
+    .st2{fill:#010101;stroke:#FFF200;stroke-width:11.3386;stroke-miterlimit:10;}
+    .st3{font-family:'OpenSans-Bold';}
+    .st4{font-size:29.3333px;}
+    .st5{fill:#FFF3E5;stroke:#FAA21B;stroke-width:2.8346;stroke-miterlimit:10;}
+    .st6{font-size:36px;}
+    .st7{fill:#FAA21B;}
+    .st8{font-size:44px;}
+    .st9{fill:#231F20;}
+    .st10{font-size:12px;}
+    .st11{fill:none;stroke:#ED1C24;stroke-width:2.8346;stroke-miterlimit:10;}
+    .st12{fill:none;stroke:#0483BA;stroke-width:2.8346;stroke-miterlimit:10;}
+    .st13{font-size:16px;}
+    .st14{fill:none;stroke:#11A24A;stroke-width:1.4173;stroke-miterlimit:10;}
+    .st15{font-size:8.25px;}
+    .st16{font-size:40px;}
+</style>
+<symbol  id="Closed" viewBox="-34 -39.8 68 79.6">
+    <g>
+        <path class="st0" d="M0-25.4c-17.2,0-31.2,14-31.2,31.2S-17.2,37,0,37S31.2,23,31.2,5.8S17.2-25.4,0-25.4z"/>
+        <path class="st1" d="M0,34.1c15.6,0,28.3-12.7,28.3-28.3C28.3-9.8,15.6-22.5,0-22.5S-28.3-9.8-28.3,5.8
+            C-28.3,21.4-15.6,34.1,0,34.1 M0,39.8c-18.8,0-34-15.2-34-34c0-18.8,15.2-34,34-34S34-13,34,5.8C34,24.6,18.8,39.8,0,39.8L0,39.8z
+            "/>
+    </g>
+    <text transform="matrix(1 0 0 -1 -16.4111 -36.8857)" class="st3" style="font-size:10px;">Closed</text>
+</symbol>
+<symbol  id="Open" viewBox="-39.7 -39.8 79.4 85.3">
+    <circle class="st2" cx="0" cy="5.8" r="34"/>
+    <text transform="matrix(1 0 0 -1 -13.3838 -36.8857)" class="st3" style="font-size:10px;">Open</text>
+</symbol>
+<g id="Guides_1_">
+</g>
+<g id="basemap">
+    <g id="sss">
+        <text transform="matrix(1 0 0 1 501.9175 11.4196)" class="st3 st4">ooo vvv test 0.4</text>
+    </g>
+    <g id="thingB">
+        <g id="vvv_1_">
+            <g id="sss_2_">
+                <circle class="st5" cx="1280.7" cy="379.4" r="243.8"/>
+            </g>
+            <g id="thing4">
+                <g id="vvv_copy_3">
+                    <g id="ccc_4_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1280.74 141.4538)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1270.4657 148.6541)" class="st1 st3 st6">4</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_3">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1280.74 141.193)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1270.4656 148.3933)" class="st1 st3 st6">4</text>
+                </g>
+            </g>
+            <g id="thing5">
+                <g id="vvv_copy_4">
+                    <g id="ccc_5_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1450.8187 215.415)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1440.5444 222.6153)" class="st1 st3 st6">5</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_4">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1450.8186 215.1542)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1440.5443 222.3545)" class="st1 st3 st6">5</text>
+                </g>
+            </g>
+            <g id="thing8">
+                <g id="vvv_copy_10">
+                    <g id="ccc_8_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1280.7399 384.9721)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1270.4656 392.1724)" class="st1 st3 st6">8</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_10">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1280.7399 384.7113)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1270.4655 391.9116)" class="st1 st3 st6">8</text>
+                </g>
+            </g>
+            <g id="thing9">
+                <g id="vvv_copy_9">
+                    <g id="ccc_9_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1524.5193 385.2333)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1514.245 392.4336)" class="st1 st3 st6">9</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_9">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1524.5193 384.9725)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1514.245 392.1728)" class="st1 st3 st6">9</text>
+                </g>
+            </g>
+            <g id="thing12">
+                <g id="vvv_copy_6">
+                    <g id="ccc_12_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 555.312)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1090.1124 562.5123)" class="st1 st3 st6">12</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_6">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 555.0512)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1090.1123 562.2515)" class="st1 st3 st6">12</text>
+                </g>
+            </g>
+            <g id="thing13_1_">
+                <g id="vvv_copy_5">
+                    <g id="ccc_13_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1280.7399 628.7515)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1260.1912 635.9518)" class="st1 st3 st6">13</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_5">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1280.7399 628.4907)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1260.191 635.691)" class="st1 st3 st6">13</text>
+                </g>
+            </g>
+            <g id="thing14">
+                <g id="vvv_copy_24">
+                    <g id="ccc_copy_12">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1450.8186 555.312)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1430.2699 562.5123)" class="st1 st3 st6">14</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_24">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1450.8185 555.0512)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1430.2698 562.5121)" class="st1 st3 st6">14</text>
+                </g>
+            </g>
+            <g id="thing3-2">
+                <g id="vvv_copy_23">
+                    <g id="ccc_copy_11">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6613 215.415)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1100.387 222.6153)" class="st1 st3 st6">3</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_23">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6613 215.1542)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1100.3868 222.3545)" class="st1 st3 st6">3</text>
+                </g>
+            </g>
+            <g id="thing7-2">
+                <g id="vvv_copy_14">
+                    <g id="ccc_copy_2">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 384.9721)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1100.3868 392.1724)" class="st1 st3 st6">7</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_14">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 384.7113)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1100.3867 391.9116)" class="st1 st3 st6">7</text>
+                </g>
+            </g>
+            <g id="thing11_1_">
+                <g id="vvv_copy_13">
+                    <g id="ccc_copy">
+                    </g>
+                </g>
+                <g id="ooo_copy_13">
+                </g>
+            </g>
+            <g id="ccc_14_">
+                <circle class="st7" cx="1280.7" cy="266" r="34"/>
+                <text transform="matrix(1 0 0 1 1265.9586 283.0473)" class="st1 st3 st8">B</text>
+                <text transform="matrix(1 0 0 1 1264.6793 317.0711)" class="st9 st3 st10">Open</text>
+            </g>
+        </g>
+        <g id="ooo_1_">
+            
+                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1280.74 384.7112)" style="overflow:visible;"/>
+            <text transform="matrix(1 0 0 1 1268.6462 391.9115)" class="st1 st3 st6">B</text>
+        </g>
+    </g>
+    <g id="thingA">
+        <g id="vvv">
+            <line class="st11" x1="940.6" y1="378.9" x2="1110.7" y2="378.9"/>
+            <line class="st11" x1="940.6" y1="378.9" x2="1110.7" y2="209.4"/>
+            <line class="st11" x1="940.3" y1="379.2" x2="770.8" y2="209.1"/>
+            <line class="st11" x1="940.6" y1="379.4" x2="770.5" y2="549"/>
+            <line class="st11" x1="940.8" y1="379.2" x2="1110.4" y2="549.3"/>
+            <line class="st11" x1="940.6" y1="378.9" x2="940.6" y2="134.6"/>
+            <line class="st11" x1="940.6" y1="378.9" x2="696.8" y2="378.9"/>
+            <line class="st11" x1="940.6" y1="378.9" x2="940.6" y2="622.7"/>
+            <g id="thing1">
+                <g id="vvv_2_">
+                    <g id="sss_1_">
+                        <line class="st12" x1="770.5" y1="209.4" x2="855.5" y2="124.6"/>
+                        <line class="st12" x1="770.5" y1="209.4" x2="770.5" y2="90.3"/>
+                        <line class="st12" x1="770.4" y1="209.5" x2="685.6" y2="124.4"/>
+                        <line class="st12" x1="770.5" y1="209.6" x2="685.5" y2="294.4"/>
+                        <line class="st12" x1="770.5" y1="209.4" x2="651.4" y2="209.4"/>
+                    </g>
+                    <g id="thing1a">
+                        <g id="vvv_copy_15">
+                            <g id="ccc_copy_3">
+                                
+                                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.5 0 0 -0.5 682.6298 300.1285)" style="overflow:visible;"/>
+                                <text transform="matrix(1 0 0 1 673.2314 302.2288)" class="st1 st3 st13">1a</text>
+                            </g>
+                        </g>
+                        <g id="ooo_copy_15">
+                            
+                                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.5 0 0 -0.5 682.6298 299.9981)" style="overflow:visible;"/>
+                            <text transform="matrix(1 0 0 1 673.2314 302.0983)" class="st1 st3 st13">1a</text>
+                        </g>
+                    </g>
+                    <g id="thing1b">
+                        <g id="vvv_copy_16">
+                            <line class="st14" x1="648.5" y1="209.5" x2="592.1" y2="152.8"/>
+                            <line class="st14" x1="648.6" y1="209.6" x2="591.9" y2="266"/>
+                            <line class="st14" x1="648.6" y1="209.4" x2="557.9" y2="209.4"/>
+                            <g id="thing1b1">
+                                <g id="vvv_copy_22">
+                                    <g id="ccc_copy_4">
+                                        
+                                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.375 0 0 -0.375 591.9212 268.5931)" style="overflow:visible;"/>
+                                        <text transform="matrix(1 0 0 1 584.6021 269.4186)" class="st1 st3 st15">1b1</text>
+                                    </g>
+                                </g>
+                                <g id="ooo_copy_22">
+                                    
+                                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.375 0 0 -0.375 591.9212 268.4953)" style="overflow:visible;"/>
+                                    <text transform="matrix(1 0 0 1 584.6021 269.2222)" class="st1 st3 st15">1b1</text>
+                                </g>
+                            </g>
+                            <g id="thing1b2">
+                                <g id="vvv_copy_21">
+                                    <g id="ccc_copy_10">
+                                        
+                                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.375 0 0 -0.375 557.9055 211.7696)" style="overflow:visible;"/>
+                                        <text transform="matrix(1 0 0 1 550.5861 212.5948)" class="st1 st3 st15">1b2</text>
+                                    </g>
+                                </g>
+                                <g id="ooo_copy_21">
+                                    
+                                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.375 0 0 -0.375 557.9055 211.6718)" style="overflow:visible;"/>
+                                    <text transform="matrix(1 0 0 1 550.5861 212.5943)" class="st1 st3 st15">1b2</text>
+                                </g>
+                            </g>
+                            <g id="thing1b3">
+                                <g id="vvv_copy_20">
+                                    <g id="ccc_copy_9">
+                                        
+                                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.375 0 0 -0.375 591.9212 155.2073)" style="overflow:visible;"/>
+                                        <text transform="matrix(1 0 0 1 584.6021 156.0328)" class="st1 st3 st15">1b3</text>
+                                    </g>
+                                </g>
+                                <g id="ooo_copy_20">
+                                    
+                                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.375 0 0 -0.375 591.9212 155.1095)" style="overflow:visible;"/>
+                                    <text transform="matrix(1 0 0 1 583.5303 156.0322)" class="st1 st3 st15">1b3 </text>
+                                </g>
+                            </g>
+                            <g id="ccc_copy_5_1_">
+                                
+                                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.5 0 0 -0.5 648.6141 212.1239)" style="overflow:visible;"/>
+                                <text transform="matrix(1 0 0 1 638.9852 214.2242)" class="st1 st3 st13">1b</text>
+                            </g>
+                        </g>
+                        <g id="ooo_copy_16">
+                            
+                                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.5 0 0 -0.5 648.6141 211.9935)" style="overflow:visible;"/>
+                            <text transform="matrix(1 0 0 1 638.9852 214.3543)" class="st1 st3 st13">1b</text>
+                        </g>
+                    </g>
+                    <g id="thing1c">
+                        <g id="vvv_copy_17">
+                            <g id="ccc_copy_6">
+                                
+                                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.5 0 0 -0.5 682.6298 124.3805)" style="overflow:visible;"/>
+                                <text transform="matrix(1 0 0 1 673.9502 126.4811)" class="st1 st3 st13">1c</text>
+                            </g>
+                        </g>
+                        <g id="ooo_copy_17">
+                            
+                                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.5 0 0 -0.5 682.6298 124.2501)" style="overflow:visible;"/>
+                            <text transform="matrix(1 0 0 1 673.9502 126.6109)" class="st1 st3 st13">1c</text>
+                        </g>
+                    </g>
+                    <g id="thing1d">
+                        <g id="vvv_copy_18">
+                            <g id="ccc_copy_7">
+                                
+                                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.5 0 0 -0.5 770.5038 87.3995)" style="overflow:visible;"/>
+                                <text transform="matrix(1 0 0 1 760.875 89.4998)" class="st1 st3 st13">1d</text>
+                            </g>
+                        </g>
+                        <g id="ooo_copy_18">
+                            
+                                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.5 0 0 -0.5 770.5038 87.2691)" style="overflow:visible;"/>
+                            <text transform="matrix(1 0 0 1 760.875 89.6302)" class="st1 st3 st13">1d</text>
+                        </g>
+                    </g>
+                    <g id="thing1e">
+                        <g id="vvv_copy_19">
+                            <g id="ccc_copy_8">
+                                
+                                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(0.5 0 0 -0.5 855.5432 121.4153)" style="overflow:visible;"/>
+                                <text transform="matrix(1 0 0 1 846.2503 123.5156)" class="st1 st3 st13">1e</text>
+                            </g>
+                        </g>
+                        <g id="ooo_copy_19">
+                            
+                                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(0.5 0 0 -0.5 855.5432 121.2849)" style="overflow:visible;"/>
+                            <text transform="matrix(1 0 0 1 846.2503 123.6459)" class="st1 st3 st13">1e</text>
+                        </g>
+                    </g>
+                    <g id="ccc_1_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 770.5038 215.415)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 759.088 223.6153)" class="st1 st3 st16">1</text>
+                    </g>
+                </g>
+                <g id="ooo_2_">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 770.5038 215.1542)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 759.0879 223.3545)" class="st1 st3 st16">1</text>
+                </g>
+            </g>
+            <g id="thing2">
+                <g id="vvv_copy">
+                    <g id="ccc_2_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 940.5826 141.1926)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 930.3083 148.3929)" class="st1 st3 st6">2</text>
+                    </g>
+                </g>
+                <g id="ooo_copy">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 940.5826 140.9318)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 930.3082 148.1321)" class="st1 st3 st6">2</text>
+                </g>
+            </g>
+            <g id="thing3">
+                <g id="vvv_copy_2">
+                    <g id="ccc_3_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6613 215.415)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1100.387 222.6153)" class="st1 st3 st6">3</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_2">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6613 215.1542)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1100.3868 222.3545)" class="st1 st3 st6">3</text>
+                </g>
+            </g>
+            <g id="thing6">
+                <g id="vvv_copy_12">
+                    <g id="ccc_6_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 696.803 384.9721)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 686.5287 392.1724)" class="st1 st3 st6">6</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_12">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 696.803 384.7113)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 686.5286 391.9116)" class="st1 st3 st6">6</text>
+                </g>
+            </g>
+            <g id="thing7">
+                <g id="vvv_copy_11">
+                    <g id="ccc_7_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 384.9721)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1100.3868 392.1724)" class="st1 st3 st6">7</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_11">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 384.7113)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1100.3867 391.9116)" class="st1 st3 st6">7</text>
+                </g>
+            </g>
+            <g id="thing10">
+                <g id="vvv_copy_8">
+                    <g id="ccc_10_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" id="XMLID_1_" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 770.5037 555.0508)" style="overflow:visible;"/>
+                        <text id="_x31_0" transform="matrix(1 0 0 1 749.955 562.251)" class="st1 st3 st6">10</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_8">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 770.5037 554.79)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 749.955 561.9902)" class="st1 st3 st6">10</text>
+                </g>
+            </g>
+            <g id="thing11">
+                <g id="vvv_copy_7">
+                    <g id="ccc_11_">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 940.5825 628.7515)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 920.0337 635.9518)" class="st1 st3 st6">11</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_7">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 940.5824 628.4907)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 920.0336 635.691)" class="st1 st3 st6">11</text>
+                </g>
+            </g>
+            <g id="thing12-2">
+                <g id="vvv_copy_25">
+                    <g id="ccc_copy_13">
+                        
+                            <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 555.312)" style="overflow:visible;"/>
+                        <text transform="matrix(1 0 0 1 1090.1124 562.5123)" class="st1 st3 st6">12</text>
+                    </g>
+                </g>
+                <g id="ooo_copy_25">
+                    
+                        <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 1110.6611 555.0512)" style="overflow:visible;"/>
+                    <text transform="matrix(1 0 0 1 1090.1123 562.2515)" class="st1 st3 st6">12</text>
+                </g>
+            </g>
+            <g id="ccc">
+                
+                    <use xlink:href="#Open"  width="79.4" height="85.3" x="-39.7" y="-39.8" transform="matrix(1 0 0 -1 940.5825 384.9721)" style="overflow:visible;"/>
+                <text transform="matrix(1 0 0 1 928.1637 392.1724)" class="st1 st3 st6">A</text>
+            </g>
+        </g>
+        <g id="ooo">
+            
+                <use xlink:href="#Closed"  width="68" height="79.6" x="-34" y="-39.8" transform="matrix(1 0 0 -1 940.5826 384.7112)" style="overflow:visible;"/>
+            <text transform="matrix(1 0 0 1 928.1636 391.9116)" class="st1 st3 st6">A</text>
+        </g>
+    </g>
+</g>
+<g id="things">
+</g>
+</svg>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="ui-layout-west narration-pane">
+    <p>
+        Click a button and this should calculate the position of the #thing A or B element and pan and zoom to that location.
+    <p>
+
+        <button class="dark-grey-button club-demo-button" id="svgOrigin">
+            zoom to A
+        </button>
+
+        <button class="dark-grey-button club-demo-button" id="transformOrigin">
+            Zoom to B
+        </button>
+        <code id="tweenCode">
+            //sample code</code>
+
+</div>
+
+<div class="ui-layout-east information-pane">
+
+    <p>
+        Nothing here to look at. Move on...
+    </p>
+
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='http://layout.jquery-dev.net/lib/js/jquery.layout-latest.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js'></script>
+<script src='js/bejpzr.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

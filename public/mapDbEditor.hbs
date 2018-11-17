@@ -1,0 +1,274 @@
+<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+{{!--
+<script type="text/javascript" src="/js/tether.min.js"></script>--}} {{!--
+<link rel="stylesheet" href="/stylesheets/bootstrap-iso.css" />--}}
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+<!-- Inline CSS based on choices in "Settings" tab -->
+<style>
+.bootstrap-iso .formden_header h2,
+.bootstrap-iso .formden_header p,
+.bootstrap-iso form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+.bootstrap-iso form button,
+.bootstrap-iso form button:hover {
+    color: white !important;
+}
+
+.asteriskField {
+    color: red;
+}
+
+.bootstrap-iso {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+input[type="radio"] {
+    display: inline!important;
+}
+</style>
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+    <div class="container-fluid">
+        <button type="button" id="closeButton" class="close" aria-label="Close">
+            <span id="closeButton" aria-hidden="true">&times;</span>
+        </button>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                {{!--<div class="row">
+                    <div class="col-md-12">
+                        <hr class="" draggable="true">
+                    </div>
+                </div>--}}
+                {{!--<form action="#">
+                    <label>
+                        <input class="whichDb" type="radio" id="masterDb" value="{{masterDb}}" name="whichDb" autocomplete="off" {{masterChecked}}> Use Master Db
+                    </label>
+                    <label>
+                        <input class="whichDb" type="radio" id="overrideDb" value="{{overrideDb}}" name="whichDb" autocomplete="off" {{overrideChecked}}> Use Override Db
+                    </label>
+                </form>--}}
+                {{!--<div class="row">
+                    <div class="col-md-12">
+                        <hr class="" draggable="true">
+                    </div>
+                </div>--}}
+                <form id="mapDbForm" action="#" method="post">
+                    <div class="form-group ">
+                        <h3 value="{{id}}" id="id"> UNO ID: {{id}}</h3>
+                    </div>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        {{!--
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Part 1
+        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">--}}
+                                <div class="panel-body">
+                                    <div class="form-group ">
+                                        <label class="control-label " for="label">
+                                            Label
+                                        </label>
+                                        <input class="form-control" id="label" name="label" type="text" value="{{label}}" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="shortDescription">
+                                            Tootip
+                                        </label>
+                                        <textarea class="form-control" cols="40" id="shortDescription" name="shortDescription" rows="5">{{{shortDescription}}}</textarea>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="longDescription">
+                                            Info-pane Text
+                                        </label>
+                                        <textarea class="form-control" cols="40" id="longDescription" name="longDescription" rows="8">{{{longDescription}}}</textarea>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label ">
+                                            Check to activate:
+                                        </label>
+                                        <div>
+                                            <div class="checkbox">
+                                                <label class="checkbox">
+                                                    <input id="tooltip" name="tooltip" type="checkbox" value="1" {{checked tooltip}} /> Tooltip
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {{!--Radio Buttons for infoPane--}}
+                                    <div class="form-group ">
+                                        <div><span>Info Pane:&nbsp;&nbsp;</span>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="Do not load the info-pane" type="radio" value="none" name="infoPane" {{ipChecked "none" "infoPane"}}>&nbsp;<a data-toggle="tooltip" title="Do not load the info-pane">none&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="Info-pane Load on Hover" type="radio" value="hover" name="infoPane" {{ipChecked "hover" "infoPane"}}>&nbsp;<a data-toggle="tooltip" title="Info-pane Load on Hover">hover&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="Load on a click - and only a click, not on a hover" type="radio" value="click" name="infoPane" {{ipChecked "click" "infoPane"}}>&nbsp;<a data-toggle="tooltip" title="Load on a click - and only a click, not on a hover">click</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    {{!--End of infoPane Form Group--}}
+                                </div>
+                                {{!-- </div>
+                        </div>--}} {{!--
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Part 2
+        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">--}} {{!--Radio Buttons for clickAction--}}
+                                    <div class="form-group ">
+                                        <div><span>Click Action:&nbsp;&nbsp;</span>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="a click will open a closed UNO, and close an open one" type="radio" value="openClose" name="clickAction" {{ipChecked "openClose" "clickAction"}}>&nbsp;<a data-toggle="tooltip" title="a click will open a closed UNO, and close an open one">openClose&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="a click will do absolutely nothing" type="radio" value="none" name="clickAction" {{ipChecked "none" "clickAction"}}>&nbsp;<a data-toggle="tooltip" title="a click will do absolutely nothing">none&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="Runs the gotoz. The url is still updated the same as before. If the uno is in a closed state, it will not open it before zooming into it. Pressing c-click will will open a closed UNO, and close an open one. If the UNO is in a open state, it will not close it before zooming." type="radio" value="gotoz" name="clickAction" {{ipChecked "gotoz" "clickAction"}}>&nbsp;<a data-toggle="tooltip" title="Runs the gotoz. The url is still updated the same as before. If the uno is in a closed state, it will not open it before zooming into it. Pressing c-click will will open a closed UNO, and close an open one. If the UNO is in a open state, it will not close it before zooming.">gotoz</a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="Run the custom function specified in the new field clickFunction  - in URL command syntax.  Do not change the state." type="radio" value="function" name="clickAction" {{ipChecked "function" "clickAction"}}>&nbsp;<a data-toggle="tooltip" title="Run the custom function specified in the new field clickFunction  - in URL command syntax.  Do not change the state.">function</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="clickFunction">
+                                            Click Function (functionName=params)
+                                        </label>
+                                        <input class="form-control" value="{{clickFunction}}" id="clickFunction" name="clickFunction" type="text" />
+                                    </div>
+                                    {{!--End of infoPane Form Group--}} {{!--Radio Buttons for hoverAction --}}
+                                    <div class="form-group ">
+                                        <div><span>Hover Action:&nbsp;&nbsp;</span>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="hovering will open a closed UNO, and close an open one" type="radio" value="both" name="hoverAction" {{ipChecked "both" "hoverAction"}}>&nbsp;<a data-toggle="tooltip" title="hovering will open a closed UNO, and close an open one">both&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="hovering will open a closed UNO" type="radio" value="open" name="hoverAction" {{ipChecked "open" "hoverAction"}}>&nbsp;<a data-toggle="tooltip" title="hovering will open a closed UNO">open&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="hovering will close an open UNO" type="radio" value="close" name="hoverAction" {{ipChecked "close" "hoverAction"}}>&nbsp;<a data-toggle="tooltip" title="hovering will close an open UNO">close</a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="hovering will not open or close an UNO - but hover will show a tooltip and info-pane if infopane or tooltip says to." type="radio" value="none" name="hoverAction" {{ipChecked "none" "hoverAction"}}>&nbsp;<a data-toggle="tooltip" title="hovering will not open or close an UNO - but hover will show a tooltip and info-pane if infopane or tooltip says to.">none&nbsp;&nbsp;  </a>
+                                            </label>
+                                            <label>
+                                                <input class="radio-inline" data-toggle="tooltip" title="" type="radio" value="function" name="hoverAction" {{ipChecked "function" "hoverAction"}}>&nbsp;<a data-toggle="tooltip" title="Run the custom function specified in the new field hoverFunction  - in URL command syntax.">function</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="hoverFunction">
+                                            Hover Function (functionName=params)
+                                        </label>
+                                        <input class="form-control" value="{{hoverFunction}}" id="hoverFunction" name="hoverFunction" type="text" />
+                                    </div>
+                                    {{!--End of hoverAction Form Group--}}
+                                    <div class="form-group ">
+                                        <label class="control-label " for="onDoubleClick">
+                                            Double-click Function (functionName=params)
+                                        </label>
+                                        <input class="form-control" value="{{onDoubleClick}}" id="onDoubleClick" name="onDoubleClick" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="classes">
+                                            Classes
+                                        </label>
+                                        <input class="form-control" value="{{classes}}" id="classes" name="classes" type="text" data-toggle="tooltip" title="classes seperated by a space to add to this UNO group" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="ttStyle">
+                                            Tooltip style
+                                        </label>
+                                        <input class="form-control" value="{{ttStyle}}" id="ttStyle" name="ttStyle" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="onURL">
+                                            On URL command
+                                        </label>
+                                        <input class="form-control" value="{{onURL}}" id="onURL" name="onURL" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="offURL">
+                                            Off URL command
+                                        </label>
+                                        <input class="form-control" value="{{offURL}}" id="offURL" name="offURL" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="onFunction">
+                                            On Function
+                                        </label>
+                                        <input class="form-control" value="{{onFunction}}" id="onFunction" name="onFunction" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="offFunction">
+                                            Off Function
+                                        </label>
+                                        <input class="form-control" value="{{offFunction}}" id="offFunction" name="offFunction" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="openURL">
+                                            Open URL command
+                                        </label>
+                                        <input class="form-control" value="{{openURL}}" id="openURL" name="openURL" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="closeURL">
+                                            Close URL command
+                                        </label>
+                                        <input class="form-control" value="{{closeURL}}" id="closeURL" name="closeURL" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="openFunction">
+                                            Open Function
+                                        </label>
+                                        <input class="form-control" value="{{openFunction}}" id="openFunction" name="openFunction" type="text" />
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="control-label " for="closeFunction">
+                                            Close Function
+                                        </label>
+                                        <input class="form-control" value="{{closeFunction}}" id="closeFunction" name="closeFunction" type="text" />
+                                    </div>
+                                    {{!-- </div>
+                            </div>
+                        </div>--}}
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button class="btn btn-primary " name="submit" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />{{!--
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+$(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+
+});
+</script>--}}

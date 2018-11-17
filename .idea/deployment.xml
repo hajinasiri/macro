@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" showNewOnSourceInSync="false">
     <serverData>
       <paths name="my macro">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/public/js/browserify/node_modules" />
+            <excludedPath path="/public/js/browserifyMc/node_modules" />
+            <excludedPath path="/public/nexial_website/node_modules" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

@@ -1,0 +1,22 @@
+{
+  "svgFile": "siModel1.3.svg",
+  "folder": "si",
+  "storyFile": "story.md",
+  "infoFile": "/docs/help.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "si_master",
+  "overrideDB":  "si_override",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 0.6,
+  "traceTime": 1.8,
+  "hltDuration": 1.4,
+  "hltOpacity": 0.4,
+  "bw": 0,
+  "defaultURL": "?on=Map&on=MapSize&gotoz=MapSize&wpane=220&epane=0",
+  "showDelay":0,
+  "hideDelay":0
+}

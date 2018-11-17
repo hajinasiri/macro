@@ -1,0 +1,26 @@
+// Push settings file - first generated on Fri Oct 12 2018 17:48:52 GMT-0700 (PDT)
+// Note: Optional items are commented out and can be uncommented if you wish to set them
+{
+	"env": "default",
+	"default": {
+		"service": "SFTP",
+		"options": {
+			// "timeZoneOffset": 0,
+			// "testCollisionTimeDiffs": true,
+			// "collisionUploadAction": null,
+			// "collisionDownloadAction": null,
+			// "followSymlinks": false,
+			"host": "198.199.105.182",
+			// "port": 22,
+			"username": "root",
+			// "password": "",
+			"privateKey": "/Users/shahab/lighthouse/privateKeyMacro-07-06-18.ppk",
+			// "keyPassphrase": "",
+			"root": "/var/www/macro",
+			// "keepaliveInterval": 3000,
+			// "debug": false,
+			// "fileMode": "",
+			// "sshGateway": null
+		}
+	}
+}

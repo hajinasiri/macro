@@ -1,0 +1,19 @@
+{
+  "folder": "v2",
+  "svgFile": "v2test.svg",
+  "storyFile": "v2testViews.html",
+  "infoFile": "/docs/loading.txt",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animations.json",
+  "masterDB": "v2_master",
+  "overrideDB":  "v2_override",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "tweenDuration": 0.4,
+  "defaultURL": "?epane=0&wpane=0&on=Map&panx=1000.0&pany=750.0&zoom=1.0",
+  "hoverOpenClose": "both",
+  "clickAction" : "openClose",
+  "showDelay":0,
+  "hideDelay":0
+}

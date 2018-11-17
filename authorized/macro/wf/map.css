@@ -1,0 +1,18 @@
+  /*
+ * This file holds any map-specific styles and/or overrides of mapWindow.css
+ * This file is must be located in the map folder
+ *
+ */
+
+.mapTitleBlock {
+    background-color: #6b5d66;
+    padding: 10px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.mapTitle {
+    font-size: 18px !important;
+    color: white;
+    letter-spacing: 2px;
+}

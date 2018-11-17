@@ -1,0 +1,160 @@
+<!--
+Marshall Clemens - November, 2016
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNO Introduction</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="System Mapping" />
+
+    <script type="text/javascript" src="/js/mod/bundle2.js"></script>
+    <script type="text/javascript" src="/js/customstuff.js"></script>
+
+</head>
+
+<body>
+
+<!----------- map-pane div with menus: the 'Control' menu the top of the div and the 'Context' menu the appears on a right-click within the map-pane
+--
+-->
+
+<!-- manually attach allowOverflow method to pane -->
+<!-- Note that the div IDs map-pane, story-pane and info-pane are used the code and thus CANNOT BE CHANGED -->
+
+<div class="map-pane" id="map-pane">
+
+    <div  class="ui-layout-center svgMap" >
+
+        <!--TODO: Delete class="container" if we don't need that-->
+        <div class="container svgdiv" id="container"  style="width: 100%; height: 100%; border:0px solid black; " >
+        </div>
+
+        <!------- Start Control Menu ------------------------------------------------------------------------------------------>
+        <div class="bootstrap-iso.mapMenu">
+            <div id="shownav" class="bg-primary"></div>
+            <nav class="navbar mapMenu navbar-default fixed">
+
+                <div class="container-fluid" style="margin-left: 80px;">
+                    <div style="margin-top: 10px">
+                        &nbsp;<button id="btnReset" type="button" class="mapButton"> <i class="demo-icon icon-ccw" title="Back to start"></i> </button>
+                        &nbsp;&nbsp;
+                        <button id="btnFullscreen" type="button" class="mapButton"><i class="demo-icon icon-resize-full-1" style="font-size: 16px;" title="Toggle fullscreen"></i></button>
+                        &nbsp;&nbsp;
+
+                        <button id="btnZoomIn" type="button" class="mapButton"><i class="demo-icon icon-plus-circled" style="font-size: 16px;" title="Zoom in:  [ key"></i></button>
+                        <button id="btnZoomAll" type="button" class="mapButton"><i class="demo-icon icon-zoomall" title="Zoom all:  \ key"></i></button>
+                        <button id="btnZoomOut" type="button" class="mapButton"><i class="demo-icon icon-minus-circled" style="font-size: 16px;" title="Zoom out:  ] key"></i></button>
+
+                        &nbsp;&nbsp;
+                        &nbsp;<button id="btnTooltips"      type="button" class="mapButton"><i class="demo-icon icon-tooltip" title="Toggle tooltips off/on"></i></button>
+                        &nbsp;<button id="btnPrint"      type="button" class="mapButton"><i class="demo-icon icon-print" title="Open a printable window:  P key"></i></button>
+                        &nbsp;<button id="helpButton"    type="button" class="mapButton"  style="font-size: 16px;" title="Help page:  H key">Help</button>
+                        </a>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+        <!------- End Control Menu ------------------------------------------------------------------------------------------>
+
+
+        <!------- Start Context Menu ----------------------------------------------------------------------------------------->
+        <nav id="context-menu" class="context-menu">
+            <p class="unoLabel" id="unoLabel"></p>
+            <p class="urlLabel" id="urlLink"></p>
+            <table class="context-menu__items">
+                <tr>
+                    <td class="context-menu__item" id="toggleHighlight">
+                        Toggle Highlight
+                    </td>
+                    <td>L-click</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="unHighlight">
+                        Un-Highlight All
+                    </td>
+                    <td>U key</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="zoomTo">
+                        Zoom To
+                    </td>
+                    <td>G-click</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="zoomAll">
+                        Zoom All
+                    </td>
+                    <td>\ key</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="openAll">
+                        Open All
+                    </td>
+                    <td>Option-click</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="closeAll">
+                        Close All
+                    </td>
+                    <td>Option-click</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="traceUNO">
+                        Trace  <p ></p>
+                    </td>
+                    <td>T key to stop</td>
+                </tr>
+                <tr>
+                    <td class="context-menu__item" id="editUNO">
+                        Edit <p ></p>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <!------- End Context Menu ----------------------------------------------------------------------------------------->
+
+    </div>
+</div>
+
+<div class="ui-layout-west narration-pane" id="story-pane">
+    <p>
+        Loading....
+    </p>
+
+</div>
+
+<div class="ui-layout-east information-pane" id="info-pane">
+
+    <p>
+        Loading....
+    </p>
+
+</div>
+
+<!------- Help Modal ---------------------------------------------------------------------------------------->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-lg" role="document">
+        <div class="modal-content">
+            <div style="padding: 20px;">
+                <button type="button" class="closeModal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+            </div>
+            <div id="modal-body" class="modal-body">
+
+            </div> <!--modal-body-->
+            <div style="padding: 20px; text-align: right;">
+                <button type="button" class="close-btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!------- End Help Modal ---------------------------------------------------------------------------------------->
+
+<script type="text/javascript" src="/js/controlmenu.js"></script>
+
+</body>
+</html>

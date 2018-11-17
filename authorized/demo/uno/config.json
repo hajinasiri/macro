@@ -1,0 +1,20 @@
+{
+  "svgFile": "uno0.1.svg",
+  "storyFile": "story.md",
+  "infoFile": "/docs/infoHelp.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animation.json",
+  "masterDB": "uno_master",
+  "formDB": "alpha_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 1.4,
+  "traceTime": 0.8,
+  "defaultURL": "on=Map&wpane=180&epane=300&on=UnoDescription&panx=1000.0&pany=1000.0&zoom=1.6",
+  "showDelay":150,
+  "hideDelay":0
+}
+

@@ -1,0 +1,23 @@
+%	1	UNOIntroduction	UNO Introduction																	Map					
+%	1.1	TurnOnUNO0	Turn On UNO 0																	UNOIntroduction				This is the tooltip content for slide 1.	
+
+This is the info-pane content for slide 1.
+%	1.2	TurnOffUNO0	Turn Off UNO 0																	UNOIntroduction				This is the tooltip content for slide 2.	
+
+This is the info-pane content for slide 2.
+%	1.3	OpenUNO0	Open UNO 0																	UNOIntroduction				This is the tooltip content for slide 3.	
+
+This is the info-pane content for slide 3.	
+%	1.4	CloseUNO0	Close UNO 0																	UNOIntroduction				This is the tooltip content for slide 4	
+
+This is the info-pane content for slide 4.
+%	1.5	Slide5	Slide 5																	UNOIntroduction				This is the tooltip content for slide 5.	
+
+This is the info-pane content for slide 5.
+%	2	UNODescription	UNO Description																	Map					
+%	2.1	UNO0	UNO 0																	UNODescription					
+
+This is a Uniquely Identified Object (UNO), so named as each object in the map must have a unique ID.  This UNO's ID is "UNO0".
+%	3	LastDummy	Last Dummy																	Map					
+
+To prevent the end-wrap error form the Excel macro.

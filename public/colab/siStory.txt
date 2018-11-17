@@ -1,0 +1,53 @@
+###<a href="#/?on=Map&panx=1075.0&pany=700.0&zoom=1.20"                                                     >  <span style="color:black">System Innovation Process                     </span> </a>
+
+<a href=	"#/?on=Map&panx=1075&pany=700&zoom=1.2&wpane=0&epane=0"						                    class="slide">  <span style="color:black; font-size:10px">Current & FutureMap           </span> </a>     <br>
+<a href=	"#/?+++&gotoz=ComplexProblem&close=ComplexProblem"						                        class="slide">  <span style="color:black; font-size:10px">Complex Problems              </span> </a>     <br>
+<a href=	"#/?+++&open=ComplexProblem&gotoz=ComplexProblem&close=SystemicSolution&off=SIGap&close=SIGap"	class="slide">  <span style="color:black; font-size:10px">Emergent Problems             </span> </a>     <br>
+<a href=	"#/?+++&open=SystemicSolution&on=SIGap&close=SIGap&panx=1080&pany=700&zoom=1.2"		            class="slide">  <span style="color:black; font-size:10px">Concerted Solutions           </span> </a>     <br>
+<a href=	"#/?+++&on=SIGap&open=SIGap&close=SIProcess&panx=1080&pany=700&zoom=1.2"		                class="slide">  <span style="color:black; font-size:10px">The Gap                       </span> </a>     <br>
+
+<a href=	"#/?+++&open=ComplexProblem&open=SystemicSolution&close=Sectors&panx=1536&pany=636&zoom=2.8"	class="slide">  <span style="color:black; font-size:10px">Solution Space                </span> </a>     <br>
+<a href=	"#/?+++&open=SIProcess&off=SIGap&close=ComplexProblem&close=SystemicSolution&open=Sectors&close=ImplementationStrands&panx=1536&pany=636&zoom=2.8"	class="slide">  <span style="color:black; font-size:10px">Sectors </span> </a>     <br>
+<a href=	"#/?+++&open=ImplementationStrands&open=Sectors&close=SIWork&panx=1536&pany=636&zoom=2.8"	    class="slide">  <span style="color:black; font-size:10px">Implementation Strands  </span> </a>     <br>
+<a href=	"#/?+++&open=SIWork&open=ImplementationStrands&close=Sectors&panx=1536&pany=636&zoom=2.8"	    class="slide">  <span style="color:black; font-size:10px">System Innovation Workstreams  </span> </a>     <br>
+
+<a href=	"#/?+++&close=SIWork&close=ImplementationStrands&close=ProblemDefinition&panx=1080&pany=700&zoom=1.2"	class="slide">  <span style="color:black; font-size:10px">Process Framework</span> </a>     <br>
+<<a href=	"#/?+++&open=ProblemDefinition&close=Research&panx=720&pany=450&zoom=2.6"	class="slide">  <span style="color:black; font-size:10px">Problem Definition</span> </a>     <br>
+<a href=	"#/?+++&open=Research&close=Mapping&panx=864&pany=450&zoom=2.6"						            class="slide">  <span style="color:black; font-size:10px">Research                     </span> </a>     <br>
+<a href=	"#/?+++&open=Mapping&close=Collaboration&panx=1008&pany=450&zoom=2.6"						    class="slide">  <span style="color:black; font-size:10px">Mapping                      </span> </a>     <br>
+<a href=	"#/?+++&open=Collaboration&close=Development&panx=1152&pany=450&zoom=2.6"						class="slide">  <span style="color:black; font-size:10px">Collaboration                </span> </a>     <br>
+<a href=	"#/?+++&open=Development&close=Implementation&panx=1296&pany=450&zoom=2.6"						class="slide">  <span style="color:black; font-size:10px">Development                  </span> </a>     <br>
+<a href=	"#/?+++&open=Implementation&close=ContinuousImprovement&panx=1440&pany=450&zoom=2.6"			class="slide">  <span style="color:black; font-size:10px">Implementation               </span> </a>     <br>
+<a href=	"#/?+++&open=ContinuousImprovement&close=ImplementationStrands&panx=1584&pany=450&zoom=2.6"		class="slide">  <span style="color:black; font-size:10px">Continuous Improvement       </span> </a>     <br>
+<a href=	"#/?+++&open=ImplementationStrands&panx=1728&pany=530&zoom=2.3"						            class="slide">  <span style="color:black; font-size:10px">Implementation Strands       </span> </a>     <br>
+<a href=	"#/?+++&close=Collaboratory&panx=1075&pany=700&zoom=1.0&epane=0"						        class="slide">  <span style="color:black; font-size:10px">Full Map                     </span> </a>     <br>
+
+<a href=	"#/?+++&open=Collaboratory&close=SystemInnovationActivities&panx=1075&pany=760&zoom=1.4"	    class="slide">  <span style="color:black; font-size:10px">The Collaboratory            </span> </a>     <br>
+<a href=	"#/?+++&open=SystemInnovationActivities&close=Agencies&panx=1075&pany=760&zoom=1.4"		        class="slide">  <span style="color:black; font-size:10px">System Innovation Activites  </span> </a>     <br>
+<a href=	"#/?+++&open=Agencies&zoom=1.8&panx=1075&pany=1180"		                                        class="slide">  <span style="color:black; font-size:10px">Collective Agencies  </span> </a>     <br>
+<a href=	"#/?+++&open=Agencies&open=IdiagramLogo&zoom=1.8&panx=1075&pany=1280"		                    class="slide">  <span style="color:black; font-size:10px">Idiagram </span> </a>     <br>
+<a href=	"#/?+++&open=Agencies&open=OxfordLeadershipLogo&zoom=1.8&panx=1075&pany=1380"		            class="slide">  <span style="color:black; font-size:10px">Oxford Leadership </span> </a>     <br>
+<a href=	"#/?+++&open=Agencies&open=SecondMuseLogo&zoom=1.8&panx=1075&pany=1480"		                    class="slide">  <span style="color:black; font-size:10px">SecondMuse </span> </a>     <br>
+
+<a href=	"#/?+++&close=Agencies&open=FreshWaterFunds&close=StrategicAnalysis&panx=1080&pany=1340&zoom=1.45"	class="slide">  <span style="color:black; font-size:10px">Water Funds  </span> </a>     <br>
+<a href=	"#/?+++&open=StrategicAnalysis&close=LeadershipDevelopment&panx=1080&pany=1340&zoom=1.45"		    class="slide">  <span style="color:black; font-size:10px">Strategic Analysis        </span> </a>     <br>
+<a href=	"#/?+++&open=LeadershipDevelopment&close=Innovation&panx=1080&pany=1340&zoom=1.45"		            class="slide">  <span style="color:black; font-size:10px">Leadership Development	        </span> </a>     <br>
+<a href=	"#/?+++&open=Innovation&close=IntegratedCommunications&panx=1080&pany=1340&zoom=1.45"		        class="slide">  <span style="color:black; font-size:10px">Innovation		              </span> </a>     <br>
+<a href=	"#/?+++&open=IntegratedCommunications&close=WFTimeline&panx=1080&pany=1340&zoom=1.45"		        class="slide">  <span style="color:black; font-size:10px">Integrated Communications        </span> </a>     <br>
+
+<a href=	"#/?+++&open=WFTimeline&close=Phase0&panx=1080&pany=1340&zoom=1.45"		                        class="slide">  <span style="color:black; font-size:10px">Timeline		              </span> </a>     <br>
+<a href=	"#/?+++&open=Phase0&close=MappingPlan&panx=1080&pany=1340&zoom=1.45"		                    class="slide">  <span style="color:black; font-size:10px">Phase 0		              </span> </a>     <br>
+<a href=	"#/?+++&open=MappingPlan&close=Phase1&panx=1080&pany=1340&zoom=1.45"		                    class="slide">  <span style="color:black; font-size:10px">Mapping Plan		              </span> </a>     <br>
+<a href=	"#/?+++&open=Phase1&close=Phase2&close=MappingPlan&panx=1080&pany=1340&zoom=1.45"		        class="slide">  <span style="color:black; font-size:10px">Phase 1		              </span> </a>     <br>
+<a href=	"#/?+++&open=Phase2&close=Phase3&panx=1080&pany=1340&zoom=1.45"		                            class="slide">  <span style="color:black; font-size:10px">Phase 2		              </span> </a>     <br>
+<a href=	"#/?+++&open=Phase3&close=Strands&panx=1080&pany=1340&zoom=1.45"		                        class="slide">  <span style="color:black; font-size:10px">Phase 3		              </span> </a>     <br>
+
+<a href=	"#/?+++&open=Strands2&close=SupplyOfSolutions2&panx=1075&pany=2140&zoom=1.8"					class="slide">  <span style="color:black; font-size:10px">Activity Matrix              </span> </a>     <br>
+<a href=	"#/?+++&open=SupplyOfSolutions2&close=PlayingFieldForSolutions2&panx=1120&pany=2180&zoom=2.4"	class="slide">  <span style="color:black; font-size:10px">Supply                       </span> </a>     <br>
+<a href=	"#/?+++&open=PlayingFieldForSolutions2&close=DemandForSolutions2&panx=1120&pany=2220&zoom=2.4"  class="slide">  <span style="color:black; font-size:10px">Rules                        </span> </a>     <br>
+<a href=	"#/?+++&open=DemandForSolutions2&close=FundingForSolutions2&panx=1120&pany=2260&zoom=2.4"	    class="slide">  <span style="color:black; font-size:10px">Demand                       </span> </a>     <br>
+<a href=	"#/?+++&open=FundingForSolutions2&close=Toolkit1&panx=1120&pany=2300&zoom=2.4"   		        class="slide">  <span style="color:black; font-size:10px">Funding                      </span> </a>     <br>
+<a href=	"#/?+++&open=Toolkit1&zoom=2.8&panx=1078&pany=2740"						                        class="slide">  <span style="color:black; font-size:10px">The Toolkit                  </span> </a>     <br>
+<a href=	"#/?+++&panx=1075&pany=1000&zoom=1.0"						                                    class="slide">  <span style="color:black; font-size:10px">Full Map                     </span> </a>     <br>
+
+

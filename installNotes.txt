@@ -1,0 +1,108 @@
+IDiagram Install Notes on DigitalOcean
+
+Droplet Name: idiagram
+IP Address: 45.55.23.31
+mapname: root
+Password: dmsobFoot
+was 6315f28632d8e489
+
+For security reasons, you will be required to change this Droplet’s root password when you login. You should choose a strong password that will be easy for you to remember, but hard for a computer to guess. You might try creating an alpha-numerical phrase from a memorable sentence (e.g. “I won my first spelling bee at age 7,” might become “Iwm#1sbaa7”). Random strings of common words, such as “Mousetrap Sandwich Hospital Anecdote,” tend to work well, too.
+
+As an added security measure, we also strongly recommend adding an SSH key to your account. You can do that here: https://cloud.digitalocean.com/ssh_keys
+(this has not been done yet.)
+---------------------
+install make: 
+http://askubuntu.com/questions/161104/ubuntu-how-do-i-install-make
+sudo apt-get install build-essential
+install mean:
+-------------------------
+don't install debian's packaged version of node. It is junk
+i used this build from scratch:
+(the first script)
+https://gist.github.com/isaacs/579814#file-node-and-npm-in-30-seconds-sh
+---------- 
+the following may or may not be the right node install:
+https://github.com/meanjs/mean
+https://github.com/joyent/node
+https://www.airpair.com/javascript/node-js-tutorial
+https://gist.github.com/isaacs/579814#file-node-and-npm-in-30-seconds-sh
+https://www.joyent.com/blog/installing-node-and-npm/
+https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-and-ubuntu-based-linux-distributions
+apt-get install npm
+https://www.mongodb.org/downloads
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+or maybe this: https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-12-04
+
+to see pid of mongo:  
+ps aux | grep mongo
+install node.js mongo driver:
+http://docs.mongodb.org/getting-started/node/client/
+npm install mongodb
+
+install on aptana:
+
+npm install mongodb --msvs_version=2010
+see this to create mongo admin map:  http://docs.mongodb.org/manual/tutorial/add-map-administrator/
+db.createmap(
+  {
+    map: "sitemapAdmin",
+    pwd: "dmsobFoot",
+    roles: [ { role: "mapAdminAnyDatabase", db: "admin" } ]
+  }
+)
+---------------------------------
+to start mongo:
+sudo service mongod start
+-----------------
+shutdown mongod
+mongod --shutdown (which doesn't seem to work)
+Shut down the mongod from the mongo shell using the db.shutdownServer() method as follows:
+
+use admin
+db.shutdownServer()
+see if it is gone by typing:
+ps aux | grep mongo
+---------------------------------
+to connect with node (not working yet): config.mongoUri = process.env.MONGOLAB_URI || 'mongodb://sitemapAdmin:dmsobFoot@localhost:27017/rtr'
+--------------------
+install grunt: http://gruntjs.com/getting-started
+npm update -g npm
+sudo npm install -g grunt-cli
+-------------
+install git:
+http://git-scm.com/download/linux
+apt-get install git
+----------------------
+install bower:
+http://bower.io/
+npm install -g bower
+--------------------------------
+to delete directories:
+ rm -rf  directory name
+-------------------------
+use nodemon to run by itself when you are out of the terminal. Here is the install of nodemon:
+ npm install -g nodemon
+
+Here is site: https://github.com/remy/nodemon
+Also needed to install forever. See https://github.com/foreverjs/forever
+npm install -g forever
+command to run:
+forever start -c nodemon script.js
+//(doesn't work) forever nodemon --exitcrash app.js
+
+or do this:
+forever start -l forever.log -o out.log -e err.log app.js
+
+to stop: forever stopall
+start
+forever start -l forever.log -o out.log -e err.log app.js
+
+forever restart app.js
+to list: forever list
+
+see https://github.com/foreverjs/forever
+ps aux | grep node
+
+to start express app from the mean tutorial: 
+ npm start
+see http://stackoverflow.com/questions/23169941/what-does-bin-www-do-in-express-4-x

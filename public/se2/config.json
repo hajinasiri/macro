@@ -1,0 +1,20 @@
+{
+  "svgFile": "se1.2.svg",
+  "folder": "se",
+  "storyFile": "story.html",
+  "infoFile": "/docs/loading.txt",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "se_master",
+  "formDB": "se_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 0.8,
+  "traceTime": 0.8,
+  "showDelay":150,
+  "hideDelay":0,
+  "defaultURL": "?on=Map&open=Government&open=StateFinance&open=Pressure&open=Banking&open=Finance&open=SupplyChain&open=Communities&open=Information&open=Media&open=Research&open=NaturalEnvironment&open=Individuals&open=InvestmentConsultants&open=ProxyVoting&open=FundManagers&open=Individuals2&panx=2050.0&pany=1200.0&zoom=1.000&epane=280&wpane=200&story=story.html&openall=InstitutionalInvestors"
+}

@@ -1,0 +1,1 @@
+mongod --fork --logpath ./mongolog/mongodb.log --nojournal --dbpath=data --auth

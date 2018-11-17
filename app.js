@@ -88,9 +88,10 @@ app.set('view engine', 'hbs');
 
 // uncomment after placing your favicon in /public
 app.use(favicon(__dirname + '/public/favicon.ico'));
-app.use(bodyParser.urlencoded());
+
 app.use(logger('dev'));
 //app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({
     limit: "50mb",

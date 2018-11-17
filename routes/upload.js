@@ -10,6 +10,7 @@ var express = require('express');
 var router = express.Router();
 var restrict = require('../auth/restrict');
 var multer = require("multer");
+var AdmZip = require('adm-zip');//to open the zip file
 var xlsxj = require("xlsx-to-json");
 var mapService = require('../services/map-service');
 //var mongoXlsx = require("mongo-xlsx");
@@ -28,7 +29,7 @@ var authStatic = path.join(__dirname, '../authorized');
 /* GET home page. */
 router.get('/', restrict, function(req, res, next) {
 
-    return res.render('admin/upload', {
+    return res.render('upload', {
         title: 'Import Data or SVG',
         layout: 'simpleLayout',
         baseUrl: JSON.stringify(req.baseUrl)
@@ -38,18 +39,16 @@ router.get('/', restrict, function(req, res, next) {
 
 
 router.post('/', restrict, function(req, res, next) {
-    // console.log(req)
-    return res.send(req.body.scriv);
-    // return res.redirect('http://google.com')
-    // return res.render('admin/upload', {
-    //     title: 'Import Data or SVG',
-    //     layout: 'simpleLayout',
-    //     baseUrl: JSON.stringify(req.baseUrl)
-    //     //,collection:'master_test3'
-    // });
+    var text = req.body.scriv;
+    console.log();
+    // var zip = new AdmZip(req.body.scriv);
+    // var zipEntries = zip.getEntries();
+    // // zip = JSON.parse(zip);
+    // var templateVar = {data:"hello"};
+    // return res.render('admin/info',templateVar);
 });
 
 
-
-
 module.exports = router;
+
+

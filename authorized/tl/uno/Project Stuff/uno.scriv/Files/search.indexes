@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="0F24D1D5-E117-4F98-B8E3-FB144DE0DC80">
+            <Title>Last Dummy</Title>
+        </Document>
+        <Document ID="A811A40C-EAA6-4E85-AD0E-1031FE98DF1F">
+            <Title>Last Dummy</Title>
+            <Synopsis>This is the tooltip content for slide 4</Synopsis>
+            <Text>This is the info-pane content for slide 4.</Text>
+            <Notes>Notes for Slide 4</Notes>
+        </Document>
+        <Document ID="7F9E2BC8-35A7-4267-AAC8-099E969FF568">
+            <Title>Last Dummy</Title>
+            <Synopsis>This is the tooltip content for slide 3.</Synopsis>
+            <Text>This is the info-pane content for slide 3.	</Text>
+            <Notes>Notes for Slide 3</Notes>
+        </Document>
+        <Document ID="19DAE3D6-A3AB-46DC-8609-4946887A79E4">
+            <Title>Last Dummy</Title>
+        </Document>
+        <Document ID="CBC16929-B7D5-47BA-B162-15193FE0BD5C">
+            <Title>Last Dummy</Title>
+            <Synopsis>This is the tooltip content for slide 2.</Synopsis>
+            <Text>This is the info-pane content for slide 2.</Text>
+            <Notes>Notes for Slide 2</Notes>
+        </Document>
+        <Document ID="3671D7E1-5971-4CE7-A766-828DE409207A">
+            <Title>Slide 5</Title>
+            <Synopsis>This is the tooltip content for slide 5.</Synopsis>
+            <Text>This is the info-pane content for slide 5.</Text>
+            <Notes>Notes for Slide 5</Notes>
+        </Document>
+        <Document ID="028E3DAA-A9DA-428A-A953-F20ECBB7DCF0">
+            <Title>Not Map</Title>
+        </Document>
+        <Document ID="8AFE5CFA-DB72-4DE9-B76D-3E74F745F3CE">
+            <Title>Last Dummy</Title>
+            <Synopsis>This is the tooltip content for slide 1.</Synopsis>
+            <Text>This is the info-pane content for slide 1.</Text>
+            <Notes>Notes for Slide 1</Notes>
+        </Document>
+        <Document ID="E67684B4-638B-4837-B094-574F126B4AFC">
+            <Title>UNO 0</Title>
+            <Text>This is a Uniquely Identified Object (UNO), so named as each object in the map must have a unique ID.  This UNO’s ID is “UNO0”.</Text>
+        </Document>
+        <Document ID="7FF11760-31F0-4F56-88C3-1CC19442B388">
+            <Title>Last Dummy</Title>
+            <Text>To prevent the end-wrap error form the Excel macro.
+</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

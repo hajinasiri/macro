@@ -1,0 +1,22 @@
+{
+  "svgFile": "wf9.1.svg",
+  "storyFile": "story.html",
+  "infoFile": "/docs/infoHelp.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animate.json",
+  "masterDB": "wf_master",
+  "formDB": "map_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 0.8,
+  "hltDuration": 1.2,
+  "hltOpacity": 0.5,
+  "bw": 0,
+  "traceTime": 0.8,
+  "defaultURL": "openl=Map,2,0,0&close=Philosophy&panx=1500.0&pany=1000.0&zoom=1.2&wpane=0&epane=400",
+  "showDelay":160,
+  "hideDelay":160
+}
