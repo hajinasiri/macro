@@ -43,10 +43,7 @@
                     </div>
                 </form>
                 <div>
-                    <form action="/upload" method="POST" >
-                        <input type="file" accept = ".scriv" name="scriv">
-                        <input type="submit" value="upload">
-                    </form>
+
                     <!--<form id="uploadScriv" role="form" action="/upload" method="POST" enctype="multipart/form-data">-->
                         <!--<div class="form-row" style="padding-left:15px;">-->
                             <!--<div class="col">-->
@@ -88,6 +85,7 @@
     //location of folder for these files
     var baseUrl = {{{baseUrl}}};
     $(document).ready(function() {
+
         // bind 'uploadFile' for spreadsheet import and provide a simple callback function
         $('#uploadFile').ajaxForm(function(e) {
             console.log(e);

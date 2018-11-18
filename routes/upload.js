@@ -39,11 +39,15 @@ router.get('/', restrict, function(req, res, next) {
 
 
 router.post('/', restrict, function(req, res, next) {
-    var text = req.body.scriv;
-    console.log();
-    // var zip = new AdmZip(req.body.scriv);
-    // var zipEntries = zip.getEntries();
-    // // zip = JSON.parse(zip);
+
+    var file = req.files.scriv;
+    var filename = file.name;
+    file.mv(filename,function(err){
+        if(err){
+            console.log(err);
+        }
+    })
+
     // var templateVar = {data:"hello"};
     // return res.render('admin/info',templateVar);
 });

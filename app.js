@@ -15,7 +15,7 @@ var expressSession = require('express-session');
 var flash = require('connect-flash');
 var connectMongo = require('connect-mongo');
 var MongoStore = connectMongo(expressSession);
-
+var file_upload = require("express-fileupload");//Added by Shahab
 var config = require('./config');
 var routes = require('./routes/index');
 // Try this on 2/6/17
@@ -76,7 +76,7 @@ app.locals.io = io;
 app.io = io;
 
 app.use(helmet()); //Help secure Express apps with various HTTP headers
-
+app.use(file_upload()); //Added by Shahab
 app.use('/', unauthStatic);
 
 // view engine setup
