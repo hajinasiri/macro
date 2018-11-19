@@ -47,6 +47,14 @@ router.post('/', restrict, function(req, res, next) {
             console.log(err);
         }
     })
+    var fullpath = __dirname;
+    console.log(fullpath);
+    var extract = require('extract-zip')
+    extract('./'+filename, {dir: fullpath}, function (err) {
+        // extraction is complete. make sure to handle the err
+    })
+
+
 
     // var templateVar = {data:"hello"};
     // return res.render('admin/info',templateVar);
@@ -54,5 +62,3 @@ router.post('/', restrict, function(req, res, next) {
 
 
 module.exports = router;
-
-
