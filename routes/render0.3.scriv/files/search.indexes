@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="D9129120-26B6-409A-A873-1E39DB287125">
+            <Title>render</Title>
+            <Text>render = ""X""  if UNO layer exists delete it and replace it with a new one
+render = ""N"" if UNO layer exists  skip the UNO entirely and only render new UNOs</Text>
+        </Document>
+        <Document ID="C7BF7C49-C056-489A-A75B-2955BB371ABC">
+            <Title>onURL</Title>
+            <Text>An optional URL command that is run when UNO is turned on.</Text>
+        </Document>
+        <Document ID="BCCD0F28-0662-4148-A2EC-D0A98939564C">
+            <Title>hoverFunction</Title>
+            <Text>functionName=params
+
+A function to be run on hovering - in URL command syntax.</Text>
+        </Document>
+        <Document ID="10BD7808-018F-4D2E-989A-5B2903B92DFB">
+            <Title>Thing 3-3</Title>
+            <Text>This is some document text for Thing 3-3.</Text>
+        </Document>
+        <Document ID="409B3A4B-984A-415A-B217-ED5D286B9589">
+            <Title>param1</Title>
+            <Text>A map specific variable to be used as needed.</Text>
+        </Document>
+        <Document ID="BD246551-DE56-455E-AD9A-206A5C0D1745">
+            <Title>Thing 3</Title>
+            <Text>This is some document text for Thing 3
+.</Text>
+            <Notes>A bit more plain note text for Thing 3.
+</Notes>
+        </Document>
+        <Document ID="4BA8FCAA-8BB1-4C9E-8A20-A5EE08E814AA">
+            <Title>Third VOA Element</Title>
+            <Text>Third VOA Element doc text.</Text>
+        </Document>
+        <Document ID="8933BA2C-0B4A-4FFE-9F97-1667C31472D0">
+            <Title>Image 3</Title>
+            <Text>#
+This is image file image2.jpg an image that has been linked to this document with:  
+
+	•	Insert - Image Linked to File  
+	•	List thing 2
+	•	List thing 3
+
+This will be italicized text and bold italics.
+
+And block quote text - because that’s the other one we use.
+
+And a link to an outside website.  For which the code should add the _blank tag.
+And this is back to normal text.
+
+And below here is a:
+
+Codeblock of text. For code and stuff like that.
+
+And this is back to normal text again. 
+
+
+</Text>
+        </Document>
+        <Document ID="4A4F4046-221C-4267-8D13-5DCA44C2BFCA">
+            <Title>Thing 2-2</Title>
+            <Text>This is some document text for Thing 2-2.</Text>
+        </Document>
+        <Document ID="84351DC2-E573-4EC4-87C2-763914753D9F">
+            <Title>closeFunction</Title>
+            <Text>An optional function that is run on this UNO’s xxx or vvv when it’s closed – replaces the default function: display: none.</Text>
+        </Document>
+        <Document ID="B1CB50C6-C482-4D82-A7FE-5A0E646D4744">
+            <Title>Thing 2-3</Title>
+            <Text>This is some document text for Thing 2-3.</Text>
+        </Document>
+        <Document ID="B98379A4-F2F2-46CA-B27D-3CEA4DC29322">
+            <Title>Image 1</Title>
+            <Text>#</Text>
+        </Document>
+        <Document ID="34753C67-E0DE-4C41-A79A-13A966CFFF3B">
+            <Title>ttStyle</Title>
+            <Text>The name of the qtip2 tooltip style specification in customstuff.js</Text>
+        </Document>
+        <Document ID="2A42AD0F-7AD9-4669-88D6-C1B680AAE09A">
+            <Title>longDescription</Title>
+            <Text>Markdown text for the info-pane.
+
+This is the text from Scrivener’s main ‘doucument’ window (what get’s saved as the separate .rtf files).</Text>
+        </Document>
+        <Document ID="26DDA3A1-3B1E-4F40-8C9D-4783FBD1B1EC">
+            <Title>Thing 2</Title>
+            <Text>This is some document text for Thing 2.</Text>
+            <Notes>And some plain note text for Thing 2.
+</Notes>
+        </Document>
+        <Document ID="4810D40B-1919-4F4A-95CA-4D0388C68F82">
+            <Title>clickAction</Title>
+            <Text>
+openClose
+none
+gotoz
+function</Text>
+        </Document>
+        <Document ID="CE186FF4-1B76-47E7-8B63-1A32F259701E">
+            <Title>This Is A Link</Title>
+        </Document>
+        <Document ID="9C8F6832-411A-4E6E-AF95-AF0C6B135AAB">
+            <Title>id</Title>
+            <Text>Camelcase alphanumeric, no special characters or punctuation marks except for ‘-’ dash.
+
+Usually just a a version of the label with spaces and special characters removed - only dashes allowed.</Text>
+        </Document>
+        <Document ID="DD34E2F2-2CB0-41AA-8BB6-C4DABD31B2E0">
+            <Title>classes</Title>
+            <Text>Classes are assigned in Scrivener using Keywords.
+
+Assigns CSS classes to the UNO.  Can be any class name used by the designer, or the special classes:
+
+- node: indicates that this is a ‘thing’ UNO.  It may also be a .view link in the story pane.
+- link: indicates this is connection between things
+- view: this will be a ‘slide’ link that is included in the story-pane.  It make also be a .node with artwork in the map.
+- voa: marks this as a voice-over animation link
+- connection: this uno will include a drawable open indication a flow relationship
+- partof: an drawable open path indicating a whole-part relationship
+- label: attached to an sss group to mark the text in the map
+- annotation: a user-placeable UNO
+</Text>
+        </Document>
+        <Document ID="D8AD8F0E-531F-4AED-B35A-DBEDDE092722">
+            <Title>ypos</Title>
+            <Text>Vertical position from the upper left corner of the artboard to the center point of the symbol - in positive points (going down) from the upper left corner.  If the Kind is Radial - this value is the offset angle from 0 degrees.</Text>
+        </Document>
+        <Document ID="6BB035FC-00D7-41FC-B90D-E6B57F8F28AC">
+            <Title>param4</Title>
+            <Text>A map specific variable to be used as needed.</Text>
+        </Document>
+        <Document ID="F445D586-FCF8-4468-B277-E6F700C6D4AC">
+            <Title>First VOA Element</Title>
+            <Text>First VOA Element doc text.</Text>
+        </Document>
+        <Document ID="34F94D6A-D7BD-4B6D-B909-34AAC0B31EA4">
+            <Title>location</Title>
+            <Text>Where to place the UNO within its parent:  
+
+- uno
+- xxx
+- vvv</Text>
+        </Document>
+        <Document ID="AF8D0592-6357-4219-9187-47D1D64E5AE5">
+            <Title>onDoubleClick</Title>
+            <Text>functionName=params
+
+A URL command to run when double-clicking on an UNO.</Text>
+        </Document>
+        <Document ID="1AA11D3E-3A98-4B05-84CE-7B240C0446E1">
+            <Title>parent</Title>
+            <Text>The id of the parent, e.g. the Title / label stripped of illegal characters</Text>
+        </Document>
+        <Document ID="7334967D-5EB0-4192-B659-B050E008626A">
+            <Title>This Is A Link</Title>
+            <Text>unoFrom is blank - but should get filled-in with ‘ThisIsALink’.</Text>
+        </Document>
+        <Document ID="A9CFB8B6-56B8-4DFB-B241-91D3A982EE87">
+            <Title>Thing This &amp; That: and "the other"?.-1</Title>
+        </Document>
+        <Document ID="F7B00DC7-CEB8-4406-9FD6-C03B47442308">
+            <Title>First VOA Element</Title>
+            <Text>First VOA Element doc text.</Text>
+        </Document>
+        <Document ID="AD64256E-CB32-4B81-944D-A3CB182D3920">
+            <Title>UNO Data List</Title>
+            <Text>
+id
+label
+Subtitle
+outlineNumber
+outlineLevel
+parent
+classes
+unoFrom
+unoTo
+param1
+param2
+param3
+param4
+shortDescription
+longDescription
+hoverAction
+hoverFunction
+clickAction
+clickFunction
+onDoubleClick
+url
+urlText
+tooltip
+infoPane
+onURL
+offURL
+openURL
+closeURL
+onFunction
+offFunction
+openFunction
+closeFunction
+ttStyle
+render
+symbol
+location
+xpos
+ypos
+xsize
+ysize
+xoffset
+yoffset
+</Text>
+        </Document>
+        <Document ID="66B241F3-195F-4FB6-A3E6-B63661143584">
+            <Title>xsize</Title>
+            <Text>In points</Text>
+        </Document>
+        <Document ID="FD2AB139-FCEA-4DF9-BF26-4246890BA424">
+            <Title>Thing 3-4</Title>
+            <Text>This is some document text for Thing 3-4.</Text>
+        </Document>
+        <Document ID="A8BEC3CB-872E-426B-89A1-0FD8FDDC07C8">
+            <Title>url</Title>
+            <Text>A URL used by a custom function and/or by the context menu, in controlmenu.js, as a link in the right-click menu.</Text>
+        </Document>
+        <Document ID="45594B79-1082-4BAF-8DCB-A15AD19B2FEA">
+            <Title>Second VOA Element</Title>
+            <Text>Second VOA Element doc text.</Text>
+        </Document>
+        <Document ID="E4D84915-FE77-47AC-9445-3D61E7EF85CC">
+            <Title>param3</Title>
+            <Text>A map specific variable to be used as needed.</Text>
+        </Document>
+        <Document ID="9163CA8A-F593-40C8-B28E-52B81069508C">
+            <Title>Thing 1-2</Title>
+            <Text>This doc is formatted in markdown.  This paragraph is plain text, as is everything below.  
+
+This text is normal, **while this text is bold. ** And a single paragraph break.
+
+This text is normal, _while this text is italic._**. ** And a single paragraph break.
+
+This text is normal, **_while this text is bold and italic._**
+
+**This is a Heading 1**
+
+Below here is a bullet list:
+
+- Item 1
+- Item 2
+    - Subitem 2.1
+    - Subitem 2.2
+    - Subitem 2.3
+
+- Item 3
+- Item 4
+
+**This is a Heading 2**
+
+And this is a numbered list:
+
+1. Item 1
+2. Item 2
+    1. Subitem 2.1
+    2. Subitem 2.2
+    3. Subitem 2.3
+
+3. Item 3
+4. Item 4
+
+This paragraph is formatted as a Block Quote.
+
+This paragraph is formatted as an Attribution.
+
+This paragraph is formatted as a Code Block.
+
+And this is a website link:  [Nexial](http://nexial.co/)
+
+This is a linked image:
+
+This is a Caption.
+
+And this is an embedded image:
+
+</Text>
+        </Document>
+        <Document ID="995C3089-6862-4394-A207-69481EF3B7A4">
+            <Title>symbol</Title>
+            <Text>If oookind is 'symbol' then this is specifies an Illustrator symbol name - else - for 'rect' or 'ellipes' it specifies a Graphic Style.  If blank nothing will be put in the ooo group.</Text>
+        </Document>
+        <Document ID="BF66D1EC-3930-42C9-8158-C2C0D75C63B6">
+            <Title>outlineNumber</Title>
+            <Text>Period separated outline number e.g. 4.2.3.4</Text>
+        </Document>
+        <Document ID="575ECF9D-5023-4920-BC65-A48CF0285D37">
+            <Title>Thing 1-1</Title>
+            <Synopsis>This the Synopsis for Thing 1-1  </Synopsis>
+            <Text>This is an RTF formatted doc, to test RTF to markdown conversion.  This paragraph is plain text with ‘No Style’.  
+
+This is another paragraph with the Scrivener style ‘body’.  
+
+And now we’re back again to ‘No Style’.
+
+This text is normal, while this text is bold.  And a single paragraph break.
+This text is normal, while this text is italic..  And a single paragraph break.
+This text is normal, while this text is bold and italic.
+
+And this is a website link:  Nexial
+
+
+This is a Heading 1
+
+This is a bullet list:
+	•	Item 1
+	•	Item 2
+	⁃	Subitem 2.1
+	⁃	Subitem 2.2
+	⁃	Subitem 2.3
+	•	Item 3
+	•	Item 4
+
+This is a Heading 2
+
+And this is a numbered list:
+	1.	Item 1
+	2.	Item 2
+	1.	Subitem 2.1
+	2.	Subitem 2.2
+	3.	Subitem 2.3
+	3.	Item 3
+	4.	Item 4
+
+This paragraph is formatted as a Block Quote.
+This paragraph is formatted as an Attribution.
+This paragraph is formatted as an Caption.
+
+This paragraph is formatted as a Code Block.
+
+And this is a website link:  Nexial
+
+</Text>
+        </Document>
+        <Document ID="56905896-5696-4295-8679-205B663B5674">
+            <Title>yoffset</Title>
+            <Text>Vertical distance between siblings - in points.</Text>
+        </Document>
+        <Document ID="6197EEDE-E4FD-463E-B71F-A29B76DAB35D">
+            <Title>label</Title>
+            <Text>Text label for the UNO: used in the info-pane and tooltips.
+
+This is the text from Scrivener’s ‘Title’.</Text>
+        </Document>
+        <Document ID="5C928BA8-4577-4FB1-A81F-FFDC13756EAB">
+            <Title>UNO Data</Title>
+        </Document>
+        <Document ID="FD49F2FB-6F17-4DED-B1C5-698C03613CD3">
+            <Title>3.0 Leading Number</Title>
+            <Text>3.0 Leading Number
+</Text>
+        </Document>
+        <Document ID="C3BE722D-3D48-44CD-AEFD-1A43D73FFAB6">
+            <Title>closeURL</Title>
+            <Text>An optional  URL command that is run when UNO closed.</Text>
+        </Document>
+        <Document ID="2A0DB8D7-19B2-4FD6-B1C9-EEA8C2A028DF">
+            <Title>xpos</Title>
+            <Text>
+Horizontal position from the upper left corner of the artboard to the center point of the symbol.  If the Kind is Radial - this value is the radius</Text>
+        </Document>
+        <Document ID="4F5C5BD8-4152-4F4E-A72D-8E2A7D0791C3">
+            <Title>slideURL</Title>
+            <Text>This will be the URL triggered for ‘slide’ (or ‘view’) links in the story pane.</Text>
+        </Document>
+        <Document ID="0B289284-0623-4EAD-93D2-82698847D120">
+            <Title>urlText</Title>
+            <Text>A text label for the url link: used by a custom function and/or by the context menu, in controlmenu.js, as a link in the right-click menu.</Text>
+        </Document>
+        <Document ID="BC08206B-F8C4-468E-BA14-D0B5BD95B0FD">
+            <Title>Second VOA Element</Title>
+            <Text>Second VOA Element doc text.</Text>
+        </Document>
+        <Document ID="14C01E84-28B2-45A5-9D30-9483B6F45101">
+            <Title>openFunction</Title>
+            <Text>An optional function that is run on this UNO’s xxx or vvv when it’s opened – replaces the default function: display: inline.</Text>
+        </Document>
+        <Document ID="102A8CAB-A2BB-45D7-A4B3-7D8FE10F354A">
+            <Title>shortDescription</Title>
+            <Text>Markdown text for the tooltip.
+
+This is the text from Scrivener’s ‘Synopsis’.</Text>
+        </Document>
+        <Document ID="5C74224B-4D01-4D92-9BA4-FFEBE4604B5E">
+            <Title>And these:`~!@#$%^&amp;*()_+-done=[]\{}|;':",.&lt;&gt;/?</Title>
+            <Text>And these:`~!@#$%^&amp;*()_+-done=[]\{}|;':",.&lt;&gt;/?
+</Text>
+        </Document>
+        <Document ID="5402DF6B-1B8E-4729-923A-24C877F42D4B">
+            <Title>param2</Title>
+            <Text>A map specific variable to be used as needed.</Text>
+        </Document>
+        <Document ID="9C1F822A-4AAA-4212-97A6-29C468F69611">
+            <Title>offURL</Title>
+            <Text>An optional  URL command that is run when UNO is turned off.</Text>
+        </Document>
+        <Document ID="858C72DA-419C-456E-8D25-4148051E658D">
+            <Title>offFunction</Title>
+            <Text>An optional function that is run when the UNO is turned off – replaces the default function: display: none.</Text>
+        </Document>
+        <Document ID="BF535613-59A0-4F3A-9939-172C41596518">
+            <Title>unoFrom</Title>
+            <Text>Used by the sequencing function to identify the from UNO.</Text>
+        </Document>
+        <Document ID="814E1AA7-C41A-4DE1-9A8D-30B1E8231750">
+            <Title>Image 2</Title>
+            <Text>#</Text>
+        </Document>
+        <Document ID="CD67989A-35D9-46F8-9FE7-112475F60CA5">
+            <Title>openURL</Title>
+            <Text>An optional  URL command that is run when UNO opened.</Text>
+        </Document>
+        <Document ID="727C2AC3-7645-4EEA-A729-B06E8066287C">
+            <Synopsis>This the Synopsis for Thing 1
+</Synopsis>
+            <Text>This is some document text for Thing 1.</Text>
+            <Notes>This is some note text for Thing 1.
+
+- item 1
+- item 2
+- item 3
+
+Bold
+
+Italic
+
+Bold &amp; Italic
+
+	1.	A numbered list
+	2.	Item 2
+	3.	Item 3
+</Notes>
+        </Document>
+        <Document ID="95CB7DF8-E23A-440B-938C-D7477EF6F506">
+            <Title>tooltip</Title>
+            <Text>0 | 1
+
+Do not show (0) or show (1) the tooltip.</Text>
+        </Document>
+        <Document ID="4EC6DB82-BDB8-4E52-B35E-E4038516BBB7">
+            <Title>This Is A Link</Title>
+        </Document>
+        <Document ID="32ABC80C-08DE-4043-A4AA-68E5CCF82A7B">
+            <Title>Thing 3-2</Title>
+            <Text>This is some document text for Thing 3-2.</Text>
+        </Document>
+        <Document ID="E7C73CAB-7473-4B22-A56D-41E5C00FEE50">
+            <Title>xoffset</Title>
+            <Text>Horizontal distance between siblings - in points.</Text>
+        </Document>
+        <Document ID="FA5DE601-3097-42D2-A087-F8522006F426">
+            <Title>clickFunction</Title>
+            <Text>functionName=params
+
+A function to be run on clicking - in URL command syntax.</Text>
+        </Document>
+        <Document ID="BE3C06D4-2BF6-4869-A2DD-9E40C603C63D">
+            <Title>Map</Title>
+        </Document>
+        <Document ID="B0E34807-6D84-4FFE-BA3E-99AE24370235">
+            <Title>Third VOA Element</Title>
+            <Text>Third VOA Element doc text.</Text>
+        </Document>
+        <Document ID="483FADCC-859F-44ED-A7F9-9E994DCFFCE6">
+            <Title>outlineLevel</Title>
+            <Text>Indent level of the outline e.g. 4 for the outlineNumber 4.2.3.4</Text>
+        </Document>
+        <Document ID="BFE9B371-C29C-4443-9DA1-A3F2CFA8EF19">
+            <Title>config.json</Title>
+            <Text>{
+  "mapTitle": "",
+  "createdBy": "",
+  "version": "",
+  "date": "",
+  "storyPostfix": "",
+  "storyOutlineType": "",
+  "voaPrefix": "",
+  "voaPostfix": "",
+  "svgFile": "alpha0.4.svg",
+  "storyFile": "story.html",
+  "infoFile": "/docs/infoHelp.html",
+  "helpLink": "/docs/help.html",
+  "segmentsFile": "animation.json",
+  "masterDB": "alpha_master",
+  "formDB": "alpha_form",
+  "mapForm": "mapDbEditor",
+  "minZoom": 0.8,
+  "maxZoom": 25,
+  "zoomSensitivity": 0.08,
+  "gotozRatio": "0.95",
+  "tweenDuration": 1.4,
+  "traceTime": 0.8,
+  "defaultURL": "wpane=160&amp;epane=300&amp;on=Map&amp;panx=1000.0&amp;pany=1000.0&amp;zoom=1.2",
+  "showDelay":150,
+  "hideDelay":0
+}
+
+</Text>
+        </Document>
+        <Document ID="AAFE8C16-67CD-45E8-9A78-CF7B49F4AA63">
+            <Title>unoTo</Title>
+            <Text>Used by the sequencing function to identify the to UNO.</Text>
+        </Document>
+        <Document ID="BDD6A725-6899-4609-B46E-BCE13DF772EC">
+            <Title>hoverAction</Title>
+            <Text>
+both (default)
+open
+close
+none
+function</Text>
+        </Document>
+        <Document ID="93DB5D93-0187-4214-B287-C4BBF731839B">
+            <Title>onFunction</Title>
+            <Text>An optional function that is run when the UNO is turned on – replaces the default function: display: inline.</Text>
+        </Document>
+        <Document ID="0A9E7528-7E68-4B16-B099-3B97E377EB14">
+            <Title>ysize</Title>
+            <Text>In points</Text>
+        </Document>
+        <Document ID="6EE99537-B309-436E-946F-8A9DAAA8088A">
+            <Title>This &amp; that, and "this too!?": as well as #37%</Title>
+            <Text>This &amp; that, and "this too!?": as well as #37%
+</Text>
+        </Document>
+        <Document ID="D05C2AD0-4A83-4F8A-90D9-1C01266C40E5">
+            <Title>Thing 3-1</Title>
+            <Text>This is some document text for Thing 3-1.</Text>
+        </Document>
+        <Document ID="22549C90-098E-4845-B4C2-9470A0EC7379">
+            <Title>Image 1</Title>
+        </Document>
+        <Document ID="87A53021-5CA2-493F-812A-AE9CDDD93C76">
+            <Title>subtitle</Title>
+            <Text>An optional subtitle that will be appended to the label in the map. Having a separate subtitle helps to keep the IDs shorter, and allows for formatting the subtitles differently in the map.</Text>
+        </Document>
+        <Document ID="92F1B1D5-0673-406D-B0D4-061B6F370BE6">
+            <Title>Thing 2-1</Title>
+            <Synopsis>Thing 2 could be Synopsized thusly.</Synopsis>
+            <Text>This is some document text for Thing 2-1.  It include a bunch of different random formatting, just as a test of throwing-in different RTF tags.
+
+This is myriad pro.
+
+This is consoles - consoles bold.
+
+And centered.
+
+And right-justified.
+
+Still right.
+Back to left-justified, italic, cosine.
+
+	1.	Italic list
+	2.	In cosine
+	3.	In bold, and then not bold, not italic.
+	4.	Next to last item
+	5.	Last item
+
+
+Another list:
+
+	◦	One
+	◦	Two
+	◦	Three
+	⁃	And sub one
+	⁃	Sub two
+	⁃	Sub three
+	◦	And back to the first indent
+	◦	Last item.
+
+Heading 1
+
+And normal text.
+
+Heading 2
+
+And body text.
+This paragraph is formatted as a Block Quote.
+This paragraph is formatted as an Attribution.
+This paragraph is formatted as an Caption.
+
+This paragraph is formatted as a Code Block.
+
+And this is a website link:  Nexial
+
+
+
+</Text>
+        </Document>
+        <Document ID="2BC0C7CD-2DE2-464E-B60F-C3552FCE2315">
+            <Title>infoPane</Title>
+            <Text>none
+hover
+click</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

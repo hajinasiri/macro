@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="8C9AF9D5-A46A-49D3-9484-B4BB7956232E" Version="2.0" Creator="SCRMAC-3.0.3-3032" Device="MacBook-Air-24791" Author="Shahab" Modified="2018-10-10 15:45:52 -0700" ModID="8DF95923-D135-4F2F-9063-0D6DB7531002">
+    <Binder>
+        <BinderItem UUID="BFE9B371-C29C-4443-9DA1-A3F2CFA8EF19" Type="Folder" Created="2018-08-16 07:14:16 -0700" Modified="2018-08-16 07:15:06 -0700">
+            <Title>config.json</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="BE3C06D4-2BF6-4869-A2DD-9E40C603C63D" Type="Folder" Created="2018-08-07 07:13:22 -0700" Modified="2018-08-08 07:27:46 -0700">
+            <Title>Map</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <CustomMetaData>
+                    <MetaDataItem>
+                        <FieldID>yoffset</FieldID>
+                        <Value>-100</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>location</FieldID>
+                        <Value>vvv</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>openfunction</FieldID>
+                        <Value>fadeOpen,1.2</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>clickfunction</FieldID>
+                        <Value>none</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>xoffset</FieldID>
+                        <Value>0</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>onfunction</FieldID>
+                        <Value>fadeOn,0.8</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>tooltip</FieldID>
+                        <Value>1</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>infopane</FieldID>
+                        <Value>hover</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>hoverfunction</FieldID>
+                        <Value>none</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>ondoubleclick</FieldID>
+                        <Value>none</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>xsize</FieldID>
+                        <Value>100</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>symbol</FieldID>
+                        <Value>uno</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>ypos</FieldID>
+                        <Value>0</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>hoveraction</FieldID>
+                        <Value>none</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>xpos</FieldID>
+                        <Value>0</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>ysize</FieldID>
+                        <Value>100</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>offfunction</FieldID>
+                        <Value>fadeOff,0.8</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>closefunction</FieldID>
+                        <Value>fadeClose,1.2</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>ttstyle</FieldID>
+                        <Value>macro1</Value>
+                    </MetaDataItem>
+                    <MetaDataItem>
+                        <FieldID>clickaction</FieldID>
+                        <Value>OpenClose</Value>
+                    </MetaDataItem>
+                </CustomMetaData>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs>727C2AC3-7645-4EEA-A729-B06E8066287C</SelectedSubdocumentUUIDs>
+                <OutlinerExpandedState>
+                    <ItemID>0B13758C-30B9-4FC8-BD1B-26CD952AA970</ItemID>
+                    <ItemID>727C2AC3-7645-4EEA-A729-B06E8066287C</ItemID>
+                    <ItemID>575ECF9D-5023-4920-BC65-A48CF0285D37</ItemID>
+                    <ItemID>9163CA8A-F593-40C8-B28E-52B81069508C</ItemID>
+                    <ItemID>26DDA3A1-3B1E-4F40-8C9D-4783FBD1B1EC</ItemID>
+                    <ItemID>92F1B1D5-0673-406D-B0D4-061B6F370BE6</ItemID>
+                    <ItemID>4A4F4046-221C-4267-8D13-5DCA44C2BFCA</ItemID>
+                    <ItemID>B1CB50C6-C482-4D82-A7FE-5A0E646D4744</ItemID>
+                    <ItemID>BD246551-DE56-455E-AD9A-206A5C0D1745</ItemID>
+                    <ItemID>D05C2AD0-4A83-4F8A-90D9-1C01266C40E5</ItemID>
+                    <ItemID>32ABC80C-08DE-4043-A4AA-68E5CCF82A7B</ItemID>
+                    <ItemID>10BD7808-018F-4D2E-989A-5B2903B92DFB</ItemID>
+                    <ItemID>FD2AB139-FCEA-4DF9-BF26-4246890BA424</ItemID>
+                    <ItemID>6E7BE8AA-33FD-4E0A-8F31-346C7B0664F0</ItemID>
+                    <ItemID>67F6542F-F45F-4BB2-A98E-430C27B6FB47</ItemID>
+                    <ItemID>B8F1193B-E5A3-415D-B44C-69BB647EEBA0</ItemID>
+                    <ItemID>26A34C35-7805-4841-BF93-16E2B946687C</ItemID>
+                </OutlinerExpandedState>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="CE186FF4-1B76-47E7-8B63-1A32F259701E" Type="Text" Created="2018-09-10 12:46:17 -0700" Modified="2018-09-10 12:46:36 -0700">
+                    <Title>Multiple - dashes - test - item</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4EC6DB82-BDB8-4E52-B35E-E4038516BBB7" Type="Text" Created="2018-09-10 12:46:41 -0700" Modified="2018-09-10 12:47:00 -0700">
+                    <Title>This &amp; that &amp; the - other - thing</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="7334967D-5EB0-4192-B659-B050E008626A" Type="Text" Created="2018-09-10 12:47:06 -0700" Modified="2018-09-10 12:48:57 -0700">
+                    <Title>This Is A Link</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>unoto</FieldID>
+                                <Value>Story</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>63,0</TextSelection>
+                    </TextSettings>
+                    <Keywords>
+                        <KeywordID>28</KeywordID>
+                    </Keywords>
+                </BinderItem>
+                <BinderItem UUID="0B13758C-30B9-4FC8-BD1B-26CD952AA970" Type="Folder" Created="2018-08-22 13:45:18 -0700" Modified="2018-08-22 13:46:41 -0700">
+                    <Title>Story</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <SelectedSubdocumentUUIDs>727C2AC3-7645-4EEA-A729-B06E8066287C</SelectedSubdocumentUUIDs>
+                        <OutlinerExpandedState>
+                            <ItemID>727C2AC3-7645-4EEA-A729-B06E8066287C</ItemID>
+                            <ItemID>575ECF9D-5023-4920-BC65-A48CF0285D37</ItemID>
+                            <ItemID>9163CA8A-F593-40C8-B28E-52B81069508C</ItemID>
+                            <ItemID>26DDA3A1-3B1E-4F40-8C9D-4783FBD1B1EC</ItemID>
+                            <ItemID>6E7BE8AA-33FD-4E0A-8F31-346C7B0664F0</ItemID>
+                        </OutlinerExpandedState>
+                    </CorkboardAndOutliner>
+                    <Keywords>
+                        <KeywordID>29</KeywordID>
+                    </Keywords>
+                    <Children>
+                        <BinderItem UUID="727C2AC3-7645-4EEA-A729-B06E8066287C" Type="Folder" Created="2018-08-07 07:15:14 -0700" Modified="2018-10-10 15:45:50 -0700">
+                            <Title> </Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,36</NotesTextSelection>
+                                <CustomMetaData>
+                                    <MetaDataItem>
+                                        <FieldID>id</FieldID>
+                                        <Value>ThingOne</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>subtitle</FieldID>
+                                        <Value>the first thing</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>closeurl</FieldID>
+                                        <Value>close=Thing1-2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param4</FieldID>
+                                        <Value>4.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>url</FieldID>
+                                        <Value>http://nexial.co</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>unoto</FieldID>
+                                        <Value>Thing1-2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>offurl</FieldID>
+                                        <Value>off=Thing1-2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param3</FieldID>
+                                        <Value>3.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>urltext</FieldID>
+                                        <Value>Nexial website</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>onurl</FieldID>
+                                        <Value>on=Thing1-2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param2</FieldID>
+                                        <Value>2.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>slideurl</FieldID>
+                                        <Value>open=Thing1&amp;zoom=1.0&amp;panx=500&amp;pany=500</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>openurl</FieldID>
+                                        <Value>open=Thing1-2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param1</FieldID>
+                                        <Value>1.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>unofrom</FieldID>
+                                        <Value>Thing 1</Value>
+                                    </MetaDataItem>
+                                </CustomMetaData>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <CorkboardAndOutliner>
+                                <SelectedSubdocumentUUIDs>575ECF9D-5023-4920-BC65-A48CF0285D37</SelectedSubdocumentUUIDs>
+                                <OutlinerExpandedState>
+                                    <ItemID>575ECF9D-5023-4920-BC65-A48CF0285D37</ItemID>
+                                </OutlinerExpandedState>
+                            </CorkboardAndOutliner>
+                            <Children>
+                                <BinderItem UUID="575ECF9D-5023-4920-BC65-A48CF0285D37" Type="Folder" Created="2018-08-07 07:13:35 -0700" Modified="2018-09-21 13:11:59 -0700">
+                                    <Title>Thing 1-1</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>26</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem UUID="9163CA8A-F593-40C8-B28E-52B81069508C" Type="Folder" Created="2018-08-07 07:15:24 -0700" Modified="2018-09-19 11:20:36 -0700">
+                                    <Title>Thing 1-2</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>26</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="26DDA3A1-3B1E-4F40-8C9D-4783FBD1B1EC" Type="Folder" Created="2018-08-07 07:14:50 -0700" Modified="2018-09-18 10:47:02 -0700">
+                            <Title>Thing 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,38</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Keywords>
+                                <KeywordID>26</KeywordID>
+                            </Keywords>
+                            <Children>
+                                <BinderItem UUID="92F1B1D5-0673-406D-B0D4-061B6F370BE6" Type="Folder" Created="2018-08-07 07:15:14 -0700" Modified="2018-09-21 13:12:12 -0700">
+                                    <Title>Thing 2-1</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>unoto</FieldID>
+                                                <Value>MapElement2-1</Value>
+                                            </MetaDataItem>
+                                            <MetaDataItem>
+                                                <FieldID>unofrom</FieldID>
+                                                <Value>MapElement2-2</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>26</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem UUID="4A4F4046-221C-4267-8D13-5DCA44C2BFCA" Type="Folder" Created="2018-08-07 07:15:24 -0700" Modified="2018-09-19 08:00:09 -0700">
+                                    <Title>Thing 2-2</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>unoto</FieldID>
+                                                <Value>Thing2-1</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>40,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>26</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem UUID="B1CB50C6-C482-4D82-A7FE-5A0E646D4744" Type="Folder" Created="2018-08-07 07:15:30 -0700" Modified="2018-08-21 06:52:17 -0700">
+                                    <Title>Thing 2-3</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>26</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="BD246551-DE56-455E-AD9A-206A5C0D1745" Type="Folder" Created="2018-08-07 07:14:56 -0700" Modified="2018-09-18 10:47:21 -0700">
+                            <Title>Thing 3</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>39,0</NotesTextSelection>
+                                <CustomMetaData>
+                                    <MetaDataItem>
+                                        <FieldID>ypos</FieldID>
+                                        <Value>400</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>yoffset</FieldID>
+                                        <Value>50</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>id</FieldID>
+                                        <Value>Thing3-IDOverride</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>symbol</FieldID>
+                                        <Value>Thing3</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>tooltip</FieldID>
+                                        <Value>0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>subtitle</FieldID>
+                                        <Value>Thing 3 Subtitle</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>location</FieldID>
+                                        <Value>xxx</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>hoverfunction</FieldID>
+                                        <Value>thisHoverFunction=1.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>url</FieldID>
+                                        <Value>http://nexial.co</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>offfunction</FieldID>
+                                        <Value>fadeOff=0.8</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>openfunction</FieldID>
+                                        <Value>drawOpen=1.2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>render</FieldID>
+                                        <Value>N</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>onfunction</FieldID>
+                                        <Value>fadeOn=1.2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>infopane</FieldID>
+                                        <Value>0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>onurl</FieldID>
+                                        <Value>+++&amp;onURL</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>ondoubleclick</FieldID>
+                                        <Value>dClickFunction=thisUno</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>urltext</FieldID>
+                                        <Value>Nexial Webstie</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>clickfunction</FieldID>
+                                        <Value>thisClickFunciton=2.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>unoto</FieldID>
+                                        <Value>Thing3-1</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>slideurl</FieldID>
+                                        <Value>+++&amp;on=Thing2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>ysize</FieldID>
+                                        <Value>100</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>hoveraction</FieldID>
+                                        <Value>functon</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>closefunction</FieldID>
+                                        <Value>drawClose=1.0</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>clickaction</FieldID>
+                                        <Value>function</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param4</FieldID>
+                                        <Value>4.4</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>openurl</FieldID>
+                                        <Value>+++&amp;openURL</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param3</FieldID>
+                                        <Value>3.3</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>offurl</FieldID>
+                                        <Value>+++&amp;offURL</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>xsize</FieldID>
+                                        <Value>200</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>xpos</FieldID>
+                                        <Value>500</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param2</FieldID>
+                                        <Value>2.2</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>xoffset</FieldID>
+                                        <Value>50</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>closeurl</FieldID>
+                                        <Value>+++&amp;closeURL</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>ttstyle</FieldID>
+                                        <Value>newStyle</Value>
+                                    </MetaDataItem>
+                                    <MetaDataItem>
+                                        <FieldID>param1</FieldID>
+                                        <Value>1.1</Value>
+                                    </MetaDataItem>
+                                </CustomMetaData>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <CorkboardAndOutliner>
+                                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                                <OutlinerExpandedState>
+                                    <ItemID>D05C2AD0-4A83-4F8A-90D9-1C01266C40E5</ItemID>
+                                </OutlinerExpandedState>
+                            </CorkboardAndOutliner>
+                            <Keywords>
+                                <KeywordID>26</KeywordID>
+                                <KeywordID>13</KeywordID>
+                                <KeywordID>29</KeywordID>
+                            </Keywords>
+                            <Children>
+                                <BinderItem UUID="D05C2AD0-4A83-4F8A-90D9-1C01266C40E5" Type="Folder" Created="2018-08-07 07:15:14 -0700" Modified="2018-09-21 12:55:19 -0700">
+                                    <Title>Thing 3-1</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>13</KeywordID>
+                                        <KeywordID>29</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem UUID="32ABC80C-08DE-4043-A4AA-68E5CCF82A7B" Type="Folder" Created="2018-08-07 07:15:24 -0700" Modified="2018-08-23 06:20:33 -0700">
+                                    <Title>Thing 3-2</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>40,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="10BD7808-018F-4D2E-989A-5B2903B92DFB" Type="Folder" Created="2018-08-07 07:15:30 -0700" Modified="2018-08-23 06:20:40 -0700">
+                                    <Title>Thing 3-3</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>40,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="FD2AB139-FCEA-4DF9-BF26-4246890BA424" Type="Folder" Created="2018-08-07 07:15:30 -0700" Modified="2018-08-23 06:20:43 -0700">
+                                    <Title>Thing 3-4</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>41,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="6E7BE8AA-33FD-4E0A-8F31-346C7B0664F0" Type="Folder" Created="2018-08-23 06:11:46 -0700" Modified="2018-08-23 06:16:04 -0700">
+                            <Title>VOA 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <CorkboardAndOutliner>
+                                <SelectedSubdocumentUUIDs>4BA8FCAA-8BB1-4C9E-8A20-A5EE08E814AA</SelectedSubdocumentUUIDs>
+                            </CorkboardAndOutliner>
+                            <Keywords>
+                                <KeywordID>29</KeywordID>
+                                <KeywordID>30</KeywordID>
+                            </Keywords>
+                            <Children>
+                                <BinderItem UUID="F445D586-FCF8-4468-B277-E6F700C6D4AC" Type="Text" Created="2018-08-23 06:11:53 -0700" Modified="2018-08-23 06:14:46 -0700">
+                                    <Title>First VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing1&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="BC08206B-F8C4-468E-BA14-D0B5BD95B0FD" Type="Text" Created="2018-08-23 06:12:01 -0700" Modified="2018-08-23 06:14:53 -0700">
+                                    <Title>Second VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing2&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="4BA8FCAA-8BB1-4C9E-8A20-A5EE08E814AA" Type="Text" Created="2018-08-23 06:12:11 -0700" Modified="2018-08-23 06:14:56 -0700">
+                                    <Title>Third VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing2&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="67F6542F-F45F-4BB2-A98E-430C27B6FB47" Type="Folder" Created="2018-08-23 06:11:46 -0700" Modified="2018-08-23 06:21:25 -0700">
+                            <Title>VOA 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Keywords>
+                                <KeywordID>29</KeywordID>
+                                <KeywordID>30</KeywordID>
+                            </Keywords>
+                            <Children>
+                                <BinderItem UUID="F7B00DC7-CEB8-4406-9FD6-C03B47442308" Type="Text" Created="2018-08-23 06:11:53 -0700" Modified="2018-08-23 06:14:46 -0700">
+                                    <Title>First VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing1&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="45594B79-1082-4BAF-8DCB-A15AD19B2FEA" Type="Text" Created="2018-08-23 06:12:01 -0700" Modified="2018-08-23 06:14:53 -0700">
+                                    <Title>Second VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing2&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="B0E34807-6D84-4FFE-BA3E-99AE24370235" Type="Text" Created="2018-08-23 06:12:11 -0700" Modified="2018-08-23 06:14:56 -0700">
+                                    <Title>Third VOA Element</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <CustomMetaData>
+                                            <MetaDataItem>
+                                                <FieldID>slideurl</FieldID>
+                                                <Value>+++&amp;open=Thing2&amp;zoom=1.0</Value>
+                                            </MetaDataItem>
+                                        </CustomMetaData>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="B8F1193B-E5A3-415D-B44C-69BB647EEBA0" Type="Folder" Created="2018-08-22 13:48:51 -0700" Modified="2018-08-22 13:49:45 -0700">
+                    <Title>Map Element 2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="36E7ED12-CB3F-4405-BCD7-073EB99C2DEC" Type="Text" Created="2018-08-22 13:49:54 -0700" Modified="2018-08-22 13:50:03 -0700">
+                            <Title>Map Element 2-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="26A34C35-7805-4841-BF93-16E2B946687C" Type="Folder" Created="2018-08-21 13:32:44 -0700" Modified="2018-08-21 13:33:05 -0700">
+                    <Title>Other Tests</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="6DB1125A-78D5-4C27-82A8-ADB2D7FC006A" Type="Text" Created="2018-08-22 13:48:51 -0700" Modified="2018-08-23 06:45:05 -0700">
+                            <Title>Thing This &amp; That: and the other?</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="FD49F2FB-6F17-4DED-B1C5-698C03613CD3" Type="Text" Created="2018-08-21 13:33:06 -0700" Modified="2018-08-21 13:48:42 -0700">
+                            <Title>3.0 Leading Number</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>19,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="22549C90-098E-4845-B4C2-9470A0EC7379" Type="Folder" Created="2018-08-17 06:24:26 -0700" Modified="2018-08-17 06:24:32 -0700">
+                    <Title>Image Test</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="B98379A4-F2F2-46CA-B27D-3CEA4DC29322" Type="Text" Created="2018-08-17 06:24:44 -0700" Modified="2018-08-17 06:40:55 -0700">
+                            <Title>Image 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="814E1AA7-C41A-4DE1-9A8D-30B1E8231750" Type="Text" Created="2018-08-17 06:24:54 -0700" Modified="2018-08-17 06:41:21 -0700">
+                            <Title>Image 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="8933BA2C-0B4A-4FFE-9F97-1667C31472D0" Type="Text" Created="2018-08-17 06:24:58 -0700" Modified="2018-08-18 09:21:52 -0700">
+                            <Title>Image 3</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>489,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="5C928BA8-4577-4FB1-A81F-FFDC13756EAB" Type="Folder" Created="2018-08-07 18:17:30 -0700" Modified="2018-08-09 13:53:50 -0700">
+            <Title>UNO Data</Title>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="AD64256E-CB32-4B81-944D-A3CB182D3920" Type="Text" Created="2018-08-08 05:16:24 -0700" Modified="2018-08-09 13:42:16 -0700">
+                    <Title>UNO Data List</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>93,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9C8F6832-411A-4E6E-AF95-AF0C6B135AAB" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-09 13:40:47 -0700">
+                    <Title>id</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>192,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6197EEDE-E4FD-463E-B71F-A29B76DAB35D" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-09 13:40:58 -0700">
+                    <Title>label</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>103,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="87A53021-5CA2-493F-812A-AE9CDDD93C76" Type="Text" Created="2018-08-09 13:42:28 -0700" Modified="2018-08-09 13:43:54 -0700">
+                    <Title>subtitle</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>189,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="BF66D1EC-3930-42C9-8158-C2C0D75C63B6" Type="Text" Created="2018-08-08 05:06:12 -0700" Modified="2018-08-08 05:06:55 -0700">
+                    <Title>outlineNumber</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,44</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="483FADCC-859F-44ED-A7F9-9E994DCFFCE6" Type="Text" Created="2018-08-08 05:06:17 -0700" Modified="2018-08-08 05:07:09 -0700">
+                    <Title>outlineLevel</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>64,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="1AA11D3E-3A98-4B05-84CE-7B240C0446E1" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-08 05:08:05 -0700">
+                    <Title>parent</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>75,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DD34E2F2-2CB0-41AA-8BB6-C4DABD31B2E0" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-09 13:52:39 -0700">
+                    <Title>classes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>infopane</FieldID>
+                                <Value>hover</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>ondoubleclick</FieldID>
+                                <Value>none</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>hoverfunction</FieldID>
+                                <Value>none</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>clickaction</FieldID>
+                                <Value>OpenClose</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>tooltip</FieldID>
+                                <Value>1</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>hoveraction</FieldID>
+                                <Value>none</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>clickfunction</FieldID>
+                                <Value>none</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>152,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="BF535613-59A0-4F3A-9939-172C41596518" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:48:58 -0700">
+                    <Title>unoFrom</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AAFE8C16-67CD-45E8-9A78-CF7B49F4AA63" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:48:58 -0700">
+                    <Title>unoTo</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="409B3A4B-984A-415A-B217-ED5D286B9589" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:08:45 -0700">
+                    <Title>param1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>45,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="5402DF6B-1B8E-4729-923A-24C877F42D4B" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:08:57 -0700">
+                    <Title>param2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,45</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E4D84915-FE77-47AC-9445-3D61E7EF85CC" Type="Text" Created="2018-08-07 19:06:35 -0700" Modified="2018-08-07 19:08:59 -0700">
+                    <Title>param3</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>45,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6BB035FC-00D7-41FC-B90D-E6B57F8F28AC" Type="Text" Created="2018-08-07 19:07:36 -0700" Modified="2018-08-07 19:09:02 -0700">
+                    <Title>param4</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>45,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="102A8CAB-A2BB-45D7-A4B3-7D8FE10F354A" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-09 13:39:10 -0700">
+                    <Title>shortDescription</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>77,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2A42AD0F-7AD9-4669-88D6-C1B680AAE09A" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-09 13:39:53 -0700">
+                    <Title>longDescription</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>138,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="BDD6A725-6899-4609-B46E-BCE13DF772EC" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:05:06 -0700">
+                    <Title>hoverAction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="BCCD0F28-0662-4148-A2EC-D0A98939564C" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:49:12 -0700">
+                    <Title>hoverFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4810D40B-1919-4F4A-95CA-4D0388C68F82" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:05:20 -0700">
+                    <Title>clickAction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FA5DE601-3097-42D2-A087-F8522006F426" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-14 07:14:11 -0700">
+                    <Title>clickFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>78,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AF8D0592-6357-4219-9187-47D1D64E5AE5" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:49:37 -0700">
+                    <Title>onDoubleClick</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A8BEC3CB-872E-426B-89A1-0FD8FDDC07C8" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:49:37 -0700">
+                    <Title>url</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="0B289284-0623-4EAD-93D2-82698847D120" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:49:37 -0700">
+                    <Title>urlText</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="95CB7DF8-E23A-440B-938C-D7477EF6F506" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:49:37 -0700">
+                    <Title>tooltip</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2BC0C7CD-2DE2-464E-B60F-C3552FCE2315" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-08 06:52:46 -0700">
+                    <Title>infoPane</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>infopane</FieldID>
+                                <Value>hover</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>location</FieldID>
+                                <Value>vvv</Value>
+                            </MetaDataItem>
+                            <MetaDataItem>
+                                <FieldID>symbol</FieldID>
+                                <Value>uno</Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="C7BF7C49-C056-489A-A75B-2955BB371ABC" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>onURL</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9C1F822A-4AAA-4212-97A6-29C468F69611" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>offURL</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="CD67989A-35D9-46F8-9FE7-112475F60CA5" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>openURL</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="C3BE722D-3D48-44CD-AEFD-1A43D73FFAB6" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>closeURL</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="93DB5D93-0187-4214-B287-C4BBF731839B" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>onFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="858C72DA-419C-456E-8D25-4148051E658D" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>offFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="14C01E84-28B2-45A5-9D30-9483B6F45101" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>openFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="84351DC2-E573-4EC4-87C2-763914753D9F" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>closeFunction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="34753C67-E0DE-4C41-A79A-13A966CFFF3B" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:51:30 -0700">
+                    <Title>ttStyle</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4F5C5BD8-4152-4F4E-A72D-8E2A7D0791C3" Type="Text" Created="2018-08-09 13:37:09 -0700" Modified="2018-08-09 13:37:52 -0700">
+                    <Title>slideURL</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>79,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D9129120-26B6-409A-A873-1E39DB287125" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:59:33 -0700">
+                    <Title>render</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="995C3089-6862-4394-A207-69481EF3B7A4" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:03:07 -0700">
+                    <Title>symbol</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="34F94D6A-D7BD-4B6D-B909-34AAC0B31EA4" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-07 18:59:08 -0700">
+                    <Title>location</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>40,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2A0DB8D7-19B2-4FD6-B1C9-EEA8C2A028DF" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 18:53:45 -0700">
+                    <Title>xpos</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D8AD8F0E-531F-4AED-B35A-DBEDDE092722" Type="Text" Created="2018-08-07 18:24:54 -0700" Modified="2018-08-07 19:03:29 -0700">
+                    <Title>ypos</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="66B241F3-195F-4FB6-A3E6-B63661143584" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-08 05:29:31 -0700">
+                    <Title>xsize</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>9,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="0A9E7528-7E68-4B16-B099-3B97E377EB14" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-08 05:29:24 -0700">
+                    <Title>ysize</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,9</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E7C73CAB-7473-4B22-A56D-41E5C00FEE50" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-08 05:30:36 -0700">
+                    <Title>xoffset</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,49</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="56905896-5696-4295-8679-205B663B5674" Type="Text" Created="2018-08-07 13:14:08 -0700" Modified="2018-08-08 05:30:36 -0700">
+                    <Title>yoffset</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>47,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="F7A549FA-4A69-4E7D-82B9-EFC443A901B2" Type="Folder" Created="2018-08-22 13:50:42 -0700" Modified="2018-08-22 13:50:45 -0700">
+            <Title>Other Tests</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="A9CFB8B6-56B8-4DFB-B241-91D3A982EE87" Type="Text" Created="2018-08-22 13:48:51 -0700" Modified="2018-08-23 06:43:18 -0700">
+                    <Title>Thing This &amp; That: and "the other"?.-1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6EE99537-B309-436E-946F-8A9DAAA8088A" Type="Text" Created="2018-08-21 13:33:16 -0700" Modified="2018-08-21 13:48:42 -0700">
+                    <Title>This &amp; that, and "this too!?": as well as #37%</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>47,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="5C74224B-4D01-4D92-9BA4-FFEBE4604B5E" Type="Text" Created="2018-08-21 13:34:02 -0700" Modified="2018-08-22 12:06:10 -0700">
+                    <Title>And these:`~!@#$%^&amp;*()_+-done=[]\{}|;':",.&lt;&gt;/?</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>14,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="4152ECB9-1B68-4561-BF84-63DC9B29E632" Type="DraftFolder" Created="2018-07-12 08:53:34 -0700" Modified="2018-08-08 07:43:17 -0700">
+            <Title>Not Map</Title>
+            <MetaData>
+                <IconFileName>Book (Blue Book).tiff</IconFileName>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                <OutlinerExpandedState>
+                    <ItemID>BA335614-C0B7-4345-9823-8E2CE6A3520C</ItemID>
+                </OutlinerExpandedState>
+            </CorkboardAndOutliner>
+        </BinderItem>
+        <BinderItem UUID="73EA1F1C-6A12-4622-A943-593112F9A9EF" Type="ResearchFolder" Created="2018-07-12 08:53:34 -0700" Modified="2018-07-12 08:53:34 -0700">
+            <Title>Research</Title>
+        </BinderItem>
+        <BinderItem UUID="F87A7582-77FA-40D8-922E-E9659820041E" Type="TrashFolder" Created="2018-07-12 08:53:34 -0700" Modified="2018-07-12 08:53:34 -0700">
+            <Title>Trash</Title>
+            <Children>
+                <BinderItem UUID="0A36851C-A1A6-4919-BBB5-552115738D38" Type="Text" Created="2018-08-23 06:43:19 -0700" Modified="2018-08-23 06:43:19 -0700">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E6423C28-EBD5-4414-88C4-C6409304DD78" Type="Text" Created="2018-08-23 06:43:58 -0700" Modified="2018-08-23 06:43:58 -0700">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6045F042-7D55-42FE-ACA9-BE700F575EAE" Type="Text" Created="2018-08-23 06:45:07 -0700" Modified="2018-08-23 06:45:07 -0700">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="CA494999-6FBA-4705-A866-6A01D2762CBF" Color="0.924849 0.924014 0.949681">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="ACE667ED-F3EB-4C88-B2BA-0FE519EDF4FD" Color="0.922176 0.818589 0.999618">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Any" Type="All" CaseSensitive="No" IgnoreDiacritics="No">Updated</SearchSettings>
+        </Collection>
+        <Collection Type="Arbitrary" ID="49501E5E-21A9-432B-ACC1-1F22A4AB8AF4" Color="0.870039 0.935409 0.840238">
+            <Title>Interim Report</Title>
+        </Collection>
+        <Collection Type="Arbitrary" ID="3E20F5CB-FC5A-4B6E-B3EE-DD37A7400198" Color="0.777127 0.86949 0.916106">
+            <Title>Prospectus</Title>
+            <BinderUUIDs>734AE735-C270-4550-862E-891E8BBF4402,174A90F1-60EF-44D2-8749-774EC83E527E,19F0AF40-299A-4613-A528-4D9D1653BF60</BinderUUIDs>
+        </Collection>
+        <Collection Type="Arbitrary" ID="A207004A-D703-4F0F-80E3-6FD174B3C4A5" Color="0.992004 0.973007 0.768994">
+            <Title>Updated Documents</Title>
+        </Collection>
+    </Collections>
+    <Keywords>
+        <Keyword ID="26">
+            <Title>node</Title>
+            <Color>0.614707 0.655123 1.0</Color>
+        </Keyword>
+        <Keyword ID="28">
+            <Title>link</Title>
+            <Color>0.438547 0.593138 0.986161</Color>
+        </Keyword>
+        <Keyword ID="13">
+            <Title>actor</Title>
+            <Color>0.707332 0.503258 0.521096</Color>
+        </Keyword>
+        <Keyword ID="24">
+            <Title>connection</Title>
+            <Color>0.807645 0.0 0.008194</Color>
+        </Keyword>
+        <Keyword ID="14">
+            <Title>partof</Title>
+            <Color>0.422171 0.919753 0.802655</Color>
+        </Keyword>
+        <Keyword ID="29">
+            <Title>story</Title>
+            <Color>0.704488 0.939041 0.574103</Color>
+        </Keyword>
+        <Keyword ID="30">
+            <Title>voa</Title>
+            <Color>0.871375 0.549578 0.335458</Color>
+        </Keyword>
+    </Keywords>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="7E3985A6-F9F3-4DED-A248-89AC9590A390">Heading</Type>
+            <Type ID="E6FABED1-B194-4FC3-AC15-6AA97C33DD7B">Sub-Heading</Type>
+            <Type ID="55B5FD99-8945-493D-BA1C-82F311998CCE">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>7E3985A6-F9F3-4DED-A248-89AC9590A390</Type>
+            </Folders>
+            <Containers>
+                <Type>55B5FD99-8945-493D-BA1C-82F311998CCE</Type>
+            </Containers>
+            <Files>
+                <Type>55B5FD99-8945-493D-BA1C-82F311998CCE</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="2" Color="0.995418 0.790946 0.652385">Label 2</Label>
+            <Label ID="3" Color="0.997722 0.89273 0.652569">Label 3</Label>
+            <Label ID="1" Color="0.993495 0.701207 0.732587">Updated</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+            <Status ID="5">NEW</Status>
+            <Status ID="6">Started</Status>
+            <Status ID="7">Revised</Status>
+        </StatusItems>
+    </StatusSettings>
+    <CustomMetaDataSettings>
+        <MetaDataField ID="id" Type="Text" Wraps="No" Align="Left">
+            <Title>id</Title>
+        </MetaDataField>
+        <MetaDataField ID="thisnewthing" Type="Text" Wraps="No" Align="Left">
+            <Title>thisNewThing</Title>
+        </MetaDataField>
+        <MetaDataField ID="subtitle" Type="Text" Wraps="No" Align="Left">
+            <Title>subtitle</Title>
+        </MetaDataField>
+        <MetaDataField ID="unofrom" Type="Text" Wraps="No" Align="Left">
+            <Title>unoFrom</Title>
+        </MetaDataField>
+        <MetaDataField ID="unoto" Type="Text" Wraps="No" Align="Left">
+            <Title>unoTo</Title>
+        </MetaDataField>
+        <MetaDataField ID="param1" Type="Text" Wraps="No" Align="Left">
+            <Title>param1</Title>
+        </MetaDataField>
+        <MetaDataField ID="param2" Type="Text" Wraps="No" Align="Left">
+            <Title>param2</Title>
+        </MetaDataField>
+        <MetaDataField ID="param3" Type="Text" Wraps="No" Align="Left">
+            <Title>param3</Title>
+        </MetaDataField>
+        <MetaDataField ID="param4" Type="Text" Wraps="No" Align="Left">
+            <Title>param4</Title>
+        </MetaDataField>
+        <MetaDataField ID="hoveraction" Type="Text" Wraps="No" Align="Left">
+            <Title>hoverAction</Title>
+        </MetaDataField>
+        <MetaDataField ID="hoverfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>hoverFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="clickaction" Type="Text" Wraps="No" Align="Left">
+            <Title>clickAction</Title>
+        </MetaDataField>
+        <MetaDataField ID="clickfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>clickFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="ondoubleclick" Type="Text" Wraps="No" Align="Left">
+            <Title>onDoubleClick</Title>
+        </MetaDataField>
+        <MetaDataField ID="url" Type="Text" Wraps="No" Align="Left">
+            <Title>url</Title>
+        </MetaDataField>
+        <MetaDataField ID="urltext" Type="Text" Wraps="No" Align="Left">
+            <Title>urlText</Title>
+        </MetaDataField>
+        <MetaDataField ID="tooltip" Type="Text" Wraps="No" Align="Left">
+            <Title>tooltip</Title>
+        </MetaDataField>
+        <MetaDataField ID="infopane" Type="Text" Wraps="No" Align="Left">
+            <Title>infopane</Title>
+        </MetaDataField>
+        <MetaDataField ID="onurl" Type="Text" Wraps="No" Align="Left">
+            <Title>onURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="offurl" Type="Text" Wraps="No" Align="Left">
+            <Title>offURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="openurl" Type="Text" Wraps="No" Align="Left">
+            <Title>openURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="closeurl" Type="Text" Wraps="No" Align="Left">
+            <Title>closeURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="onfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>onFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="offfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>offFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="openfunction" Type="Text" Wraps="No" Align="Left">
+            <Title>openFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="closefunction" Type="Text" Wraps="No" Align="Left">
+            <Title>closeFunction</Title>
+        </MetaDataField>
+        <MetaDataField ID="ttstyle" Type="Text" Wraps="No" Align="Left">
+            <Title>ttStyle</Title>
+        </MetaDataField>
+        <MetaDataField ID="slideurl" Type="Text" Wraps="No" Align="Left">
+            <Title>slideURL</Title>
+        </MetaDataField>
+        <MetaDataField ID="render" Type="Text" Wraps="No" Align="Left">
+            <Title>render</Title>
+        </MetaDataField>
+        <MetaDataField ID="symbol" Type="Text" Wraps="No" Align="Left">
+            <Title>symbol</Title>
+        </MetaDataField>
+        <MetaDataField ID="location" Type="Text" Wraps="No" Align="Left">
+            <Title>location</Title>
+        </MetaDataField>
+        <MetaDataField ID="xpos" Type="Text" Wraps="No" Align="Left">
+            <Title>xpos</Title>
+        </MetaDataField>
+        <MetaDataField ID="ypos" Type="Text" Wraps="No" Align="Left">
+            <Title>ypos</Title>
+        </MetaDataField>
+        <MetaDataField ID="xsize" Type="Text" Wraps="No" Align="Left">
+            <Title>xsize</Title>
+        </MetaDataField>
+        <MetaDataField ID="ysize" Type="Text" Wraps="No" Align="Left">
+            <Title>ysize</Title>
+        </MetaDataField>
+        <MetaDataField ID="xoffset" Type="Text" Wraps="No" Align="Left">
+            <Title>xoffset</Title>
+        </MetaDataField>
+        <MetaDataField ID="yoffset" Type="Text" Wraps="No" Align="Left">
+            <Title>yoffset</Title>
+        </MetaDataField>
+    </CustomMetaDataSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-09-17 10:22:06 -0700" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2018-10-10 15:45:17 -0700"></PreviousSession>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2018-10-10 00:00:00 -0700">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

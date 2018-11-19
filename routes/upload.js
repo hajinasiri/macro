@@ -42,16 +42,16 @@ router.post('/', restrict, function(req, res, next) {
 
     var file = req.files.scriv;
     var filename = file.name;
-    file.mv(filename,function(err){
+    file.mv(filename,function(err){//Writing the zip file to the server side
         if(err){
             console.log(err);
         }
     })
-    var fullpath = __dirname;
-    console.log(fullpath);
+    var fullpath = __dirname;//Gets the absoult path of this JS file
     var extract = require('extract-zip')
-    extract('./'+filename, {dir: fullpath}, function (err) {
-        // extraction is complete. make sure to handle the err
+    extract('./'+filename, {dir: fullpath}, function (err) {//Extracts the zip file to a scriv file in the current folder
+        if(err){console.log(err)}
+        fs.unlinkSync(filename);//deletes the zip file
     })
 
 

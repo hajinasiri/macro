@@ -1,0 +1,658 @@
+<html>
+
+<head>
+<title>render0.3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- NOTE: margin property = top-right-bottom-left -->
+<style type="text/css">
+
+	body {background-color: #e2e2e2}
+    
+    p.topLevelItemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 30px;
+    	}
+    	
+    p.folderTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 18px;
+    	}
+    
+    p.itemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	font-weight: bold;
+    	}
+    	
+    p.itemText {
+    	margin: 0px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    	
+    p.itemTextStart {
+    	margin: 30px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    
+    .page {border: 1px solid #c0c0c0; background: #fff}
+    
+    hr {
+        border: none;
+        height: 1px;
+        color: #d4d4d4;
+        background-color: #d4d4d4;
+      	}
+      	
+    hr.afterTitle {
+    	margin-top: -3px;
+    }
+      	
+    hr.afterText {
+    	margin-top: 30px;
+    }
+      	
+    ul {
+      	list-style-type: none;
+      	padding-left: 30px;
+      	}
+      	
+</style>
+
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+
+<!-- Top margin -->
+<!-- Not needed, because of the padding above titles. -->
+<!--<tr><td height="15px"></td></tr>-->
+
+<tr>
+
+<!-- 42 + 30 of list indent = 72 - one inch. -->
+<!-- Actually that ends up too much, so we do 25 + 30 = 55px. -->
+<td width="25px">
+
+<td valign="top">
+
+<ul>
+<li>
+<p class="topLevelItemTitle">config.json</p>
+<p class="itemText">{</p>
+<p class="itemText">  "mapTitle": "",</p>
+<p class="itemText">  "createdBy": "",</p>
+<p class="itemText">  "version": "",</p>
+<p class="itemText">  "date": "",</p>
+<p class="itemText">  "storyPostfix": "",</p>
+<p class="itemText">  "storyOutlineType": "",</p>
+<p class="itemText">  "voaPrefix": "",</p>
+<p class="itemText">  "voaPostfix": "",</p>
+<p class="itemText">  "svgFile": "alpha0.4.svg",</p>
+<p class="itemText">  "storyFile": "story.html",</p>
+<p class="itemText">  "infoFile": "/docs/infoHelp.html",</p>
+<p class="itemText">  "helpLink": "/docs/help.html",</p>
+<p class="itemText">  "segmentsFile": "animation.json",</p>
+<p class="itemText">  "masterDB": "alpha_master",</p>
+<p class="itemText">  "formDB": "alpha_form",</p>
+<p class="itemText">  "mapForm": "mapDbEditor",</p>
+<p class="itemText">  "minZoom": 0.8,</p>
+<p class="itemText">  "maxZoom": 25,</p>
+<p class="itemText">  "zoomSensitivity": 0.08,</p>
+<p class="itemText">  "gotozRatio": "0.95",</p>
+<p class="itemText">  "tweenD...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Map</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Multiple - dashes - test - item</p>
+</li>
+<li>
+<p class="itemTitle">This & that & the - other - thing</p>
+</li>
+<li>
+<p class="itemTitle">This Is A Link</p>
+<p class="itemText">unoFrom is blank - but should get filled-in with ‘ThisIsALink’.</p>
+</li>
+<li>
+<p class="folderTitle">Story</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="folderTitle"> </p>
+<p class="itemText">This the Synopsis for Thing 1</p>
+
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="folderTitle">Thing 1-1</p>
+<p class="itemText">This the Synopsis for Thing 1-1  </p>
+</li>
+<li>
+<p class="folderTitle">Thing 1-2</p>
+<p class="itemText">This doc is formatted in markdown.  This paragraph is plain text, as is everything below.  </p>
+<p class="itemText"></p>
+<p class="itemText">This text is normal, **while this text is bold. ** And a single paragraph break.</p>
+<p class="itemText"></p>
+<p class="itemText">This text is normal, _while this text is italic._**. ** And a single paragraph break.</p>
+<p class="itemText"></p>
+<p class="itemText">This text is normal, **_while this text is bold and italic._**</p>
+<p class="itemText"></p>
+<p class="itemText">**This is a Heading 1**</p>
+<p class="itemText"></p>
+<p class="itemText">Below here is a bullet list:</p>
+<p class="itemText"></p>
+<p class="itemText">- Item 1</p>
+<p class="itemText">- Item 2</p>
+<p class="itemText">    - Subitem 2.1</p>
+<p class="itemText">    - Subitem 2.2</p>
+<p class="itemText">    - Subitem 2.3</p>
+<p class="itemText"></p>
+<p class="itemText">- Item 3</p>
+<p class="itemText">- Item 4</p>
+<p class="itemText"></p>
+<p class="itemText">**This is a Heading 2**</p>
+<p class="itemText"></p>
+<p class="itemText">An...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Thing 2</p>
+<p class="itemText">This is some document text for Thing 2.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="folderTitle">Thing 2-1</p>
+<p class="itemText">Thing 2 could be Synopsized thusly.</p>
+</li>
+<li>
+<p class="folderTitle">Thing 2-2</p>
+<p class="itemText">This is some document text for Thing 2-2.</p>
+</li>
+<li>
+<p class="folderTitle">Thing 2-3</p>
+<p class="itemText">This is some document text for Thing 2-3.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Thing 3</p>
+<p class="itemText">This is some document text for Thing 3</p>
+<p class="itemText">.</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="folderTitle">Thing 3-1</p>
+<p class="itemText">This is some document text for Thing 3-1.</p>
+</li>
+<li>
+<p class="folderTitle">Thing 3-2</p>
+<p class="itemText">This is some document text for Thing 3-2.</p>
+</li>
+<li>
+<p class="folderTitle">Thing 3-3</p>
+<p class="itemText">This is some document text for Thing 3-3.</p>
+</li>
+<li>
+<p class="folderTitle">Thing 3-4</p>
+<p class="itemText">This is some document text for Thing 3-4.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">VOA 1</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">First VOA Element</p>
+<p class="itemText">First VOA Element doc text.</p>
+</li>
+<li>
+<p class="itemTitle">Second VOA Element</p>
+<p class="itemText">Second VOA Element doc text.</p>
+</li>
+<li>
+<p class="itemTitle">Third VOA Element</p>
+<p class="itemText">Third VOA Element doc text.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">VOA 2</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">First VOA Element</p>
+<p class="itemText">First VOA Element doc text.</p>
+</li>
+<li>
+<p class="itemTitle">Second VOA Element</p>
+<p class="itemText">Second VOA Element doc text.</p>
+</li>
+<li>
+<p class="itemTitle">Third VOA Element</p>
+<p class="itemText">Third VOA Element doc text.</p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Map Element 2</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Map Element 2-1</p>
+</li>
+</ul>
+<hr class="afterTitle"/>
+
+<li>
+<p class="folderTitle">Other Tests</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Thing This & That: and the other?</p>
+</li>
+<li>
+<p class="itemTitle">3.0 Leading Number</p>
+<p class="itemText">3.0 Leading Number</p>
+
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="folderTitle">Image Test</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Image 1</p>
+</li>
+<li>
+<p class="itemTitle">Image 2</p>
+</li>
+<li>
+<p class="itemTitle">Image 3</p>
+<p class="itemText">#</p>
+<p class="itemText">This is image file image2.jpg an image that has been linked to this document with:  </p>
+<p class="itemText"></p>
+<p class="itemText"> • Insert - Image Linked to File  </p>
+<p class="itemText"> • List thing 2</p>
+<p class="itemText"> • List thing 3</p>
+<p class="itemText"></p>
+<p class="itemText">This will be italicized text and bold italics.</p>
+<p class="itemText"></p>
+<p class="itemText">And block quote text - because that’s the other one we use.</p>
+<p class="itemText"></p>
+<p class="itemText">And a link to an outside website.  For which the code should add the _blank tag.</p>
+<p class="itemText">And this is back to normal text.</p>
+<p class="itemText"></p>
+<p class="itemText">And below here is a:</p>
+<p class="itemText"></p>
+<p class="itemText">Codeblock of text. For code and stuff like that.</p>
+<p class="itemText"></p>
+<p class="itemText">And this is back to normal text again. </p>
+<p class="itemText"></p>
+<p class="itemText"></p>
+
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">UNO Data</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">UNO Data List</p>
+<p class="itemText"></p>
+<p class="itemText">id</p>
+<p class="itemText">label</p>
+<p class="itemText">Subtitle</p>
+<p class="itemText">outlineNumber</p>
+<p class="itemText">outlineLevel</p>
+<p class="itemText">parent</p>
+<p class="itemText">classes</p>
+<p class="itemText">unoFrom</p>
+<p class="itemText">unoTo</p>
+<p class="itemText">param1</p>
+<p class="itemText">param2</p>
+<p class="itemText">param3</p>
+<p class="itemText">param4</p>
+<p class="itemText">shortDescription</p>
+<p class="itemText">longDescription</p>
+<p class="itemText">hoverAction</p>
+<p class="itemText">hoverFunction</p>
+<p class="itemText">clickAction</p>
+<p class="itemText">clickFunction</p>
+<p class="itemText">onDoubleClick</p>
+<p class="itemText">url</p>
+<p class="itemText">urlText</p>
+<p class="itemText">tooltip</p>
+<p class="itemText">infoPane</p>
+<p class="itemText">onURL</p>
+<p class="itemText">offURL</p>
+<p class="itemText">openURL</p>
+<p class="itemText">closeURL</p>
+<p class="itemText">onFunction</p>
+<p class="itemText">offFunction</p>
+<p class="itemText">openFunction</p>
+<p class="itemText">closeFunction</p>
+<p class="itemText">ttStyle</p>
+<p class="itemText">render</p>
+<p class="itemText">symbol</p>
+<p class="itemText">location</p>
+<p class="itemText">xpos</p>
+<p class="itemText">ypos</p>
+<p class="itemText">xsize</p>
+<p class="itemText">ysize</p>
+<p class="itemText">xoffset</p>
+<p class="itemText">yoffset</p>
+
+</li>
+<li>
+<p class="itemTitle">id</p>
+<p class="itemText">Camelcase alphanumeric, no special characters or punctuation marks except for ‘-’ dash.</p>
+<p class="itemText"></p>
+<p class="itemText">Usually just a a version of the label with spaces and special characters removed - only dashes allowed.</p>
+</li>
+<li>
+<p class="itemTitle">label</p>
+<p class="itemText">Text label for the UNO: used in the info-pane and tooltips.</p>
+<p class="itemText"></p>
+<p class="itemText">This is the text from Scrivener’s ‘Title’.</p>
+</li>
+<li>
+<p class="itemTitle">subtitle</p>
+<p class="itemText">An optional subtitle that will be appended to the label in the map. Having a separate subtitle helps to keep the IDs shorter, and allows for formatting the subtitles differently in the map.</p>
+</li>
+<li>
+<p class="itemTitle">outlineNumber</p>
+<p class="itemText">Period separated outline number e.g. 4.2.3.4</p>
+</li>
+<li>
+<p class="itemTitle">outlineLevel</p>
+<p class="itemText">Indent level of the outline e.g. 4 for the outlineNumber 4.2.3.4</p>
+</li>
+<li>
+<p class="itemTitle">parent</p>
+<p class="itemText">The id of the parent, e.g. the Title / label stripped of illegal characters</p>
+</li>
+<li>
+<p class="itemTitle">classes</p>
+<p class="itemText">Classes are assigned in Scrivener using Keywords.</p>
+<p class="itemText"></p>
+<p class="itemText">Assigns CSS classes to the UNO.  Can be any class name used by the designer, or the special classes:</p>
+<p class="itemText"></p>
+<p class="itemText">- node: indicates that this is a ‘thing’ UNO.  It may also be a .view link in the story pane.</p>
+<p class="itemText">- link: indicates this is connection between things</p>
+<p class="itemText">- view: this will be a ‘slide’ link that is included in the story-pane.  It make also be a .node with artwork in the map.</p>
+<p class="itemText">- voa: marks this as a voice-over animation link</p>
+<p class="itemText">- connection: this uno will in...</p>
+</li>
+<li>
+<p class="itemTitle">unoFrom</p>
+<p class="itemText">Used by the sequencing function to identify the from UNO.</p>
+</li>
+<li>
+<p class="itemTitle">unoTo</p>
+<p class="itemText">Used by the sequencing function to identify the to UNO.</p>
+</li>
+<li>
+<p class="itemTitle">param1</p>
+<p class="itemText">A map specific variable to be used as needed.</p>
+</li>
+<li>
+<p class="itemTitle">param2</p>
+<p class="itemText">A map specific variable to be used as needed.</p>
+</li>
+<li>
+<p class="itemTitle">param3</p>
+<p class="itemText">A map specific variable to be used as needed.</p>
+</li>
+<li>
+<p class="itemTitle">param4</p>
+<p class="itemText">A map specific variable to be used as needed.</p>
+</li>
+<li>
+<p class="itemTitle">shortDescription</p>
+<p class="itemText">Markdown text for the tooltip.</p>
+<p class="itemText"></p>
+<p class="itemText">This is the text from Scrivener’s ‘Synopsis’.</p>
+</li>
+<li>
+<p class="itemTitle">longDescription</p>
+<p class="itemText">Markdown text for the info-pane.</p>
+<p class="itemText"></p>
+<p class="itemText">This is the text from Scrivener’s main ‘doucument’ window (what get’s saved as the separate .rtf files).</p>
+</li>
+<li>
+<p class="itemTitle">hoverAction</p>
+<p class="itemText"></p>
+<p class="itemText">both (default)</p>
+<p class="itemText">open</p>
+<p class="itemText">close</p>
+<p class="itemText">none</p>
+<p class="itemText">function</p>
+</li>
+<li>
+<p class="itemTitle">hoverFunction</p>
+<p class="itemText">functionName=params</p>
+<p class="itemText"></p>
+<p class="itemText">A function to be run on hovering - in URL command syntax.</p>
+</li>
+<li>
+<p class="itemTitle">clickAction</p>
+<p class="itemText"></p>
+<p class="itemText">openClose</p>
+<p class="itemText">none</p>
+<p class="itemText">gotoz</p>
+<p class="itemText">function</p>
+</li>
+<li>
+<p class="itemTitle">clickFunction</p>
+<p class="itemText">functionName=params</p>
+<p class="itemText"></p>
+<p class="itemText">A function to be run on clicking - in URL command syntax.</p>
+</li>
+<li>
+<p class="itemTitle">onDoubleClick</p>
+<p class="itemText">functionName=params</p>
+<p class="itemText"></p>
+<p class="itemText">A URL command to run when double-clicking on an UNO.</p>
+</li>
+<li>
+<p class="itemTitle">url</p>
+<p class="itemText">A URL used by a custom function and/or by the context menu, in controlmenu.js, as a link in the right-click menu.</p>
+</li>
+<li>
+<p class="itemTitle">urlText</p>
+<p class="itemText">A text label for the url link: used by a custom function and/or by the context menu, in controlmenu.js, as a link in the right-click menu.</p>
+</li>
+<li>
+<p class="itemTitle">tooltip</p>
+<p class="itemText">0 | 1</p>
+<p class="itemText"></p>
+<p class="itemText">Do not show (0) or show (1) the tooltip.</p>
+</li>
+<li>
+<p class="itemTitle">infoPane</p>
+<p class="itemText">none</p>
+<p class="itemText">hover</p>
+<p class="itemText">click</p>
+</li>
+<li>
+<p class="itemTitle">onURL</p>
+<p class="itemText">An optional URL command that is run when UNO is turned on.</p>
+</li>
+<li>
+<p class="itemTitle">offURL</p>
+<p class="itemText">An optional  URL command that is run when UNO is turned off.</p>
+</li>
+<li>
+<p class="itemTitle">openURL</p>
+<p class="itemText">An optional  URL command that is run when UNO opened.</p>
+</li>
+<li>
+<p class="itemTitle">closeURL</p>
+<p class="itemText">An optional  URL command that is run when UNO closed.</p>
+</li>
+<li>
+<p class="itemTitle">onFunction</p>
+<p class="itemText">An optional function that is run when the UNO is turned on – replaces the default function: display: inline.</p>
+</li>
+<li>
+<p class="itemTitle">offFunction</p>
+<p class="itemText">An optional function that is run when the UNO is turned off – replaces the default function: display: none.</p>
+</li>
+<li>
+<p class="itemTitle">openFunction</p>
+<p class="itemText">An optional function that is run on this UNO’s xxx or vvv when it’s opened – replaces the default function: display: inline.</p>
+</li>
+<li>
+<p class="itemTitle">closeFunction</p>
+<p class="itemText">An optional function that is run on this UNO’s xxx or vvv when it’s closed – replaces the default function: display: none.</p>
+</li>
+<li>
+<p class="itemTitle">ttStyle</p>
+<p class="itemText">The name of the qtip2 tooltip style specification in customstuff.js</p>
+</li>
+<li>
+<p class="itemTitle">slideURL</p>
+<p class="itemText">This will be the URL triggered for ‘slide’ (or ‘view’) links in the story pane.</p>
+</li>
+<li>
+<p class="itemTitle">render</p>
+<p class="itemText">render = ""X""  if UNO layer exists delete it and replace it with a new one</p>
+<p class="itemText">render = ""N"" if UNO layer exists  skip the UNO entirely and only render new UNOs</p>
+</li>
+<li>
+<p class="itemTitle">symbol</p>
+<p class="itemText">If oookind is 'symbol' then this is specifies an Illustrator symbol name - else - for 'rect' or 'ellipes' it specifies a Graphic Style.  If blank nothing will be put in the ooo group.</p>
+</li>
+<li>
+<p class="itemTitle">location</p>
+<p class="itemText">Where to place the UNO within its parent:  </p>
+<p class="itemText"></p>
+<p class="itemText">- uno</p>
+<p class="itemText">- xxx</p>
+<p class="itemText">- vvv</p>
+</li>
+<li>
+<p class="itemTitle">xpos</p>
+<p class="itemText"></p>
+<p class="itemText">Horizontal position from the upper left corner of the artboard to the center point of the symbol.  If the Kind is Radial - this value is the radius</p>
+</li>
+<li>
+<p class="itemTitle">ypos</p>
+<p class="itemText">Vertical position from the upper left corner of the artboard to the center point of the symbol - in positive points (going down) from the upper left corner.  If the Kind is Radial - this value is the offset angle from 0 degrees.</p>
+</li>
+<li>
+<p class="itemTitle">xsize</p>
+<p class="itemText">In points</p>
+</li>
+<li>
+<p class="itemTitle">ysize</p>
+<p class="itemText">In points</p>
+</li>
+<li>
+<p class="itemTitle">xoffset</p>
+<p class="itemText">Horizontal distance between siblings - in points.</p>
+</li>
+<li>
+<p class="itemTitle">yoffset</p>
+<p class="itemText">Vertical distance between siblings - in points.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Other Tests</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Thing This & That: and "the other"?.-1</p>
+</li>
+<li>
+<p class="itemTitle">This & that, and "this too!?": as well as #37%</p>
+<p class="itemText">This & that, and "this too!?": as well as #37%</p>
+
+</li>
+<li>
+<p class="itemTitle">And these:`~!@#$%^&*()_+-done=[]\{}|;':",.<>/?</p>
+<p class="itemText">And these:`~!@#$%^&*()_+-done=[]\{}|;':",.<>/?</p>
+
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Not Map</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Research</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Trash</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Untitled Document</p>
+</li>
+<li>
+<p class="itemTitle">Untitled Document</p>
+</li>
+<li>
+<p class="itemTitle">Untitled Document</p>
+</li>
+</ul>
+</ul>
+
+</td>
+<td width="55px">
+</td>
+</tr>
+
+<!-- Bottom margin -->
+<tr><td height="15px"></td></tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
